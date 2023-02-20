@@ -1,0 +1,23 @@
+ALIGN 4
+Armorboost:
+#incbin "Armorboost.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD ArmorboostID
+WORD ArmoredMovement
+
+ALIGN 4
+Horseguard:
+#incbin "Horseguard.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD HorseguardID
+WORD CavalryMovement
+
+ALIGN 4
+Skyguard:
+#incbin "Skyguard.dmp"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD SkyguardID
+WORD FlyingMovement

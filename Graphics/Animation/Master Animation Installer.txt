@@ -1,0 +1,280 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+#define animSword 0
+#define animLance 1
+#define animAxe 2
+#define animBow 3
+#define animStaff 4
+#define animAnima 5
+#define animLight 6
+#define animDark 7
+#define animNone 9
+#define weaponTypeAnim(weaponType, ID) "BYTE weaponType 1 ID 0;"
+#define weaponAnim(weaponID, ID) "BYTE weaponID 0 ID 0;"
+#define weaponAnimEnd "WORD 0"
+#define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
+
+#define AddMagicAnimation(id) "AddClassAnimation(id, animAnima, 1); AddClassAnimation(id, animLight, 1); AddClassAnimation(id, animDark, 1); AddClassAnimation(id, animNone, 1)"
+#define AddHandAxeAnimation(id) "AddClassAnimation(id, Hatchet, 0); AddClassAnimation(id, HandAxe, 0); AddClassAnimation(id, ShortAxe, 0); AddClassAnimation(id, Tomahawk, 0); AddClassAnimation(id, Pugi, 0); AddClassAnimation(id, Yamaha, 0); AddClassAnimation(id, FernyigesPRF, 0)"
+#define AddDaggerAnimation(id) "AddClassAnimation(id, IronDagger, 0); AddClassAnimation(id, SteelDagger, 0); AddClassAnimation(id, SilverDagger, 0)"
+//////////////Installed animations go here:
+
+{
+#include "Lords\LordsInstaller.event"
+}
+{
+#include "Swordsmen\SwordsmenInstaller.event"
+}
+{
+#include "Renegades\RenegadesInstaller.event"
+}
+{
+#include "Footmen\FootmenInstaller.event"
+}
+{
+#include "Knights\KnightsInstaller.event"
+}
+
+
+
+ALIGN 4
+MageLordAnimPointer:
+AddMagicAnimation(MageLordMagic)
+EndClassAnimation
+
+ALIGN 4
+GremoryLordAnimPointer:
+AddClassAnimation(GremoryLordLance, Lances, 1)
+AddMagicAnimation(GremoryLordMagic)
+EndClassAnimation
+
+ALIGN 4
+PrincessAnimPointer:
+AddClassAnimation(PrincessSword, Swords, 1)
+AddClassAnimation(PrincessStaff, Staves, 1)
+AddClassAnimation(PrincessUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+MasterKnightAnimPointer:
+AddClassAnimation(MasterKnightSword, Swords, 1)
+AddClassAnimation(MasterKnightLance, Lances, 1)
+AddClassAnimation(MasterKnightAxe, Axes, 1)
+AddHandAxeAnimation(MasterKnightHandAxe)
+AddClassAnimation(MasterKnightBow, Bows, 1)
+AddClassAnimation(MasterKnightStaff, Staves, 1)
+AddClassAnimation(MasterKnightUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+MyrmidonFAnimPointer:
+AddClassAnimation(MyrmidonFSword, Swords, 1)
+AddClassAnimation(MyrmidonFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+MyrmidonMAnimPointer:
+AddClassAnimation(MyrmidonMSword, Swords, 1)
+AddClassAnimation(MyrmidonMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+MercenaryFAnimPointer:
+AddClassAnimation(MercenaryFSword, Swords, 1)
+AddClassAnimation(MercenaryFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+MercenaryMAnimPointer:
+AddClassAnimation(MercenaryMSword, Swords, 1)
+AddClassAnimation(MercenaryMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+DreadFighterFAnimPointer:
+AddClassAnimation(DreadFighterFSword, Swords, 1)
+AddMagicAnimation(DreadFighterFMagic)
+EndClassAnimation
+
+ALIGN 4
+DreadFighterMAnimPointer:
+AddClassAnimation(DreadFighterMSword, Swords, 1)
+AddMagicAnimation(DreadFighterMMagic)
+EndClassAnimation
+
+ALIGN 4
+SwordmasterFAnimPointer:
+AddClassAnimation(SwordmasterFSword, Swords, 1)
+AddClassAnimation(SwordmasterFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+SwordmasterMAnimPointer:
+AddClassAnimation(SwordmasterMSword, Swords, 1)
+AddClassAnimation(SwordmasterMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+HeroFAnimPointer:
+AddClassAnimation(HeroFSword, Swords, 1)
+AddClassAnimation(HeroFAxe, Axes, 1)
+AddHandAxeAnimation(HeroFHandAxe)
+AddClassAnimation(HeroFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+HeroMAnimPointer:
+AddClassAnimation(HeroMSword, Swords, 1)
+AddClassAnimation(HeroMAxe, Axes, 1)
+AddHandAxeAnimation(HeroMHandAxe)
+AddClassAnimation(HeroMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+ThiefFAnimPointer:
+AddClassAnimation(ThiefFSword, Swords, 1)
+AddDaggerAnimation(ThiefFDagger)
+AddClassAnimation(ThiefFSword, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+ThiefMAnimPointer:
+AddClassAnimation(ThiefMSword, Swords, 1)
+AddDaggerAnimation(ThiefMDagger)
+AddClassAnimation(ThiefMSword, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+ArcherFAnimPointer:
+AddClassAnimation(ArcherFBow, Bows, 1)
+AddClassAnimation(ArcherFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+ArcherMAnimPointer:
+AddClassAnimation(ArcherMBow, Bows, 1)
+AddClassAnimation(ArcherMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+TricksterAnimPointer:
+AddClassAnimation(TricksterSword, Swords, 1)
+AddDaggerAnimation(TricksterDagger)
+AddClassAnimation(TricksterBow, Bows, 1)
+AddClassAnimation(TricksterStaff, Staves, 1)
+AddClassAnimation(TricksterUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+RogueAnimPointer:
+AddClassAnimation(RogueSword, Swords, 1)
+AddDaggerAnimation(RogueDagger)
+AddClassAnimation(RogueUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+SniperFAnimPointer:
+AddClassAnimation(SniperFBow, Bows, 1)
+AddClassAnimation(SniperFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+SniperMAnimPointer:
+AddClassAnimation(SniperMBow, Bows, 1)
+AddClassAnimation(SniperMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+SoldierFAnimPointer:
+AddClassAnimation(SoldierFLance, Lances, 1)
+AddClassAnimation(SoldierFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+SoldierMAnimPointer:
+AddClassAnimation(SoldierMLance, Lances, 1)
+AddClassAnimation(SoldierMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+FighterFAnimPointer:
+AddClassAnimation(FighterFAxe, Axes, 1)
+AddHandAxeAnimation(FighterFHandAxe)
+AddClassAnimation(FighterFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+FighterMAnimPointer:
+AddClassAnimation(FighterMAxe, Axes, 1)
+AddHandAxeAnimation(FighterMHandAxe)
+AddClassAnimation(FighterMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+PirateFAnimPointer:
+AddClassAnimation(PirateFAxe, Axes, 1)
+AddHandAxeAnimation(PirateFHandAxe)
+AddClassAnimation(PirateFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+PirateMAnimPointer:
+AddClassAnimation(PirateMAxe, Axes, 1)
+AddHandAxeAnimation(PirateMHandAxe)
+AddClassAnimation(PirateMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+MasterOfArmsAnimPointer:
+AddClassAnimation(MasterOfArmsLance, Lances, 1)
+AddClassAnimation(MasterOfArmsAxe, Axes, 1)
+AddHandAxeAnimation(MasterOfArmsHandAxe)
+AddClassAnimation(MasterOfArmsUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+WarriorFAnimPointer:
+AddClassAnimation(WarriorFAxe, Axes, 1)
+AddHandAxeAnimation(WarriorFHandAxe)
+AddClassAnimation(WarriorFBow, Bows, 1)
+AddClassAnimation(WarriorFUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+WarriorMAnimPointer:
+AddClassAnimation(WarriorMAxe, Axes, 1)
+AddHandAxeAnimation(WarriorMHandAxe)
+AddClassAnimation(WarriorMBow, Bows, 1)
+AddClassAnimation(WarriorMUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+HalberdierAnimPointer:
+AddClassAnimation(HalberdierLance, Lances, 1)
+AddClassAnimation(HalberdierUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+BerserkerAnimPointer:
+AddClassAnimation(BerserkerAxe, Axes, 1)
+AddHandAxeAnimation(BerserkerHandAxe)
+AddClassAnimation(BerserkerUnarmed, Disarmed, 1)
+EndClassAnimation
+
+ALIGN 4
+ArmorAnimPointer:
+AddClassAnimation(ArmorSword, Swords, 1)
+AddClassAnimation(ArmorLance, Lances, 1)
+AddClassAnimation(ArmorAxe, Axes, 1)
+AddHandAxeAnimation(ArmorHandAxe)
+AddMagicAnimation(ArmorMagic)
+AddClassAnimation(ArmorMagic, Disarmed, 1)
+EndClassAnimation

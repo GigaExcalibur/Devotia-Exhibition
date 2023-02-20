@@ -1,0 +1,359 @@
+## HeHim
+He/Him[X]
+
+## SheHer
+She/Her[X]
+
+## TheyThem
+They/Them[X]
+
+## HeThey
+He/They[X]
+
+## SheThey
+She/They[X]
+
+## SheHe
+She/He[X]
+
+## TheyHe
+They/He[X]
+
+## HeSheThey
+He/She/They[X]
+
+## Age14
+14[X]
+
+## Age17
+17[X]
+
+## Age18
+18[X]
+
+## Age20
+20[X]
+
+## Age21
+21[X]
+
+## Age22
+22[X]
+
+## Age23
+23[X]
+
+## Age24
+24[X]
+
+## Age25
+25[X]
+
+## Age27
+27[X]
+
+## Age28
+28[X]
+
+## Age31
+31[X]
+
+## Age32
+32[X]
+
+## Age33
+33[X]
+
+## Age35
+35[X]
+
+## Age40
+40[X]
+
+## Age42
+42[X]
+
+## Age45
+45[X]
+
+## Age49
+49[X]
+
+## Age56
+56[X]
+
+## Age73
+73[X]
+
+## FiveFoot1
+5' 1[C"][X]
+
+## FiveFoot2
+5' 2[C"][X]
+
+## FiveFoot3
+5' 3[C"][X]
+
+## FiveFoot4
+5' 4[C"][X]
+
+## FiveFoot6
+5' 6[C"][X]
+
+## FiveFoot7
+5' 7[C"][X]
+
+## FiveFoot8
+5' 8[C"][X]
+
+## FiveFoot9
+5' 9[C"][X]
+
+## FiveFoot10
+5' 10[C"][X]
+
+## FiveFoot11
+5' 11[C"][X]
+
+## SixFoot0
+6' 0[C"][X]
+
+## SixFoot2
+6' 2[C"][X]
+
+## SixFoot5
+6' 5[C"][X]
+
+## October27
+October 27[X]
+
+## July29
+July 29[X]
+
+## January20
+January 20[X]
+
+## March31
+March 31[X]
+
+## May23
+May 23[X]
+
+## November16
+November 16[X]
+
+## KlaudiaFullName
+Klaudia Ezekiel Orsolle[X]
+
+## KlaudiaHobby
+Lighting fireworks[X]
+
+## OmenFullName
+Omen Graviloqus[X]
+
+## OmenHobby
+Catching knives[X]
+
+## JosephineFullName
+Josephine Ventadorn[X]
+
+## JosephineHobby
+Writing poetry[X]
+
+## GiselleFullName
+Giselle Lowe[X]
+
+## GiselleHobby
+Stealing, obviously[X]
+
+## CamFullName
+Camilia Failside[X]
+
+## CamHobby
+Woodcarving[X]
+
+## LeviaFullName
+Leviathan Sarka[X]
+
+## LeviaHobby
+Swimming[X]
+
+## StuartFullName
+Stuart Sussman[X]
+
+## StuartHobby
+Conditioning[X]
+
+## BearFullName
+Bear[X]
+
+## EstellaFullName
+Estella Lopez[X]
+
+## EstellaHobby
+Canine husbandry[X]
+
+## CarinaFullName
+Carina Lopez[X]
+
+## CarinaHobby
+Cooking[X]
+
+## AlmaFullName
+Alma?[X]
+
+## AlmaHobby
+Wine tasting[X]
+
+## RoswellFullName
+??????? Roswell[X]
+
+## RoswellHobby
+Roswell hobby[X]
+
+## HongChenFullName
+Hong Chen[X]
+
+## HongChenHobby
+Painting[X]
+
+## MarisFullName
+Maris Clara Calicos[X]
+
+## MarisHobby
+Jewelrymaking[X]
+
+## PhillipaFullName
+Phillipa lastname[X]
+
+## PhillipaHobby
+Phillipa hobby[X]
+
+## MaeveFullName
+Maeve Juneau[X]
+
+## MaeveHobby
+Maeve hobby[X]
+
+## EvrenFullName
+Evren Sarka I[X]
+
+## EvrenHobby
+Hairstyling[X]
+
+## DaneFullName
+Dane Titian[X]
+
+## DaneHobby
+Fishing[X]
+
+## UlrichFullName
+Ulrich Eisenburg[X]
+
+## UlrichHobby
+Ulrich hobby[X]
+
+## EmilleFullName
+Emille Eisenburg[X]
+
+## EmilleHobby
+Drawing and reading[X]
+
+## MaybellineFullName
+Piper Mayes[X]
+
+## MaybellineHobby
+Reading fantasy[X]
+
+## LuxFullName
+Lux Operiere[X]
+
+## LuxHobby
+Lux hobby[X]
+
+## BriaFullName
+Bria Sorbello[X]
+
+## BriaHobby
+Bria hobby[X]
+
+## ElliotFullName
+Elliot lastname[X]
+
+## ElliotHobby
+Dancing, obviously[X]
+
+## KylieFullName
+Kylie Liyr[X]
+
+## KylieHobby
+Child psychology[X]
+
+## LuairFullName
+Luair lastname[X]
+
+## LuairHobby
+Luair hobby[X]
+
+## AxelFullName
+Axel[X]
+
+## AxelHobby
+Modeling[X]
+
+## WillaFullName
+Willa lastname[X]
+
+## WillaHobby
+Willa hobby[X]
+
+## OrionFullName
+Orion Hafeez[X]
+
+## OrionHobby
+Gardening[X]
+
+## AstraeaFullName
+Astraea Estelline[X]
+
+## AstraeaPronouns
+Circe (They/Them)[X]
+
+## AstraeaHobby
+Writing fiction[X]
+
+## AnselFullName
+Ansel Rosenberg[X]
+
+## AnselHobby
+Ansel hobby[X]
+
+## EvelynFullName
+Evelyn Operiere[X]
+
+## EvelynHobby
+Evelyn hobby[X]
+
+## RamiFullName
+Rami Zella[X]
+
+## RamiHobby
+Blackmail[X]
+
+## BrynhildFullName
+Brynhild Eisenburg[X]
+
+## BrynhildHobby
+Byrnhild hobby[X]
+
+## SamilFullName
+Samil Phaecae[X]
+
+## SamilHobby
+Fortune telling[X]
+
+## KynanFullName
+Kynan Sarka[X]
+
+## KynanHobby
+Pegasus riding[X]

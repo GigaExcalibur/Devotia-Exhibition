@@ -1,0 +1,87 @@
+// Class Cards
+#define MyrmidonFCard 0x5A
+#define MyrmidonMCard 0x5B
+#define MercenaryFCard 0x5C
+#define MercenaryMCard 0x5D
+#define DreadFighterFCard 0x5E
+#define DreadFighterMCard 0x5F
+#define SwordmasterFCard 0x60
+#define SwordmasterMCard 0xA8
+#define HeroFCard 0x61
+#define HeroMCard 0x62
+
+#define ThiefFCard 0x63
+#define ThiefMCard 0x64
+#define ArcherFCard 0x65
+#define ArcherMCard 0x66
+#define TricksterCard 0x67
+#define RogueCard 0x68
+#define SniperFCard 0x69
+#define SniperMCard 0x6A
+
+#define SoldierFCard 0x6B
+#define SoldierMCard 0x6C
+#define FighterFCard 0x6D
+#define FighterMCard 0x6E
+#define PirateFCard 0x6F
+#define PirateMCard 0x70
+#define MasterOfArmsCard 0x71
+#define WarriorFCard 0x72
+#define WarriorMCard 0x73
+#define HalberdierCard 0x74
+#define BerserkerCard 0x75
+
+#define SwordArmorCard 0x76
+#define LanceArmorCard 0x77
+#define AxeArmorCard 0x78
+#define MageArmorCard 0x79
+#define GreatKnightCard 0x7A
+#define DreadKnightCard 0x7B
+#define GeneralCard 0x7C
+#define BaronCard 0x7D
+
+#define AnimaMageFCard 0x7E
+#define AnimaMageMCard 0x7F
+#define DarkMageCard 0x80
+#define WarlockCard 0x81
+#define SageFCard 0x82
+#define SageMCard 0x83
+#define SummonerCard 0x84
+
+#define LightMageCard 0x85
+#define ClericCard 0x86
+#define PriestCard 0x87
+#define ValkyrieCard 0x88
+#define PriestessCard 0x89
+#define BishopCard 0x8A
+#define WarClericCard 0x8B
+#define WarMonkCard 0x8C
+
+#define SwordCavFCard 0x8D
+#define SwordCavMCard 0x8E
+#define LanceCavFCard 0x8F
+#define LanceCavMCard 0x90
+#define AxeCavFCard 0x91
+#define AxeCavMCard 0x92
+#define SwordLancePalFCard 0x93
+#define SwordLancePalMCard 0x94
+#define SwordAxePalFCard 0x95
+#define SwordAxePalMCard 0x96
+#define LanceAxePalFCard 0x97
+#define LanceAxePalMCard 0x98
+#define ScoutFCard 0x99
+#define ScoutMCard 0x9A
+#define RangerFCard 0x9B
+#define RangerMCard 0x9C
+
+#define PegasusKnightCard 0x9D
+#define DarkFlierCard 0x9E
+#define SeraphKnightCard 0x9F
+#define FalconKnightCard 0xA0
+#define DaemonKnightCard 0xA1
+#define WyvernRiderFCard 0xA2
+#define WyvernRiderMCard 0xA3
+#define WyvernLordFCard 0xA4
+#define WyvernLordMCard 0xA5
+#define BombardierCard 0xA6
+#define FellKnightCard 0xA7

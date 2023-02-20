@@ -1,0 +1,104 @@
+//Sections of what was previousuly the installer for the rework itself, moved to its own file for ease of editing
+
+#define SlayerTableEntry(class_id, type_list, coefficient_times_2) "BYTE class_id coefficient_times_2; SHORT type_list"
+ALIGN 4
+SlayerTable:
+// SlayerTableEntry(Bishop, MonsterType, 6)
+// SlayerTableEntry(RangerF, MonsterType, 6)
+WORD 0 //terminator
+
+//Change existing effective items (class weaknesses are already part of the class data table)
+#define ItemEffectivenessPtr(item_id, label_to_point_to) "PUSH; ORG ItemTable + 0x24*item_id + 0x10; POIN label_to_point_to; POP"
+/* ItemEffectivenessPtr(Armorslayer, ArmorEffectiveness)
+ItemEffectivenessPtr(Zanbato, CavalryEffectiveness)
+ItemEffectivenessPtr(VillainsBane, AxeEffectiveness)
+ItemEffectivenessPtr(Wyrmslayer, HouseSarkaEffectiveness)
+ItemEffectivenessPtr(HeavySpear, ArmorEffectiveness)
+ItemEffectivenessPtr(Horseslayer, CavalryEffectiveness)
+ItemEffectivenessPtr(ShamansBane, DarkEffectiveness)
+ItemEffectivenessPtr(Hammer, ArmorEffectiveness)
+ItemEffectivenessPtr(Halberd, CavalryEffectiveness)
+ItemEffectivenessPtr(ScholarsBane, AnimaEffectiveness)
+ItemEffectivenessPtr(SlimBow, FlyingEffectiveness)
+ItemEffectivenessPtr(IronBow, FlyingEffectiveness)
+ItemEffectivenessPtr(SteelBow, FlyingEffectiveness)
+ItemEffectivenessPtr(SilverBow, FlyingEffectiveness)
+ItemEffectivenessPtr(Shortbow, FlyingEffectiveness)
+ItemEffectivenessPtr(Longbow, FlyingEffectiveness)
+ItemEffectivenessPtr(Greatbow, FlyingEffectiveness)
+ItemEffectivenessPtr(AsceticsBane, LightEffectiveness)
+ItemEffectivenessPtr(KillerBow, FlyingEffectiveness)
+ItemEffectivenessPtr(BraveBow, FlyingEffectiveness)
+ItemEffectivenessPtr(Overheat, ArmorEffectiveness)
+ItemEffectivenessPtr(Flamelick, CavalryEffectiveness)
+ItemEffectivenessPtr(Bolganone, LanceEffectiveness)
+ItemEffectivenessPtr(Kirkhammer, ArmorEffectiveness)
+ItemEffectivenessPtr(Seraphim, FlyingEffectiveness)
+ItemEffectivenessPtr(Steelblind, SwordEffectiveness)
+ItemEffectivenessPtr(Terror, CavalryEffectiveness)
+ItemEffectivenessPtr(Singularity, BowEffectiveness)
+ItemEffectivenessPtr(LegendaryBow, FlyingEffectiveness)
+ItemEffectivenessPtr(HuntingBow, CavalryEffectiveness) */ // Uncomment idk when it works.
+
+//Protector item (macro still works, even if it's wrongly named)
+// ItemEffectivenessPtr(NullifyRing, FlierProtection)
+
+#define SetWeaponEffectiveness(type_list, coefficient_times_2) "BYTE 0 coefficient_times_2; SHORT type_list"
+ALIGN 4
+ArmorEffectiveness:
+SetWeaponEffectiveness(ArmoredMovement, 6)
+WORD 0
+
+ALIGN 4
+CavalryEffectiveness:
+SetWeaponEffectiveness(CavalryMovement, 6)
+WORD 0
+
+ALIGN 4
+FlyingEffectiveness:
+SetWeaponEffectiveness(FlyingMovement, 6)
+WORD 0
+
+ALIGN 4
+HouseSarkaEffectiveness:
+SetWeaponEffectiveness(HouseSarka, 6)
+WORD 0
+
+ALIGN 4
+SwordEffectiveness:
+SetWeaponEffectiveness(SwordWielding, 6)
+WORD 0
+
+ALIGN 4
+LanceEffectiveness:
+SetWeaponEffectiveness(LanceWielding, 6)
+WORD 0
+
+ALIGN 4
+AxeEffectiveness:
+SetWeaponEffectiveness(AxeWielding, 6)
+WORD 0
+
+ALIGN 4
+BowEffectiveness:
+SetWeaponEffectiveness(BowWielding, 6)
+WORD 0
+
+ALIGN 4
+AnimaEffectiveness:
+SetWeaponEffectiveness(AnimaWielding, 6)
+WORD 0
+
+ALIGN 4
+LightEffectiveness:
+SetWeaponEffectiveness(LightWielding, 6)
+WORD 0
+
+ALIGN 4
+DarkEffectiveness:
+SetWeaponEffectiveness(DarkWielding, 6)
+WORD 0
+
+/* #define SetProtection(type_list) "SHORT 0 type_list"
+FlierProtection:
+SetProtection(FlyingMovement) */

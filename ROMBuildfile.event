@@ -1,0 +1,44 @@
+#ifdef _FE8_
+    #include "EAstdlib.event"
+    #include "CustomDefinitions.event"
+//PROTECT $25224
+    ORG FreeSpace
+
+    #include "repointedTextTable.event"
+		
+    //Text first for Text ID definitions
+    #include "Text/InstallTextData.event"
+    MESSAGE Used text space ends at currentOffset
+	
+	//Definitions
+	#include "Definitions/DefinitionsInstaller.event"
+	
+	//Graphics
+	#include "Graphics/installer.event"
+	MESSAGE Used graphics space ends at currentOffset
+	
+    //CSV tables
+    #include "Tables/MasterTableInstaller.event"
+    MESSAGE Used table space ends at currentOffset
+	
+	//Support data
+	#include "Supports/SupportInstaller.event"
+	MESSAGE Used support space ends at currentOffset
+
+    //Engine Hacks
+    #include "EngineHacks/_MasterHackInstaller.event"
+    MESSAGE Used hax space ends at currentOffset
+
+    //Events
+    #include "Events/DevotiaCh1.event"
+	MESSAGE Chapter One events end at currentOffset
+    #include "Events/WorldMapEvents.event"
+
+    //Maps
+    #include "Maps/MasterMapInstaller.event"
+
+	
+    MESSAGE Used free space ends at currentOffset
+#else
+    ERROR "You are not assembling FE8 events!"
+#endif

@@ -1,0 +1,147 @@
+# 0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+ 
+# 0x0006 GotRenown
+renown.[X]
+
+# 0x0094
+HP Bars[.][X]
+
+# 0x00B2
+Set health bar display[X]
+
+#0x3A LearnedSkillText
+//first text ID in the free block
+Learned  [X]
+
+#include "Other\statscreen_text.txt"
+
+#include "Other\unitmenu_text.txt"
+
+#0xd4c LikesText
+//first text ID in the free block
+Info:[X]
+
+#0xd4d DislikesText
+[X]
+
+#0xd4e HeightText
+Height:[X]
+
+#0xd4f AgeText
+Age:[X]
+
+## HouseText
+//first text ID in the free block
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+
+## VillageText
+[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+//for identity problems
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[N]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[N]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[N]
+for items and gold.[X]
+
+## EscapeName
+ Escape[X]
+
+## EscapeDesc
+Have this unit[N]
+leave this chapter.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Complete this chapter[N]
+by having this unit arrive.[X]
+
+## LordMustEscapeLastText
+This unit must escape last.[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## UM_GaidenBlackMagic
+ B. Magic[X]
+
+## UM_GaidenWhiteMagic
+ W. Magic[X]
+
+## UM_GaidenMagicDesc
+Spend HP to cast spells[NL]
+this unit has learned.[X]
+
+## GaidenMagicUMErrorText
+You don't have enough HP[NL]
+to cast any spells.[X]
+
+## GaidenMagicSpellMenuErrorText
+You don't have enough HP[NL]
+to cast this spell.[X]
+
+## GaidenMagicHPCostText
+Cost[X]
+
+## PrepScreenUseSkillScroll
+ Skill learned[X]
+
+## SkillScrollDesc
+A scroll that teaches[N]
+a skill when used.[X]
+
+#include "NamesDescs\skilldesc_text.txt"
+
+#include "Other\unitinfo_text.txt"
+
+#include "NamesDescs\CharNamesAndDescriptions.txt"
+
+#include "NamesDescs\ClassNamesAndDescriptions.txt"
+
+#include "NamesDescs\ItemNamesAndDescs.txt"
+
+#include "Quotes\DeathQuotes.txt"
+
+#include "NamesDescs\ChapterNames.txt"
+
+#include "Quotes\SupportConversations.txt"
+
+#include "Chapters\ChapterTextInstaller.event"
+
+#include "Guide\Categories.txt"
+
+#include "Guide\Mechanics.txt"
+
+#include "Guide\World.txt"
+
+#include "Guide\Credits.txt"
+
+#include "Guide\Crew.txt"

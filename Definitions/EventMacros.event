@@ -1,0 +1,8 @@
+#define TutorialText(text) "TUTORIALTEXTBOXSTART; CenterTutorialTextBox; TEXTSHOW text; TEXTEND; REMA" // Displays tutorial text
+#define Cursor(unit, time) "CURSOR unit; STAL time; REMOVE_CURSORS" // Flashes cursor
+#define Cursor(x, y, time) "CURSOR [x, y]; STAL time; REMOVE_CURSORS" // Flashes cursor
+//Move unit at specified coordinate
+#define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
+#define MakeBossMove(unit) "SVAL 1 0x00000000; CHAI unit"
+#define GiveItem(unit, item) "SVAL 3 item; GIVEITEM unit"
+#define GiveRenown(unit, renown) "SVAL 3 renown; GIVEMONEY unit"

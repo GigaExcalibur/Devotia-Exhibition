@@ -1,0 +1,254 @@
+﻿//Made by Camtech075 of SerenesForest
+//Modified by Nintenlord
+
+#include EAstdlib.event
+
+EventPointerTable(0x07,ThisChapter)
+
+setText(Ch1Name, Ch1NameLabel)
+
+ALIGN 4
+Ch1NameLabel:
+String("Ordained Duty")
+
+ALIGN 4
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN StartingPlayerUnits StartingPlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+TurnBasedEvents:
+TurnEventPlayer(0x0, CamRecruitmentForeshadowingEvent, 2)
+TurnEventPlayer(0x0, GiselleJoinsEvent, 3)
+TurnEventPlayer(0x0, ReinforcementsAppearEvent, 5)
+TurnEventPlayer(0x0, CrocodileMovesEvent, 8)
+END_MAIN
+
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+CharacterBasedEvents:
+CharacterEventBothWays(0x08, KlaudiaJosephineTalkEvent, Klaudia, Josephine)
+CharacterEvent(0x09, CamRecruitmentKlaudiaEvent, Klaudia, Cam)
+CharacterEvent(0x09, CamRecruitmentOmenEvent, Omen, Cam)
+CharacterEventBothWays(0x0A, OmenGiselleTalkEvent, Omen, Giselle)
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+Village(0x0B, VisitKnightBarracks, 11, 1)
+Village(0x0C, VisitMovementVillage, 3, 12)
+Village(0x0D, VisitEmatareVillage, 7, 10)
+END_MAIN
+
+ALIGN 4
+MiscBasedEvents:
+DefeatAll(EndingScene)
+CauseGameOverIfLordDies
+END_MAIN
+
+ALIGN 4
+Dunno:
+END_MAIN
+
+ALIGN 4
+Tutorial:
+END_MAIN
+
+ALIGN 4
+TrapData:
+ENDTRAP
+
+ALIGN 4
+StartingPlayerUnits:
+UNIT Klaudia MageLord Klaudia Level(1, Ally, False) [1, 0] 0x0 0x0 0x1 REDA1R2 [Spark] NoAI
+UNIT Omen RunelordF Klaudia Level(1, Ally, False) [2, 0] 0x0 0x0 0x1 REDA2R1 [SteelSword, Vulnerary] NoAI
+UNIT Josephine MageArmor Klaudia Level(5, Ally, False) [0, 0] 0x0 0x0 0x1 REDA0R1 [Sirventes, Vulnerary] NoAI
+UNIT
+
+ALIGN 4
+GiselleUnit:
+UNIT Giselle ThiefF Klaudia Level(1, Ally, False) [4, 5] 0x0 0x0 0x1 REDA4R6 [IronDagger, TrainingSword] NoAI
+UNIT
+
+ALIGN 4
+StartingEnemyUnits:
+UNIT Crocodile Berserker Crocodile Level(1, Enemy, False) [18, 6] 0x0 0x0 0x0 0x0 [SlimAxe] NeverMoveAI
+UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [11, 10] 0x0 0x0 0x1 REDA11R7 [SlimBow] AttackInRangeAI
+UNIT Marauder ArcherM Crocodile Level(1, Enemy, False) [10, 13] 0x0 0x0 0x0 0x0 [SlimBow] AttackInRangeAI
+UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [1, 7] 0x0 0x0 0x0 0x0 [SlimBow] AttackInRangeAI
+UNIT Marauder ArcherM Crocodile Level(1, Enemy, False) [4, 10] 0x0 0x0 0x1 REDA4R8 [SlimBow] AttackInRangeAI
+UNIT Marauder WoodsmanM Crocodile Level(1, Enemy, False) [15, 2] 0x0 0x0 0x1 REDA8R2 [SlimAxe] AttackInRangeAI
+UNIT Marauder WoodsmanF Crocodile Level(1, Enemy, False) [5, 10] 0x0 0x0 0x1 REDA8R6 [SlimAxe] AttackInRangeAI
+UNIT Marauder WoodsmanM Crocodile Level(1, Enemy, False) [15, 2] 0x0 0x0 0x0 0x0 [SlimAxe] AttackInRangeAI
+UNIT Marauder WoodsmanF Crocodile Level(1, Enemy, False) [5, 12] 0x0 0x0 0x0 0x0 [SlimAxe] AttackInRangeAI
+UNIT Cam PirateF Crocodile Level(1, Enemy, False) [1, 13] 0x0 0x0 0x0 0x0 [TrainingAxe] AttackInRangeAI
+UNIT Marauder PirateM Crocodile Level(1, Enemy, False) [20, 1] 0x0 0x0 0x0 0x0 [SlimAxe] BrigandAI
+UNIT Marauder MyrmidonF Crocodile Level(1, Enemy, False) [14, 8] 0x0 0x0 0x0 0x0 [SlimSword] AttackInRangeAI
+UNIT Marauder MyrmidonM Crocodile Level(1, Enemy, False) [14, 10] 0x0 0x0 0x0 0x0 [SlimSword] AttackInRangeAI
+UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [16, 11] 0x0 0x0 0x0 0x0 [SlimBow] AttackInRangeAI
+UNIT
+
+ALIGN 4
+EnemyReinforcements:
+UNIT Marauder PirateF Crocodile Level(1, Enemy, False) [19, 8] 0x0 0x0 0x0 0x0 [SlimAxe] BrigandAI
+UNIT Marauder PirateM Crocodile Level(1, Enemy, False) [19, 10] 0x0 0x0 0x0 0x0 [SlimAxe] BrigandAI
+UNIT
+
+ALIGN 4
+StartingNPC:
+UNIT Peasant CivilianWoman Peasant Level(1, NPC, False) [1, 10] 0x0 0x0 0x1 REDA1R3 [0x0] NoAI
+UNIT
+
+ALIGN 4
+BeginningScene:
+ENUT 0xB4 // Enable Playbill
+SetBackground(0x0)
+TutorialText(OvertureOpening)
+ClearBackground
+TutorialText(OvertureWolffiaTerritory)
+LOAD1 1 StartingPlayerUnits
+ENUN
+Cursor(Klaudia, 60)
+Text(OvertureKlaudiaArrives)
+LOAD1 0 StartingNPC
+ENUN
+Text(OvertureVillagerArrives)
+MOVE 60 Peasant [1, 9]
+ENUN
+REMOVEALL_GREEN
+Text(OverturePreparingToBattle)
+TutorialText(OvertureDevotiaIntroduction)
+LOAD1 0 StartingEnemyUnits
+ENUN
+ENDA
+
+ALIGN 4
+EndingScene:
+MoveToChapter(Chapter2)
+ENDA
+
+ALIGN 4
+KlaudiaJosephineTalkEvent:
+Text(OvertureKlaudiaJosephineTalk)
+ENDA
+
+ALIGN 4
+CamRecruitmentForeshadowingEvent:
+CAMERA Cam
+Cursor(Cam, 60)
+Text(OvertureCamForeshadowing)
+ENDA
+
+ALIGN 4
+CamRecruitmentKlaudiaEvent:
+Text(OvertureCamRecruitmentKlaudia)
+CUSA Cam
+ENDA
+
+ALIGN 4
+CamRecruitmentOmenEvent:
+Text(OvertureCamRecruitmentOmen)
+CUSA Cam
+ENDA
+
+ALIGN 4
+GiselleJoinsEvent:
+CAMERA [4, 5]
+Cursor(4, 5, 60)
+SetBackground(0x0)
+Text(OvertureGiselleJoins)
+ClearBackground
+LOAD1 1 GiselleUnit
+ENUN
+ENDA
+
+ALIGN 4
+OmenGiselleTalkEvent:
+Text(OvertureOmenGiselleTalk)
+ENDA
+
+ALIGN 4
+ReinforcementsAppearEvent:
+Cursor(Crocodile, 60)
+Text(OvertureReinforcementsAppear)
+LOAD1 0 EnemyReinforcements
+ENUN
+ENDA
+
+ALIGN 4
+CrocodileMovesEvent:
+Cursor(Crocodile, 60)
+Text(OvertureCrocodileMoves)
+MakeBossMove(Crocodile)
+ENDA
+
+ALIGN 4
+VisitKnightBarracks:
+SetBackground(0x0)
+SVAL 1 Omen
+SVAL 2 Klaudia
+CHECK_ACTIVE
+BEQ 1 0xC 1
+BEQ 2 0xC 2
+// Village item if visitor isn't Omen or Klaudia
+Text(OvertureKnightBarracksGeneric)
+ClearBackground
+GiveItem(ActiveUnit, KnightCrest)
+GOTO 3
+// Village item if visitor is Omen
+LABEL 1
+Text(OvertureKnightBarracksOmen)
+ClearBackground
+GiveItem(ActiveUnit, Armorslayer)
+Text(OvertureOmenReflecting)
+GOTO 3
+// Village item if visitor is Klaudia
+LABEL 2
+Text(OvertureKnightBarracksKlaudia)
+ClearBackground
+GiveItem(ActiveUnit, AgedSpirits)
+LABEL 3
+ENDA
+
+ALIGN 4
+VisitMovementVillage:
+SetBackground(0x0)
+Text(OvertureMovementVillage)
+ClearBackground
+GiveItem(ActiveUnit, SarkaNecklace)
+ENDA
+
+ALIGN 4
+VisitSamilVillage:
+SetBackground(0x0)
+Text(OvertureSamilVillage)
+ClearBackground
+GiveItem(ActiveUnit, SenseBlindfold)
+ENDA
+
+ALIGN 4
+VisitEmatareVillage:
+SetBackground(0x0)
+SVAL 1 Klaudia
+CHECK_ACTIVE
+BEQ 1 0xC 1
+// Give visitor Flux if not Klaudia
+Text(OvertureEmatareVillageGeneric)
+ClearBackground
+GiveItem(ActiveUnit, Flux)
+GOTO 2
+// Increase visitor's magic by 1 if Klaudia
+LABEL 1
+Text(OvertureEmatareVillageKlaudia)
+ClearBackground
+AddUnitStatus(ActiveUnit, Magic, 1)
+POPUP OvertureMagicIncreased 0x0
+LABEL 2
+ENDA

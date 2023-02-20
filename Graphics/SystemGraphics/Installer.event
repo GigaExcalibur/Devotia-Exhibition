@@ -1,0 +1,18 @@
+ALIGN 4
+StatScreenBackground:
+#incbin "Images/StatScreenBackground.dmp"
+
+ALIGN 4
+StatScreenPalette:
+#incbin "Images/StatScreenPalette.dmp"
+#incbin "Images/StatScreenPalette.dmp"
+#incbin "Images/StatScreenPalette.dmp"
+#incbin "Images/StatScreenPalette.dmp"
+
+PUSH
+ORG $88638
+POIN StatScreenBackground
+
+ORG $88640
+POIN StatScreenPalette
+POP

@@ -1,0 +1,101 @@
+
+#ifdef ADV_WEAPON_LOCKS
+
+//Original by Vennobennu, rewritten by Sme for skill system/general buildfile compatibility
+
+//Make prf weapons defined via array with no wrank say "Prf" (not thoroughly tested)
+PUSH
+ORG 0x16DD8
+BYTE $00 $3C $3D $FF 
+POP
+
+
+#inctext lyn "AdvWeaponLocks.elf"
+
+#define SoftCharLock 0
+#define HardCharLock 1
+#define SoftClassLock 2
+#define HardClassLock 3
+#define EndLockArray 0
+
+#define AddCharLock(char) "BYTE HardCharLock char EndLockArray"
+
+ALIGN 4
+KlaudiaLock:
+AddCharLock(Klaudia)
+
+ALIGN 4
+DaggerLock:
+BYTE HardClassLock
+BYTE ThiefF
+BYTE ThiefM
+BYTE Rogue
+BYTE Trickster
+BYTE Princess
+BYTE MasterKnight
+BYTE EndLockArray
+
+ALIGN 4
+JosephineLock:
+AddCharLock(Josephine)
+
+ALIGN 4
+BearLock:
+AddCharLock(Bear)
+
+ALIGN 4
+EstellaLock:
+AddCharLock(Estella)
+
+ALIGN 4
+CarinaLock:
+AddCharLock(Carina)
+
+ALIGN 4
+HongChenLock:
+AddCharLock(HongChen)
+
+ALIGN 4
+MarisLock:
+AddCharLock(Maris)
+
+ALIGN 4
+DaneLock:
+AddCharLock(Dane)
+
+ALIGN 4
+UlrichLock:
+AddCharLock(Ulrich)
+
+ALIGN 4
+EmilleLock:
+AddCharLock(Emille)
+
+ALIGN 4
+MaybellineLock:
+AddCharLock(Maybelline)
+
+ALIGN 4
+AxelLock:
+AddCharLock(Axel)
+
+ALIGN 4
+AstraeaLock:
+AddCharLock(Astraea)
+
+ALIGN 4
+SamilLock:
+AddCharLock(Samil)
+
+ALIGN 4
+KynanLock:
+AddCharLock(Kynan)
+
+ALIGN 4
+FernyigesLock:
+AddCharLock(Fernyiges)
+
+ALIGN 4
+CassandraLock:
+AddCharLock(Cassandra)
+#endif // ADV_WEAPON_LOCKS

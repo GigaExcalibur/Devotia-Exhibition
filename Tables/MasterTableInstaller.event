@@ -1,0 +1,5 @@
+#include "NightmareModules\Items\StatBoosts.event"
+
+#include "NightmareModules\Misc\GuideInstaller.event"
+
+#include "TableInstaller.event"

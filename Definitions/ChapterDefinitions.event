@@ -1,0 +1,150 @@
+#define Overture 0x00
+#define Chapter1 0x01
+#define Chapter2 0x02
+#define Chapter3 0x03
+#define Chapter4 0x04
+#define Chapter5 0x06
+#define Entracte5x 0x07
+#define Chapter6 0x08
+#define Entracte6x 0x09
+#define Chapter7 0x0A
+#define Chapter8 0x0B
+#define Chapter9 0x0C
+#define Chapter10 0x0D
+#define Chapter11 0x0E
+#define Chapter12 0x0F
+#define Chapter13 0x10
+#define Chapter14 0x11
+#define Entracte14x 0x12
+#define Chapter15 0x13
+#define Chapter16 0x14
+#define Denouement 0x15
+
+#define OvertureEvents 0x7
+#define Ch1Events 0xA
+#define Ch2Events 0xD
+#define Ch3Events 0x14
+#define Ch4Events 0x17
+#define Ch5Events 0x1E
+#define Ch5xEvents 0x21
+#define Ch6Events 0x24
+#define Ch6xEvents 0x27
+#define Ch7Events 0x2A
+#define Ch8Events 0x2D
+#define Ch9Events 0x33
+#define Ch10Events 0x37
+#define Ch11Events 0x3B
+
+#define OvertureMap 0x4
+#define OvertureMapChanges 0x6
+#define Ch1Map 0x8
+#define Ch1MapChanges 0x9
+#define Ch2Map 0xB
+#define Ch2MapChanges 0xC
+#define Ch3Map 0x11
+#define Ch3MapChanges 0x13
+#define Ch4Map 0x15
+#define Ch4MapChanges 0x16
+#define Ch5Map 0x1B
+#define Ch5MapChanges 0x1D
+#define Ch5xMap 0x1F
+#define Ch5xMapChanges 0x20
+#define Ch6Map 0x22
+#define Ch6MapChanges 0x23
+#define Ch6xMap 0x25
+#define Ch6xMapChanges 0x26
+#define Ch7Map 0x28
+#define Ch7MapChanges 0x29 
+#define Ch8Map 0x2B
+#define Ch8MapChanges 0x2C
+#define Ch9Map 0x31
+#define Ch9MapChanges 0x32
+#define Ch10Map 0x35
+#define Ch10MapChanges 0x36
+#define Ch11Map 0x39
+#define Ch11MapChanges 0x3A
+
+//this is probably the third time i've done these with the thought of "oh I only have to do this once then I'll have them whenever I need them in the future"
+
+#define PlainsObjType 0x1
+#define PlainsTileConfig 0x3
+#define PlainsAnims 0x5
+
+#define PlainsPalette1 0x2
+#define PlainsPalette2 0x38
+#define PlainsPalette3 0x4C
+#define PlainsPalette4 0x5B
+
+#define VillageObjType 0xE
+#define VillageTileConfig 0x10
+#define VillageAnims 0x12
+
+#define VillagePalette1 0xF
+#define VillagePalette2 0x72
+#define VillagePalette3 0xEA
+#define VillagePalette4 0x72
+
+#define CastleObjType 0x18
+#define CastleTileConfig 0x1A
+#define CastleAnims 0x1C
+
+#define CastlePalette1 0x19
+#define CastlePalette2 0x48
+#define CastlePalette3 0x57
+#define CastlePalette4 0xB9
+
+#define FieldsObjType 0x2E
+#define FieldsTileConfig 0x30
+#define FieldsAnims 0x5 
+
+#define FieldsPalette1 0x2F
+#define FieldsPalette2 0x34
+
+#define FortObjType 0x3C
+#define FortTileConfig 0x3E
+#define FortAnims 0x0
+
+#define FortPalette1 0x3D
+#define FortPalette2 0x68
+#define FortPalette3 0xCE
+
+#define DesertObjType 0x42
+#define DesertTileConfig 0x44
+#define DesertAnims 0x5
+
+#define DesertPalette1 0x43
+
+#define LavaObjType 0x50
+#define LavaTileConfig 0x52
+#define LavaAnims 0x0
+#define LavaAnims2 0x54
+
+#define LavaPalette1 0x51
+
+#define TempleObjType 0x5F
+#define TempleTileConfig 0x61
+#define TempleAnims 0x0
+
+#define TemplePalette1 0x60
+
+#define StrongholdObjType 0x79
+#define StrongholdTileConfig 0x7B
+#define StrongholdAnims 0x7D
+
+#define StrongholdPalette1 0x7A
+#define StrongholdPalette2 0xE6
+
+#define MountainousObjType 0x6C
+#define MountainousTileConfig 0x6E
+#define MountainousAnims 0x5
+
+#define MountainousPalette1 0x6D
+#define MountainousPalette2 0xA3
+
+#define ValniObjType 0x88
+#define ValniTileConfig 0x8A
+#define ValniAnims 0x9D
+
+#define ValniPalette1 0x89
+
+#define EndConvo "CALL $9EE2C4"

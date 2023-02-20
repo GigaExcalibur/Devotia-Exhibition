@@ -1,0 +1,36 @@
+#define CharacterSupport(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportBases(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportGrowths(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define EndSupportTable "BYTE 0 0"
+
+ALIGN 4
+KlaudiaSupportTable:
+CharacterSupport(Josephine, 0, 0, 0, 0, 0, 0)
+SupportBases(255, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 1
+EndSupportTable
+
+ALIGN 4
+JosephineSupportTable:
+CharacterSupport(Klaudia, 0, 0, 0, 0, 0, 0)
+SupportBases(255, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 1
+EndSupportTable
+
+ALIGN 4
+CarinaSupportTable:
+CharacterSupport(Alma, 0, 0, 0, 0, 0, 0)
+SupportBases(255, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 1
+EndSupportTable
+
+ALIGN 4
+AlmaSupportTable:
+CharacterSupport(Carina, 0, 0, 0, 0, 0, 0)
+SupportBases(255, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 1
+EndSupportTable

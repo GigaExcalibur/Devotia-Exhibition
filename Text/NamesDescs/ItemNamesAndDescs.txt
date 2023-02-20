@@ -1,0 +1,914 @@
+# 0x354 TrainingSwordName
+^{Training} ^{Sword}[X]
+
+## SlimSwordName
+Slim Sword[X]
+
+## IronSwordName
+Iron Sword[X]
+
+## SteelSwordName
+Steel Sword[X]
+
+## SilverSwordName
+Silver Sword[X]
+
+## IronDaggerName
+Iron Dagger[X]
+
+## SteelDaggerName
+Steel Dagger[X]
+
+## SilverDaggerName
+Silver Dagger[X]
+
+## LightBrandName
+Light Brand[X]
+
+## LevinSwordName
+Levin Sword[X]
+
+## FlameSwordName
+Flame Sword[X]
+
+## WindEdgeName
+Wind Edge[X]
+
+## IronBladeName
+Iron Blade[X]
+
+## SteelBladeName
+Steel Blade[X]
+
+## SilverBladeName
+Silver Blade[X]
+
+## ArmorslayerName
+Armorslayer[X]
+
+## ZanbatoName
+Zanbato[X]
+
+## VillainsBaneName
+Villains' Bane[X]
+
+## WyrmslayerName
+Wyrmslayer[X]
+
+## DoombladeName
+Doomblade[X]
+
+## KillingEdgeName
+Killing Edge[X]
+
+## BraveSwordName
+Brave Sword[X]
+
+## LancereaverName
+Lancereaver[X]
+
+## TrainingLanceName
+Training Lance[X]
+
+## SlimLanceName
+Slim Lance[X]
+
+## IronLanceName
+Iron Lance[X]
+
+## SteelLanceName
+Steel Lance[X]
+
+## SilverLanceName
+Silver Lance[X]
+
+## JavelinName
+Javelin[X]
+
+## ShortSpearName
+Short Spear[X]
+
+## SpearName
+Spear[X]
+
+## UberSpearName
+Uber Spear[X]
+
+## IronGreatlanceName
+Iron G.Lance[X]
+
+## SteelGreatlanceName
+Steel G.Lance[X]
+
+## SilverGreatlanceName
+Silver G.Lance[X]
+
+## HeavySpearName
+Heavy Spear[X]
+
+## HorseslayerName
+Horseslayer[X]
+
+## ShamansBaneName
+Shamans' Bane[X]
+
+## BattleflagName
+Battleflag[X]
+
+## KillerLanceName
+Killer Lance[X]
+
+## BraveLanceName
+Brave Lance[X]
+
+## AxereaverName
+Axereaver[X]
+
+## TrainingAxeName
+Training Axe[X]
+
+## SlimAxeName
+Slim Axe[X]
+
+## IronAxeName
+Iron Axe[X]
+
+## SteelAxeName
+Steel Axe[X]
+
+## SilverAxeName
+Silver Axe[X]
+
+## HatchetName
+Hatchet[X]
+
+## HandAxeName
+Hand Axe[X]
+
+## ShortAxeName
+Short Axe[X]
+
+## TomahawkName
+Tomahawk[X]
+
+## IronPoleaxeName
+Iron P.Axe[X]
+
+## SteelPoleaxeName
+Steel P.Axe[X]
+
+## SilverPoleaxeName
+Silver P.Axe[X]
+
+## HammerName
+Hammer[X]
+
+## HalberdName
+Halberd[X]
+
+## ScholarsBaneName
+Scholars' Bane[X]
+
+## DevilAxeName
+Devil Axe[X]
+
+## KillerAxeName
+Killer Axe[X]
+
+## BraveAxeName
+Brave Axe[X]
+
+## SwordreaverName
+Swordreaver[X]
+
+## TrainingBowName
+Training Bow[X]
+
+## SlimBowName
+Slim Bow[X]
+
+## IronBowName
+Iron Bow[X]
+
+## SteelBowName
+Steel Bow[X]
+
+## SilverBowName
+Silver Bow[X]
+
+## MinibowName
+Minibow[X]
+
+## ShortbowName
+Shortbow[X]
+
+## LongbowName
+Longbow[X]
+
+## GreatbowName
+Greatbow[X]
+
+## AsceticsBaneName
+Ascetics' Bane[X]
+
+## MoonbowName
+Moonbow[X]
+
+## KillerBowName
+Killer Bow[X]
+
+## BraveBowName
+Brave Bow[X]
+
+## HealStaffName
+Heal[X]
+
+## MendStaffName
+Mend[X]
+
+## RecoverStaffName
+Recover[X]
+
+## PhysicStaffName
+Physic[X]
+
+## FortifyStaffName
+Fortify[X]
+
+## WarpStaffName
+Warp[X]
+
+## RescueStaffName
+Rescue[X]
+
+## BarrierStaffName
+Barrier[X]
+
+## SparkName
+Spark[X]
+
+## WindName
+Wind[X]
+
+## FireballName
+Fireball[X]
+
+## ThunderName
+Thunder[X]
+
+## FimbulvetrName
+Fimbulvetr[X]
+
+## ElwindName
+Elwind[X]
+
+## ElfireName
+Elfire[X]
+
+## ElthunderName
+Elthunder[X]
+
+## ZephyrName
+Zephyr[X]
+
+## ScorchName
+Scorch[X]
+
+## ElectrocuteName
+Electrocute[X]
+
+## OverheatName
+Overheat[X]
+
+## FlamelickName
+Flamelick[X]
+
+## BolganoneName
+Bolganone[X]
+
+## CuttingGaleName
+Cutting Gale[X]
+
+## DireThunderName
+Dire Thunder[X]
+
+## CleansingFlameName
+Cleansing Flame[X]
+
+## GlowName
+Glow[X]
+
+## LightningName
+Lightning[X]
+
+## ShineName
+Shine[X]
+
+## DivineName
+Divine[X]
+
+## AuraName
+Aura[X]
+
+## HolyLightName
+Holy Light[X]
+
+## LuminescenceName
+Luminescence[X]
+
+## CongerereName
+Congerere[X]
+
+## KirkhammerName
+Kirkhammer[X]
+
+## SeraphimName
+Seraphim[X]
+
+## SteelblindName
+Steelblind[X]
+
+## DazzleName
+Dazzle[X]
+
+## JudgementName
+Judgement[X]
+
+## ZealName
+Zeal[X]
+
+## InquisitionName
+Inquisition[X]
+
+## FluxName
+Flux[X]
+
+## MireName
+Mire[X]
+
+## SwarmName
+Swarm[X]
+
+## DeathName
+Death[X]
+
+## FenrirName
+Fenrir[X]
+
+## MiasmaName
+Miasma[X]
+
+## BansheeName
+Banshee[X]
+
+## HadesName
+Hades[X]
+
+## TerrorName
+Terror[X]
+
+## NosferatuName
+Nosferatu[X]
+
+## LunaName
+Luna[X]
+
+## SingularityName
+Singularity[X]
+
+## RuinName
+Ruin[X]
+
+## EncroachName
+Encroach[X]
+
+## CorrodeName
+Corrode[X]
+
+## LegendarySwordName
+Legendary Sword[X]
+
+## LegendaryLanceName
+Legendary Lance[X]
+
+## LegendaryAxeName
+Legendary Axe[X]
+
+## LegendaryBowName
+Legendary Bow[X]
+
+## LegendaryStaffName
+Legendary Staff[X]
+
+## LegendaryAnimaName
+Legendary Anima[X]
+
+## LegendaryLightName
+Legendary Light[X]
+
+## RegoliathName
+Regoliath[X]
+
+## OskhaBladeName
+OshkaBlade[X]
+
+## SirventesName
+Sirventes[X]
+
+## FragarachName
+Fragarach[X]
+
+## EclipseName
+Eclipse[X]
+
+## AmitiName
+Amiti[X]
+
+## PugiName
+Pugi[X]
+
+## KarmaName
+Karma[X]
+
+## DeathTempestName
+Death Tempest[X]
+
+## SiriusName
+Sirius[X]
+
+## ProcyonName
+Procyon[X]
+
+## CrusherName
+Crusher[X]
+
+## VagueKattiName
+Vague Katti[X]
+
+## HuntingBowName
+Hunting Bow[X]
+
+## YamahaName
+Yamaha[X]
+
+## FernyigesPRFName
+Fernyiges PRF[X]
+
+## CassandraPRFName
+Cassandra PRF[X]
+
+## VulneraryName
+Vulnerary[X]
+
+## ElixirName
+Elixir[X]
+
+## ChestKeyName
+Chest Key[X]
+
+## DoorKeyName
+Door Key[X]
+
+## LockpickName
+Lockpick[X]
+
+## MasterSealName
+Master Seal[X]
+
+## SpotlightName
+Spotlight[X]
+
+## LegRingName
+Leg Ring[X]
+
+## IronBallName
+Iron Ball[X]
+
+## KnightCrestName
+Knight Crest[X]
+
+## NihilBandName
+Nihil Band[X]
+
+## NullifyRingName
+Nullify[X]
+
+## ParagonBandName
+Paragon Band[X]
+
+## IronRuneName
+Iron Rune[X]
+
+## EnergyRingName
+Energy Ring[X]
+
+## AgedSpiritsName
+Aged Spirits[X]
+
+## SenseBlindfoldName
+Sense Blindfold[X]
+
+## SpeedwingsName
+Speedwings[X]
+
+## SarkaNecklaceName
+Sarka Necklace[X]
+
+## DracoshieldName
+Dracoshield[X]
+
+## TalismanName
+Talisman[X]
+
+## TrainingWeaponDesc
++10 LCK when equipped. Cannot[N]
+crit. Double weapon experience.[X]
+
+## SlimWeaponDesc
++2 SPD when equipped.[X]
+
+## IronWeaponDesc
++3 RES when equipped.[X]
+
+## SteelWeaponDesc
++2 DEF when equipped.[X]
+
+## SilverWeaponDesc
++2 STR when equipped.[X]
+
+## IronDaggerDesc
+[LockIcon]Thief line and Levia. -2 MAG/[N]
+LCK/DEF on enemy after combat.[X]
+
+## SteelDaggerDesc
+[LockIcon]Thief line and Levia. -2 STR/[N]
+SKL/RES on enemy after combat.[X]
+
+## SilverDaggerDesc
+[LockIcon]Thief line and Levia. -2 STR/[N]
+MAG/SPD on enemy after combat.[X]
+
+## LightBrandDesc
+Physical at melee, magic at range.[N]
++3 MAG when equipped.[X]
+
+## LevinSwordDesc
+Magic attack at melee and range.[N]
++5 MAG when equipped.[X]
+
+## FlameSwordDesc
+Magic attack at melee and range.[N]
++7 MAG when equipped.[X]
+
+## WindEdgeDesc
+Magic attack at melee and[N]
+range. +10 MAG when equipped.[X]
+
+## IronHeavyDesc
++5 RES, -1 SPD when equipped.[X]
+
+## SteelHeavyDesc
++4 DEF, -2 SPD when equipped.[X]
+
+## SilverHeavyDesc
++4 STR, -3 SPD when equipped.[X]
+
+## ArmorEffectiveDesc
+Effective against [ArmorIcon][N]
+-2 STR/DEF/RES when equipped.[X]
+
+## CavalryEffectiveDesc
+Effective against [CavalryIcon][N]
+-2 STR/DEF/RES when equipped.[X]
+
+## FlyingEffectiveDesc
+Effective against [FlyingIcon][X]
+
+## DevilEffectDesc
+(31-LCK)% to backfire and damage[N]
+wielded. LCK -5 when equipped.[X]
+
+## VillainsBaneDesc
+Effective against [AxeIcon][N]
+-2 STR/DEF/RES when equipped.[X]
+
+## WyrmslayerDesc
+Effective against [DragonIcon][X]
+
+## KillingEffectDesc
+Increased critical hit rate.[N]
+-4 DEF/RES when equipped.[X]
+
+## BraveEffectDesc
+Attacks strike consecutively.[N]
+-5 SPD when equipped.[X]
+
+## ReaverEffectDesc
+Reverses the weapon triangle[N]
+and doubles its effect.[X]
+
+## RangedEffectDesc
+Can attack at melee and range.[X]
+
+## ShamansBaneDesc
+Effective against [DarkIcon][X]
+
+## CannotCounterEffectDesc
+Enemy cannot counter.[N]
+Unit cannot double.[X]
+
+## ScholarsBaneDesc
+Effective against [AnimaIcon][X]
+
+## SlimBowDesc
++2 SPD when equipped.[N]
+Effective against [FlyingIcon][X]
+
+## IronBowDesc
++3 RES when equipped.[N]
+Effective against [FlyingIcon][X]
+
+## SteelBowDesc
++2 DEF when equipped.[N]
+Effective against [FlyingIcon][X]
+
+## SilverBowDesc
++2 STR when equipped.[N]
+Effective against [FlyingIcon][X]
+
+## ShortbowDesc
+Can attack at melee and range.[N]
+Effective against [FlyingIcon][X]
+
+## LongbowDesc
+Can attack at extended range.[X]
+
+## GreatbowDesc
+Can attack at extended range.[N]
+Effective against [FlyingIcon][X]
+
+## AsceticsBaneDesc
+Effective against [LightIcon][StaffIcon][X]
+
+## LunaEffectDesc
+Ignores enemy DEF/RES.[N]
+-5 SPD when equipped.[X]
+
+## KillerBowDesc
+High crit, -4 DEF/RES when[N]
+equipped. Effective against [FlyingIcon][X]
+
+## BraveBowDesc
+Strikes twice, -5 SPD when[N]
+equipped. Effective against [FlyingIcon][X]
+
+## HealStaffDesc
+Heals adjacent ally by (MAG+7) HP.[X]
+
+## HealStaffUseDesc
+Heal adjacent ally[N]
+for (MAG+5) HP.[X]
+
+## MendStaffDesc
+Heals adjacent ally by (MAG+14) HP.[X]
+
+## MendStaffUseDesc
+Heal adjacent ally[N]
+for (MAG+14) HP.[X]
+
+## RecoverStaffDesc
+Heals adjacent ally by (MAG+35) HP.[X]
+
+## RecoverStaffUseDesc
+Use to heal adjacent ally[N]
+for (MAG+28) HP.[X]
+
+## PhysicStaffDesc
+Heals ally in range by (MAG+14) HP.[X]
+
+## PhysicStaffUseDesc
+Heal ally in range[N]
+for (MAG+14) HP.[X]
+
+## FortifyStaffDesc
+Heals all allies in range by[N]
+(MAG+14) HP.[X]
+
+## FortifyStaffUseDesc
+All allies in range[N]
+heal (MAG+14) HP.[X]
+
+## WarpStaffDesc
+Warps adjacent ally to a faraway[N]
+space within 1~(MAG/2) spaces.[X]
+
+## WarpStaffUseDesc
+Warp adjacent ally[N]
+to a space in range.[X]
+
+## RescueStaffDesc
+Brings a distant ally within[N]
+range adjacent to unit.[X]
+
+## RescueStaffUseDesc
+Return distant ally[N]
+adjacent to user.[X]
+
+## BarrierStaffDesc
+Buff adjacent ally RES by 7.[N]
+Decreases by 1 every turn.[X]
+
+## BarrierStaffUseDesc
+Buff adjacent ally[N]
+RES by 7 (-1/turn).[X]
+
+## EnergyRingDesc
++1 STR when in inventory.[X]
+
+## AgedSpiritsDesc
++1 MAG when in inventory.[X]
+
+## SenseBlindfoldDesc
++4 SKL when in inventory.[X]
+
+## SpeedwingsDesc
++2 SPD when in inventory.[X]
+
+## SarkaNecklaceDesc
++4 LCK when in inventory.[X]
+
+## DracoshieldDesc
++2 DEF when in inventory.[X]
+
+## TalismanDesc
++2 RES when in inventory.[X]
+
+## LegRingDesc
++1 MOV when in inventory.[X]
+
+## IronBallDesc
++2 CON when in inventory.[X]
+
+## KnightCrestDesc
+Wearer can move after certain actions.[N]
+-2 SKL/LCK when in inventory.[X]
+
+## NihilBandDesc
+Wearer negates all enemy skills.[N]
+-2 STR/MAG when in inventory.[X]
+
+## NullifyRingDesc
+Wearer is immune to effective damage.[N]
+-1 MOV when in inventory.[X]
+
+## ParagonBandDesc
+Wearer experience gain is doubled.[N]
+-5 all combat stats when in inventory.[X]
+
+## IronRuneDesc
+Wearer is immune to critical hits.[N]
+-5 max HP when in inventory.[X]
+
+## ChestKeyDesc
+Opens locked chests.[X]
+
+## DoorKeyDesc
+Opens locked doors.[X]
+
+## LockpickDesc
+[LockIcon]Thief class line. Opens doors and chests.[X]
+
+## VulneraryDesc
+Restores 7 HP.[X]
+
+## ElixirDesc
+Restores all HP.[X]
+
+## SilverMagicDesc
++2 MAG when equipped.[X]
+
+## OverheatDesc
+Effective against [ArmorIcon][N]
+-2 MAG/DEF/RES when equipped.[X]
+
+## BolganoneDesc
+Effective against [LanceIcon][N]
+-2 MAG/DEF/RES when equipped.[X]
+
+## FlamelickDesc
+Effective against [CavalryIcon][N]
+-2 MAG/DEF/RES when equipped.[X]
+
+## MasterSealDesc
+Promotes a Lv.10+ unit to a new class.[X]
+
+## MasterSealUseDesc
+Promotes a unit.[X]
+
+## SpotlightDesc
+Shine to increase unit's growths by 7%.[X]
+
+## SpotlightUseDesc
+Increases growths.[X]
+
+## LegendaryStaffDesc
+Fully heals all allies.[X]
+
+## SeraphimDesc
+Effective against [FlyingIcon][N]
+-2 MAG/DEF/RES when equipped.[X]
+
+## SteelblindDesc
+Effective against [SwordIcon][N]
+-2 MAG/DEF/RES when equipped.[X]
+
+## NosferatuDesc
+Drains enemy HP upon contact.[N]
+-5 SPD when equipped.[X]
+
+## SingularityDesc
+Effective against [BowIcon][N]
+-2 MAG/DEF/RES when equipped.[X]
+
+## LegendarySwordDesc
+Wielded by the first Count Circe.[N]
++5 ___ when equipped.[X]
+
+## LegendaryLanceDesc
+A gift to the first Lord Orsolle.[N]
++5 ___ when equipped.[X]
+
+## LegendaryAxeDesc
+Wielded by the first Count Wolffia.[N]
++5 ___ when equipped.[X]
+
+## LegendaryBowDesc
+Wielded by the first Count Calicos.[N]
++5 ___ when equipped.[X]
+
+## LegendaryAnimaDesc
+Wielded by the first Lord Orsolle.[N]
++5 ___ when equipped.[X]
+
+## LegendaryLightDesc
+Wielded by the first Count Graminea.[N]
++5 ___ when equipped.[X]
+
+## RegoliathDesc
+Wielded by the first Count Skograd.[N]
++5 ___ when equipped.[X]
+
+## OskhaBladeDesc
+[LockIcon]Ulrich. Drains enemy HP.[N]
+Hits lower of enemy DEF/RES.[X]
+
+## SirventesDesc
+[LockIcon]Josephine. After initiating combat,[N]
+allies in 2 tiles heal 20% HP. +2 DEF[X]
+
+## FragarachDesc
+[LockIcon]Klaudia. uhhhhh effect.[X]
+
+## EclipseDesc
+[LockIcon]Emille. Halves enemy HP, cannot double.[X]
+
+## AmitiDesc
+[LockIcon]Kynan. +10 LCK, attacks consecutively.[X]
+
+## PugiDesc
+[LockIcon]Bear. Increased critical hit rate.[X]
+
+## KarmaDesc
+[LockIcon]Samil. +10 avoid when initiating combat.[X]
+
+## DeathTempestDesc
+[LockIcon]Astraea. Can attack at melee and range.[N]
+Increased critical hit rate.[X]
+
+## SiriusDesc
+[LockIcon]Estella. +15 avoid when enemy initiates combat.[X]
+
+## ProcyonDesc
+[LockIcon]Carina. Strikes first in all combats.[X]
+
+## CrusherDesc
+[LockIcon]Axel. Enemy attacks have (31-Axel's LCK)% chance to backfire.[X]
+
+## VagueKattiDesc
+[LockIcon]Hong Chen. effect.[X]
+
+## FernyigesPRFDesc
+[LockIcon]Fernyiges. effect[X]
+
+## CassandraPRFDesc
+[LockIcon]Cassandra. effect[X]
+
+## ElthunderDesc
++4 MAG, -3 SPD when equipped.[X]
+
+## HuntingBowDesc
+[LockIcon]Dane. Effective against [CavalryIcon][X]
+
+## YamahaDesc
+[LockIcon]Maybelline. Has extended range.[X]
+

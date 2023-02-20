@@ -1,0 +1,9 @@
+DespoilEvent:
+CAM1 0xFFFF
+CUMO 0xFFFF
+STAL 0x24
+CURE
+SMOV 0x3 TrainingSword
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA

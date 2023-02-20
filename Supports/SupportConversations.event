@@ -1,0 +1,15 @@
+#define SupportChain(Partner1, Partner2, CConvoTID, BConvoTID, AConvoTID) "SHORT Partner1 Partner2 CConvoTID BConvoTID AConvoTID 0 0 0"
+#define EndSupportList "WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF"
+
+PUSH
+ORG 0x84784
+POIN SupportList
+ORG 0x847FC
+POIN SupportList
+POP
+
+ALIGN 4
+SupportList:
+SupportChain(Klaudia, Josephine, KlaudiaJosephineCSupport, 0x0, 0x0)
+SupportChain(Carina, Alma, CarinaAlmaCSupport, CarinaAlmaBSupport, 0x0)
+EndSupportList

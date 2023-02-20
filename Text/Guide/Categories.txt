@@ -1,0 +1,119 @@
+# 0x069C PlaybillName
+ Playbill[X]
+ 
+# 0x05C9 MechanicsCategory
+Mechanics[X]
+
+## WorldCategory
+World[X]
+
+## CreditsCategory
+Credits[X]
+
+## CrewCategory
+Crew[X]
+
+# 0x05D5 WeaponTriangleEntry
+Weapon Triangle[X]
+
+## WeaponScarcityEntry
+Weapon Scarcity[X]
+
+## SkillAcquisitionEntry
+Skill Acquisition[X]
+
+## RecruitmentGuideEntry
+Recruitment Guide[X]
+
+## ClassPromotionEntry
+Class Promotion[X]
+
+## MeralyEntry
+Meraly[X]
+
+## TributeSystemEntry
+Tribute System[X]
+
+## SarkaTerritoryEntry
+Sarka[X]
+
+## OrsolleTerritoryEntry
+Orsolle[X]
+
+## WolffiaTerritoryEntry
+Wolffia[X]
+
+## CalicosTerritoryEntry
+Calicos[X]
+
+## GramineaTerritoryEntry
+Graminea[X]
+
+## SkogradTerritoryEntry
+Skograd[X]
+
+## CirceTerritoryEntry
+Circe[X]
+
+## DrekEntry
+Empire of Drek[X]
+
+## StoflamEntry
+Stoflam[X]
+
+## PortraitsEntry
+Portraits[X]
+
+## ClassCardsEntry
+Class Cards[X]
+
+## MapAnimationsEntry
+Map Animations[X]
+
+## BattleAnimationsEntry
+Battle Animations[X]
+
+## SpellAnimationsEntry
+Spell Animations[X]
+
+## ItemIconsEntry
+Item Icons[X]
+
+## TilesetsEntry
+Tilesets[X]
+
+## MusicEntry
+Music[X]
+
+## SkillSysEntry
+Skill Systems Buildfile[X]
+
+## ExternalHacksEntry
+External Hacks[X]
+
+## AssistanceEntry
+Assistance[X]
+
+## OffTheStringEntry
+Off The String[X]
+
+## DragzEntry
+Dragz[X]
+
+## ZeriEntry
+Zeri[X]
+
+## DylanEntry
+Dylan[X]
+
+## ChrisEntry
+Chris[X]
+
+## JaumEntry
+Jaum[X]
+
+## SrenEntry
+Sren[X]
+
+## TeenieEntry
+Teenie[X]
