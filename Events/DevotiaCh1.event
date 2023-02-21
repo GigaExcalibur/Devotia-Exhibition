@@ -202,15 +202,13 @@ Text(OvertureKnightBarracksGeneric)
 ClearBackground
 GiveItem(ActiveUnit, KnightCrest)
 GOTO 3
-// Village item if visitor is Omen
-LABEL 1
+LABEL 1 // Village item if visitor is Omen
 Text(OvertureKnightBarracksOmen)
 ClearBackground
 GiveItem(ActiveUnit, Armorslayer)
 Text(OvertureOmenReflecting)
 GOTO 3
-// Village item if visitor is Klaudia
-LABEL 2
+LABEL 2 // Village item if visitor is Klaudia
 Text(OvertureKnightBarracksKlaudia)
 ClearBackground
 GiveItem(ActiveUnit, AgedSpirits)
@@ -244,8 +242,7 @@ Text(OvertureEmatareVillageGeneric)
 ClearBackground
 GiveItem(ActiveUnit, Flux)
 GOTO 2
-// Increase visitor's magic by 1 if Klaudia
-LABEL 1
+LABEL 1 // Increase visitor's magic by 1 if Klaudia
 Text(OvertureEmatareVillageKlaudia)
 ClearBackground
 AddUnitStatus(ActiveUnit, Magic, 1)
