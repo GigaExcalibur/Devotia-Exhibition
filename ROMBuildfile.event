@@ -30,7 +30,7 @@
     MESSAGE Used hax space ends at currentOffset
 
     //Events
-    #include "Events/DevotiaCh1.event"
+    #include "Events/DevotiaOverture.event"
 	MESSAGE Chapter One events end at currentOffset
     #include "Events/WorldMapEvents.event"
 

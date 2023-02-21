@@ -192,11 +192,11 @@ ENDA
 ALIGN 4
 VisitKnightBarracks:
 SetBackground(0x0)
-SVAL 1 Omen
-SVAL 2 Klaudia
+SVAL s1 Omen
+SVAL s2 Klaudia
 CHECK_ACTIVE
-BEQ 1 0xC 1
-BEQ 2 0xC 2
+BEQ 1 sC s1
+BEQ 2 sC s2
 // Village item if visitor isn't Omen or Klaudia
 Text(OvertureKnightBarracksGeneric)
 ClearBackground
@@ -234,9 +234,9 @@ ENDA
 ALIGN 4
 VisitEmatareVillage:
 SetBackground(0x0)
-SVAL 1 Klaudia
+SVAL s1 Klaudia
 CHECK_ACTIVE
-BEQ 1 0xC 1
+BEQ 1 sC s1
 // Give visitor Flux if not Klaudia
 Text(OvertureEmatareVillageGeneric)
 ClearBackground
