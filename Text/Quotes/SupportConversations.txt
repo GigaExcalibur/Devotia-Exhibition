@@ -1,5 +1,6 @@
 # 0x0C53 KlaudiaJosephineCSupport
 [ML][LoadKlaudia][MR][LoadJosephine]
+.[A][X]
 
 ## KlaudiaJosephineBSupport
 [ML][LoadKlaudia][MR][LoadJosephine]

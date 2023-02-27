@@ -1,442 +1,439 @@
-# 0x2BF MageLordNameID
+## MageLordNameID
 Mage Lord[X]
 
-# 0x2C0 GremoryLordNameID
+## GremoryLordNameID
 Gremory [_L][_o][_r][_d][X]
 
-# 0x2C1 PrincessNameID
+## PrincessNameID
 Princess[X]
 
-# 0x2C2 MasterKnightNameID
+## MasterKnightNameID
 Master Knight[X]
 
-# 0x2C3 MyrmidonNameID
+## MyrmidonNameID
 Myrmidon[X]
 
-# 0x2C4 MercenaryNameID
+## MercenaryNameID
 Mercenary[X]
 
-# 0x2C5 RunelordNameID
+## RunelordNameID
 Runelord[X]
 
-# 0x2C6 TruebladeNameID
+## TruebladeNameID
 Trueblade[X]
 
-# 0x2C7 HeroNameID
+## HeroNameID
 Hero[X]
 
-# 0x2C8 ThiefNameID
+## ThiefNameID
 Thief[X]
 
-# 0x2C9 ArcherNameID
+## ArcherNameID
 Archer[X]
 
-# 0x2CA TricksterNameID
+## TricksterNameID
 Trickster[X]
 
-# 0x2CB RogueNameID
+## RogueNameID
 Rogue[X]
 
-# 0x2CC SniperNameID
+## SniperNameID
 Sniper[X]
 
-# 0x2CD LancerNameID
+## LancerNameID
 Lancer[X]
 
-# 0x2CE WoodsmanNameID
+## WoodsmanNameID
 Woodsman[X]
 
-# 0x2CF PirateNameID
+## PirateNameID
 Pirate[X]
 
-# 0x2D0 WarmasterNameID
+## WarmasterNameID
 Warmaster[X]
 
-# 0x2D1 VarangianNameID
+## VarangianNameID
 Varangian[X]
 
-# 0x2D2 HalberdierNameID
+## HalberdierNameID
 Halberdier[X]
 
-# 0x2D3 BerserkerNameID
+## BerserkerNameID
 Berserker[X]
 
-# 0x2D4 SwordArmorNameID
+## SwordArmorNameID
 Sword Armor[X]
 
-# 0x2D5 LanceArmorNameID
+## LanceArmorNameID
 Lance Armor[X]
 
-# 0x2D6 AxeArmorNameID
+## AxeArmorNameID
 Axe Armor[X]
 
-# 0x2D7 MageArmorNameID
+## MageArmorNameID
 Mage Armor[X]
 
-# 0x2D8 ChevalierNameID
+## ChevalierNameID
 Chevalier[X]
 
-# 0x2D9 HarbingerNameID
+## HarbingerNameID
 Harbinger[X]
 
-# 0x2DA GeneralNameID
+## GeneralNameID
 General[X]
 
-# 0x2DB BaronNameID
+## BaronNameID
 Baron[X]
 
-# 0x2DC AnimaMageNameID
+## AnimaMageNameID
 Anima Mage[X]
 
-# 0x2DD DarkMageNameID
+## DarkMageNameID
 Dark Mage[X]
 
-# 0x2DE SorcererNameID
+## SorcererNameID
 Sorcerer[X]
 
-# 0x2DF SageNameID
+## SageNameID
 Sage[X]
 
-# 0x2E0 NecromancerNameID
+## NecromancerNameID
 Necromancer[X]
 
-# 0x2E1 LightMageNameID
+## LightMageNameID
 Light Mage[X]
 
-# 0x2E2 ClericNameID
+## ClericNameID
 Cleric[X]
 
-# 0x2E3 PriestNameID
+## PriestNameID
 Priest[X]
 
-# 0x2E4 ValkyrieNameID
+## ValkyrieNameID
 Valkyrie[X]
 
-# 0x2E5 StarseerNameID
+## StarseerNameID
 Starseer[X]
 
-# 0x2E6 BishopNameID
+## BishopNameID
 Bishop[X]
 
-# 0x2E7 WarClericNameID
-War Cleric[X]
+## TemplarNameID
+Templar[X]
 
-# 0x2E8 WarMonkNameID
-War Monk[X]
-
-# 0x2E9 SwordCavNameID
+## SwordCavNameID
 Sword Cav.[X]
 
-# 0x2EA LanceCavNameID
+## LanceCavNameID
 Lance Cav.[X]
 
-# 0x2EB AxeCavNameID
+## AxeCavNameID
 Axe Cav.[X]
 
-# 0x2EC SwordLancePalNameID
+## SwordLancePalNameID
 Swd/Lnc Pal.[X]
 
-# 0x2ED SwordAxePalNameID
+## SwordAxePalNameID
 Swd/Axe Pal.[X]
 
-# 0x2EE LanceAxePalNameID
+## LanceAxePalNameID
 Lnc/Axe Pal.[X]
 
-# 0x2EF ScoutNameID
+## ScoutNameID
 Scout[X]
 
-# 0x2F0 RangerNameID
+## RangerNameID
 Ranger[X]
 
-# 0x2F1 WindriderNameID
+## WindriderNameID
 Windrider[X]
 
-# 0x2F2 HarrierNameID
+## HarrierNameID
 Harrier[X]
 
-# 0x2F3 HolywingNameID
+## HolywingNameID
 Holywing[X]
 
-# 0x2F4 FalconeerNameID
+## FalconeerNameID
 Falconeer[X]
 
-# 0x2F5 DarkwingNameID
+## DarkwingNameID
 Darkwing[X]
 
-# 0x2F6 DracoriderNameID
+## DracoriderNameID
 Dracorider[X]
 
-# 0x2F7 DracolordNameID
+## DracolordNameID
 Dracolord[X]
 
-# 0x2F8 BombardierNameID
+## BombardierNameID
 Bombardier[X]
 
-# 0x2F9 BarbarossaNameID
+## BarbarossaNameID
 Barbarossa[X]
 
-# 0x2FA BardNameID
+## BardNameID
 Bard[X]
 
-# 0x2FB CrownPrinceNameID
+## CrownPrinceNameID
 Crown Prince[X]
 
-# 0x2FC PrinceNameID
+## PrinceNameID
 Prince[X]
 
-# 0x2FD OverlordNameID
+## OverlordNameID
 Overlord[X]
 
-# 0x2FE AgastyaNameID
+## AgastyaNameID
 Agastya[X]
 
-# 0x2FF CivilianNameID
+## CivilianNameID
 Civilian[X]
 
-# 0x309 MageLordDescID
+## MageLordDescID
 Noble member of House Orsolle.[N]
 Proficient: [AnimaIcon][X]
 
-# 0x30A GremoryLordDescID
+## GremoryLordDescID
 Noble lord of House Orsolle.[N]
 Proficient: [LanceIcon][AnimaIcon][LightIcon][DarkIcon][X]
 
-# 0x30B PrincessDescID
+## PrincessDescID
 Noble member of House Sarka.[N]
 Proficient: [SwordIcon][StaffIcon][X]
 
-# 0x30C MasterKnightDescID
+## MasterKnightDescID
 Noble highly trained in combat. [CavalryIcon][N]
 Proficient: [SwordIcon][LanceIcon][AxeIcon][BowIcon][StaffIcon][X]
 
-# 0x30D MyrmidonDescID
+## MyrmidonDescID
 Sword students in training.[N]
 Proficient: [SwordIcon][X]
 
-# 0x30E MercenaryDescID
+## MercenaryDescID
 Sellswords only loyal to contracts.[N]
 Proficient: [SwordIcon][X]
 
-# 0x30F RunelordDescID
+## RunelordDescID
 Renegades who fight in the shadows.[N]
 Proficient: [SwordIcon][DarkIcon][X]
 
-# 0x310 TruebladeDescID
+## TruebladeDescID
 Sword students graduated from training.[N]
 Proficient: [SwordIcon][X]
 
-# 0x311 HeroDescID
+## HeroDescID
 Folk heroes of the common people.[N]
 Proficient: [SwordIcon][AxeIcon][X]
 
-# 0x312 ThiefDescID
+## ThiefDescID
 Deviants who can steal and break locks.[N]
 Proficient: [SwordIcon][X]
 
-# 0x313 ArcherDescID
+## ArcherDescID
 Skilled long-range attackers.[N]
 Proficient: [BowIcon][X]
 
-# 0x314 TricksterDescID
+## TricksterDescID
 Advanced thieves who toy with enemies.[N]
 Proficient: [SwordIcon][BowIcon][StaffIcon][X]
 
-# 0x315 RogueDescID
+## RogueDescID
 Whispers who strip enemies of equipment.[N]
 Proficient: [SwordIcon][X]
 
-# 0x316 SniperDescID
+## SniperDescID
 Sureshot master of bows.[N]
 Proficient: [BowIcon][X]
 
-# 0x317 LancerDescID
+## LancerDescID
 Basic footmen with average stats.[N]
 Proficient: [LanceIcon][X]
 
-# 0x318 WoodsmanDescID
+## WoodsmanDescID
 Combatants without formal training.[N]
 Proficient: [AxeIcon][X]
 
-# 0x319 PirateDescID
+## PirateDescID
 Raiders who ransack houses and villages.[N]
 Proficient: [AxeIcon][X]
 
-# 0x31A WarmasterDescID
+## WarmasterDescID
 Elite soldiers in infantry combat.[N]
 Proficient: [LanceIcon][AxeIcon][X]
 
-# 0x31B VarangianDescID
+## VarangianDescID
 Burly juggernaut frontliners.[N]
 Proficient: [AxeIcon][BowIcon][X]
 
-# 0x31C HalberdierDescID
+## HalberdierDescID
 Dragoons with mastery of the lance.[N]
 Proficient: [LanceIcon][X]
 
-# 0x31D BerserkerDescID
+## BerserkerDescID
 Monstrous glass cannon fighters.[N]
 Proficient: [AxeIcon][X]
 
-# 0x31E SwordArmorDescID
+## SwordArmorDescID
 Chivalrous knights nobly employed. [ArmorIcon][N]
 Proficient: [SwordIcon][X]
 
-# 0x31F LanceArmorDescID
+## LanceArmorDescID
 Chivalrous knights nobly employed. [ArmorIcon][N]
 Proficient: [LanceIcon][X]
 
-# 0x320 AxeArmorDescID
+## AxeArmorDescID
 Chivalrous knights nobly employed. [ArmorIcon][N]
 Proficient: [AxeIcon][X]
 
-# 0x321 MageArmorDescID
+## MageArmorDescID
 Chivalrous knights nobly employed. [ArmorIcon][N]
 Proficient: [LightIcon][X]
 
-# 0x322 ChevalierDescID
+## ChevalierDescID
 Highly defensive horsebacked knights. [CavalryIcon][N]
 Proficient: [LanceIcon][AxeIcon][X]
 
-# 0x323 HarbingerDescID
+## HarbingerDescID
 Advanced knights who forsook chivalry. [CavalryIcon][N]
 Proficient: [AxeIcon][LightIcon][DarkIcon][X]
 
-# 0x324 GeneralDescID
+## GeneralDescID
 Physically immortal fortress knights. [ArmorIcon][N]
 Proficient: [SwordIcon][LanceIcon][BowIcon][X]
 
-# 0x325 BaronDescID
+## BaronDescID
 Knights with intense magical prowess. [ArmorIcon][N]
 Proficient: [SwordIcon][AnimaIcon][LightIcon][X]
 
-# 0x326 AnimaMageDescID
+## AnimaMageDescID
 Students of magic, often of high birth.[N]
 Proficient: [AnimaIcon][X]
 
-# 0x327 DarkMageDescID
+## DarkMageDescID
 Students of magic, often of high birth.[N]
 Proficient: [DarkIcon][X]
 
-# 0x328 SorcererDescID
+## SorcererDescID
 Horsebacked mages who raze the battlefield. [CavalryIcon][N]
 Proficient: [AnimaIcon][DarkIcon][X]
 
-# 0x329 SageDescID
+## SageDescID
 Masters of magical theory.[N]
 Proficient: [AnimaIcon][LightIcon][X]
 
-# 0x32A NecromancerDescID
+## NecromancerDescID
 Necromancers able to raise the dead.[N]
 Proficient: [DarkIcon][X]
 
-# 0x32B LightMageDescID
+## LightMageDescID
 Students of magic, often of high birth.[N]
 Proficient: [LightIcon][X]
 
-# 0x32C ClericDescID
+## ClericDescID
 Religious healers training in staves.[N]
 Proficient: [StaffIcon][X]
 
-# 0x32D ValkyrieDescID
+## ValkyrieDescID
 Horsebacked healers and saviors. [CavalryIcon][N]
 Proficient: [SwordIcon][LightIcon][StaffIcon][X]
 
-# 0x32E StarseerDescID
+## StarseerDescID
 Divinely chosen bestowers of light.[N]
-Proficient: [LightIcon][StaffIcon][X]
+Proficient: [StaffIcon], [SwordIcon] or [LightIcon][X]
 
-# 0x32F WarClericDescID
+## TemplarDescID
 Healers able to defend themselves in combat.[N]
 Proficient: [AxeIcon][StaffIcon][X]
 
-# 0x330 SwordCavalierDescID
+## SwordCavalierDescID
 Chivalrous horsemen nobly employed. [CavalryIcon][N]
 Proficient: [SwordIcon][X]
 
-# 0x331 LanceCavalierDescID
+## LanceCavalierDescID
 Chivalrous horsemen nobly employed. [CavalryIcon][N]
 Proficient: [LanceIcon][X]
 
-# 0x332 AxeCavalierDescID
+## AxeCavalierDescID
 Chivalrous horsemen nobly employed. [CavalryIcon][N]
 Proficient: [AxeIcon][X]
 
-# 0x333 SwordLancePalDescID
+## SwordLancePalDescID
 Elite horsemen nobly employed. [CavalryIcon][N]
 Proficient: [SwordIcon][LanceIcon][X]
 
-# 0x334 SwordAxePalDescID
+## SwordAxePalDescID
 Elite horsemen nobly employed. [CavalryIcon][N]
 Proficient: [SwordIcon][AxeIcon][X]
 
-# 0x335 LanceAxePalDescID
+## LanceAxePalDescID
 Elite horsemen nobly employed. [CavalryIcon][N]
 Proficient: [LanceIcon][AxeIcon][X]
 
-# 0x336 ScoutDescID
+## ScoutDescID
 Quick-footed mounted archers. [CavalryIcon][N]
 Proficient: [BowIcon][X]
 
-# 0x337 RangerDescID
+## RangerDescID
 Horsebacked guerilla bow masters. [CavalryIcon][N]
 Proficient: [SwordIcon][BowIcon][X]
 
-# 0x338 WindriderDescID
+## WindriderDescID
 Highly mobile flying soldiers. [FlyingIcon][N]
 Proficient: [SwordIcon][X]
 
-# 0x339 HarrierDescID
+## HarrierDescID
 Fliers with penchant for dark magic. [FlyingIcon][N]
 Proficient: [DarkIcon][X]
 
-# 0x33A HolywingDescID
+## HolywingDescID
 Airborne saviors on the battlefield. [FlyingIcon][N]
 Proficient: [SwordIcon] or [DarkIcon], [StaffIcon][X]
 
-# 0x33B FalconeerDescID
+## FalconeerDescID
 Disciplined flying combat masters. [FlyingIcon][N]
 Proficient: [SwordIcon][LanceIcon][X]
 
-# 0x33C DarkwingDescID
+## DarkwingDescID
 Flying scourges with dominion over magic. [FlyingIcon][N]
 Proficient: [AnimaIcon][DarkIcon][X]
 
-# 0x33D DracoriderDescID
+## DracoriderDescID
 Flying soldiers native to Stoflam. [FlyingIcon][N]
 Proficient: [AxeIcon][X]
 
-# 0x33E DracolordDescID
+## DracolordDescID
 Stoflam's pride and joy elite fliers. [FlyingIcon][N]
 Proficient: [LanceIcon][AxeIcon][X]
 
-# 0x33F BombardierDescID
+## BombardierDescID
 Drekkan specialized griffon fliers. [FlyingIcon][N]
 Proficient: [BowIcon][X]
 
-# 0x340 BarbarossaDescID
+## BarbarossaDescID
 Griffons who shred the wings of fellow fliers. [FlyingIcon][N]
 Proficient: [LanceIcon][BowIcon][X]
 
-# 0x341 BardDescID
+## BardDescID
 Cheery sonneteer whose melodies can[N]
 refresh an adjacent ally's action.[X]
 
-# 0x342 CrownPrinceDescID
+## CrownPrinceDescID
 Noble member of House Sarka. [ArmorIcon][N]
 Proficient: [AxeIcon][StaffIcon][X]
 
-# 0x343 PrinceDescID
+## PrinceDescID
 Noble member of House Sarka. [FlyingIcon][N]
 Proficient: [SwordIcon][StaffIcon][X]
 
-# 0x344 OverlordDescID
+## OverlordDescID
 Iron-fisted ruler of House Sarka. ([DragonIcon])[N]
 Proficient: [AxeIcon][StaffIcon][X]
 
-# 0x345 AgastyaDescID
+## AgastyaDescID
 Drekkan master of light magic.[N]
 Proficient: [LightIcon][X]
 
-# 0x346 CivilianDescID
+## CivilianDescID
 Average citizen who knows nothing of[N]
 fighting, nor has any arms to do so.[X]

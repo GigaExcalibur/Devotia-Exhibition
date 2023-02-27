@@ -52,8 +52,8 @@
 #define Valkyrie 0x35
 #define Starseer 0x36
 #define Bishop 0x37
-#define WarCleric 0x38
-#define WarMonk 0x39
+#define TemplarF 0x38
+#define TemplarM 0x39
 #define SwordCavF 0x3A
 #define SwordCavM 0x3B
 #define LanceCavF 0x3C

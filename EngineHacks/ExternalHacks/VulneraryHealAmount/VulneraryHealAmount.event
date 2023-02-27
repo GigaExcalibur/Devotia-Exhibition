@@ -1,0 +1,4 @@
+PUSH
+ORG 0x2FEC6 // Vulnerary Heal Amount
+BYTE 0x07
+POP

@@ -1,34 +1,19 @@
-# 0x0002 textWeaponRankIncreasedTo
- Weapon rank increased to [X]
- 
-# 0x0006 GotRenown
-renown.[X]
-
-# 0x0094
-HP Bars[.][X]
-
-# 0x00B2
-Set health bar display[X]
-
-#0x3A LearnedSkillText
-//first text ID in the free block
-Learned  [X]
+#include "Other\EngineText.txt"
 
 #include "Other\statscreen_text.txt"
 
 #include "Other\unitmenu_text.txt"
 
-#0xd4c LikesText
-//first text ID in the free block
+## LikesText
 Info:[X]
 
-#0xd4d DislikesText
+## DislikesText
 [X]
 
-#0xd4e HeightText
+## HeightText
 Height:[X]
 
-#0xd4f AgeText
+## AgeText
 Age:[X]
 
 ## HouseText

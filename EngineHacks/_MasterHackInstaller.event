@@ -129,6 +129,9 @@ POP
   //Set Staff Heal Amount
   #include "ExternalHacks/StaffHealAmount/staffhealamount.lyn.event"
   
+  //Set Vulnerary Heal Amount
+  #include "ExternalHacks/VulneraryHealAmount/VulneraryHealAmount.event"
+  
   //Send items to convoy on death (Contro)
   #include "ExternalHacks/SendInventoryOnDeath/Installer.event"
   

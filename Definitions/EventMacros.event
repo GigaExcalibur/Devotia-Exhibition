@@ -6,3 +6,4 @@
 #define MakeBossMove(unit) "SVAL 1 0x00000000; CHAI unit"
 #define GiveItem(unit, item) "SVAL 3 item; GIVEITEM unit"
 #define GiveRenown(unit, renown) "SVAL 3 renown; GIVEMONEY unit"
+#define Negative(Number) "0x100 - Number"
