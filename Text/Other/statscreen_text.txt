@@ -1,4 +1,4 @@
-#0x3B SS_TalkText
+## SS_TalkText
 Talk[X]
 
 ## SS_SkillsText
@@ -69,6 +69,18 @@ Bad[X]
 ## SS_BiorhythmWorst
 Worst[X]
 
+## LikesText
+Info:[X]
+
+## DislikesText
+[X]
+
+## HeightText
+Height:[X]
+
+## AgeText
+Age:[X]
+
 ## LikesDesc
 Unit's full name, preferred[N]
 pronouns, hobby, and birthday.[X]
@@ -81,4 +93,3 @@ This character's current age.[X]
 
 ## HeightDesc
 This character's height.[X]
-

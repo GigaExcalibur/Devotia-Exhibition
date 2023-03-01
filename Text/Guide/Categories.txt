@@ -1,7 +1,4 @@
-# 0x069C PlaybillName
- Playbill[X]
- 
-# 0x05C9 MechanicsCategory
+## MechanicsCategory
 Mechanics[X]
 
 ## WorldCategory
@@ -13,7 +10,7 @@ Credits[X]
 ## CrewCategory
 Crew[X]
 
-# 0x05D5 WeaponTriangleEntry
+## WeaponTriangleEntry
 Weapon Triangle[X]
 
 ## WeaponScarcityEntry

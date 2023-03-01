@@ -1,5 +1,5 @@
-# 0x354 TrainingSwordName
-^{Training} ^{Sword}[X]
+## TrainingSwordName
+Training Swrd[X]
 
 ## SlimSwordName
 Slim Sword[X]

@@ -1,132 +1,33 @@
-#include "Other\EngineText.txt"
+#include "Other\EngineText.txt" // Done
 
-#include "Other\statscreen_text.txt"
+#include "Other\statscreen_text.txt" // Done
 
-#include "Other\unitmenu_text.txt"
+#include "Other\unitmenu_text.txt" // Done
 
-## LikesText
-Info:[X]
+#include "NamesDescs\skilldesc_text.txt" // Done
 
-## DislikesText
-[X]
+#include "Other\unitinfo_text.txt" // Organized
 
-## HeightText
-Height:[X]
+#include "NamesDescs\CharNamesAndDescriptions.txt" // Organized
 
-## AgeText
-Age:[X]
+#include "NamesDescs\ClassNamesAndDescriptions.txt" // Done
 
-## HouseText
-//first text ID in the free block
-[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+#include "NamesDescs\ItemNamesAndDescs.txt" // Organized
 
-## VillageText
-[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+#include "NamesDescs\ChapterNames.txt" // Organized
 
-## DV1Desc
-Freeze all enemies[N]
-for one turn[X]
+#include "Chapters\ChapterTextInstaller.event" // Organized
 
-## nameCamus
-//for identity problems
-Camus[X]
+#include "Guide\Categories.txt" // Done
 
-## nameSirius
-Sirius[X]
+#include "Guide\Mechanics.txt" // Done
 
-## nameZeke
-Zeke[X]
+#include "Guide\World.txt" // Done
 
-## StairsNameText
- Stairs[X]
+#include "Guide\Credits.txt" // Organized
 
-## StairsDescText
-Take this staircase to[N]
-the connecting end.[X]
+#include "Guide\Crew.txt" // Organized
 
-## StairsBlockedText
-The staircase is blocked[N]
-from the other side.[X]
+#include "Quotes\DeathQuotes.txt" // Organized
 
-## RaidNameText
- Raid[X]
-
-## RaidDescText
-Destroy this village[N]
-for items and gold.[X]
-
-## EscapeName
- Escape[X]
-
-## EscapeDesc
-Have this unit[N]
-leave this chapter.[X]
-
-## ArriveName
- Arrive[X]
-
-## ArriveDesc
-Complete this chapter[N]
-by having this unit arrive.[X]
-
-## LordMustEscapeLastText
-This unit must escape last.[X]
-
-## Mov_Text_ID
-Mov[X]
-
-## UM_GaidenBlackMagic
- B. Magic[X]
-
-## UM_GaidenWhiteMagic
- W. Magic[X]
-
-## UM_GaidenMagicDesc
-Spend HP to cast spells[NL]
-this unit has learned.[X]
-
-## GaidenMagicUMErrorText
-You don't have enough HP[NL]
-to cast any spells.[X]
-
-## GaidenMagicSpellMenuErrorText
-You don't have enough HP[NL]
-to cast this spell.[X]
-
-## GaidenMagicHPCostText
-Cost[X]
-
-## PrepScreenUseSkillScroll
- Skill learned[X]
-
-## SkillScrollDesc
-A scroll that teaches[N]
-a skill when used.[X]
-
-#include "NamesDescs\skilldesc_text.txt"
-
-#include "Other\unitinfo_text.txt"
-
-#include "NamesDescs\CharNamesAndDescriptions.txt"
-
-#include "NamesDescs\ClassNamesAndDescriptions.txt"
-
-#include "NamesDescs\ItemNamesAndDescs.txt"
-
-#include "Quotes\DeathQuotes.txt"
-
-#include "NamesDescs\ChapterNames.txt"
-
-#include "Quotes\SupportConversations.txt"
-
-#include "Chapters\ChapterTextInstaller.event"
-
-#include "Guide\Categories.txt"
-
-#include "Guide\Mechanics.txt"
-
-#include "Guide\World.txt"
-
-#include "Guide\Credits.txt"
-
-#include "Guide\Crew.txt"
+#include "Quotes\SupportConversations.txt" // Organized

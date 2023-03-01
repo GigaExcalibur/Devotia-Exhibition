@@ -1,7 +1,6 @@
-# 0xc23 KlaudiaDeathQuoteID
-
+## KlaudiaDeathQuoteID
 [MR][LoadKlaudia][MR]Is my duty to be fulfilled so soon?[N]
 So long as my death meant something[Beat][AN]
 I regret nothing.[A] Levia[Beat][N]
 I'll see you on the other side,[N]
-my beloved.[AN][X]
+my beloved.[A][X]

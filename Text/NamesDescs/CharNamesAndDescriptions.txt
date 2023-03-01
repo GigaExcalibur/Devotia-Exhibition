@@ -1,179 +1,178 @@
-
-# 0x0212 KlaudiaName
+## KlaudiaName
 Klaudia[X]
 
-# 0x213 OmenName
+## OmenName
 Omen[X]
 
-# 0x214 JosephineName
+## JosephineName
 [_J][_o][_s][_e][_p][_h][_i][_n][_e][X]
 
-# 0x215 CamName
+## CamName
 Cam[X]
 
-# 0x216 GiselleName
+## GiselleName
 Giselle[X]
 
-# 0x217 LeviaName
+## LeviaName
 Levia[X]
 
-# 0x218 StuartName
+## StuartName
 Stuart[X]
 
-# 0x219 BearName
+## BearName
 Bear[X]
 
-# 0x21A EstellaName
+## EstellaName
 Estella[X]
 
-# 0x21B CarinaName
+## CarinaName
 Carina[X]
 
-# 0x21C AlmaName
+## AlmaName
 Alma[X]
 
-# 0x21D RoswellName
+## RoswellName
 Roswell[X]
 
-# 0x21E HongChenName
+## HongChenName
 [_H][_o][_n][_g] [_C][_h][_e][_n][X]
 
-# 0x21F MarisName
+## MarisName
 Maris[X]
 
-# 0x220 PhillipaName
+## PhillipaName
 Phillipa[X]
 
-# 0x221 MaeveName
+## MaeveName
 Maeve[X]
 
-# 0x222 EvrenName
+## EvrenName
 Evren[X]
 
-# 0x223 DaneName
+## DaneName
 Dane[X]
 
-# 0x224 UlrichName
+## UlrichName
 Ulrich[X]
 
-# 0x225 EmilleName
+## EmilleName
 Emille[X]
 
-# 0x226 MaybellineName
+## MaybellineName
 [_M][_a][_y][_b][_e][_l][_l][_i][_n][_e][X]
 
-# 0x227 LuxName
+## LuxName
 Lux[X]
 
-# 0x228 BriaName
+## BriaName
 Bria[X]
 
-# 0x229 ElliotName
+## ElliotName
 Elliot[X]
 
-# 0x22A KylieName
+## KylieName
 Kylie[X]
 
-# 0x22B LuairName
+## LuairName
 Luair[X]
 
-# 0x22C AxelName
+## AxelName
 Axel[X]
 
-# 0x22D WillaName
+## WillaName
 Willa[X]
 
-# 0x22E OrionName
+## OrionName
 Orion[X]
 
-# 0x22F AstraeaName
+## AstraeaName
 Astraea[X]
 
-# 0x230 AnselName
+## AnselName
 Ansel[X]
 
-# 0x231 EvelynName
+## EvelynName
 Evelyn[X]
 
-# 0x232 RamiName
+## RamiName
 Rami[X]
 
-# 0x233 BrynhildName
+## BrynhildName
 Brynhild[X]
 
-# 0x234 SamilName
+## SamilName
 Samil[X]
 
-# 0x235 KynanName
+## KynanName
 Kynan[X]
 
-# 0x236 CrocodileName
+## CrocodileName
 Crocodile[X]
 
-# 0x237 TerranceName
+## TerranceName
 Terrance[X]
 
-# 0x238 Ch3Boss1Name
+## Ch3Boss1Name
 Ch3Boss1[X]
 
-# 0x239 Ch3Boss2Name
+## Ch3Boss2Name
 Ch3Boss2[X]
 
-# 0x23A Ch4BossName
+## Ch4BossName
 Ch4Boss[X]
 
-# 0x23B Ch5BossName
+## Ch5BossName
 Ch5Boss[X]
 
-# 0x23C Ch6BossName
+## Ch6BossName
 Ch6Boss[X]
 
-# 0x23D Ch6xBossName
+## Ch6xBossName
 Ch6xBoss[X]
 
-# 0x23E Ch7BossName
+## Ch7BossName
 Ch7Boss[X]
 
-# 0x23F Ch7xBossName
+## Ch7xBossName
 Ch7xBoss[X]
 
-# 0x240 Ch8BossName
+## Ch8BossName
 Ch8Boss[X]
 
-# 0x241 Ch9BossName
+## Ch9BossName
 Ch9Boss[X]
 
-# 0x242 Ch10BossName
+## Ch10BossName
 Ch10Boss[X]
 
-# 0x243 CurtisName
+## CurtisName
 Curtis[X]
 
-# 0x244 Ch12BossName
+## Ch12BossName
 Ch12Boss[X]
 
-# 0x245 Ch13BossName
+## Ch13BossName
 Ch13Boss[X]
 
-# 0x246 BlairName
+## BlairName
 Blair[X]
 
-# 0x247 Ch15BossName
+## Ch15BossName
 Ch15Boss[X]
 
-# 0x248 FernyigesName
+## FernyigesName
 Fernyiges[X]
 
-# 0x249 LeviathanName
+## LeviathanName
 Leviathan[X]
 
-# 0x24A CassandraName
+## CassandraName
 Cassandra[X]
 
-# 0x24B SavitrName
+## SavitrName
 Savitr[X]
 
-# 0x24C MrEisenburgName
+## MrEisenburgName
 MrEisenBurg[X]
 
 ## EmatareName
@@ -212,210 +211,210 @@ Brigand?[X]
 ## RoyalGuardName
 Royal Guard[X]
 
-# 0x26e KlaudiaDesc
+## KlaudiaDesc
 Heir apparent to House Orsolle.[N]
 Extremely devoted to her lord.[X]
 
-# 0x26f OmenDesc
+## OmenDesc
 Lord Orsolle's closest advisor.[N]
 Keeps secrets even from himself.[X]
 
-# 0x270 JosephineDesc
+## JosephineDesc
 Knight in service to House Orsolle.[N]
 Dreams dashed by the reality of life.[X]
 
-# 0x271 CamDesc
+## CamDesc
 Ex-pirate from Drek. Loyal[N]
 to those strongest in battle.[X]
 
-# 0x272 GiselleDesc
+## GiselleDesc
 Orphaned thief known for temper.[N]
 Holds contempt for noble society.[X]
 
-# 0x273 LeviaDesc
+## LeviaDesc
 Middle princess of House Sarka.[N]
 Pampered, but loves deeply.[X]
 
-# 0x274 StuartDesc
+## StuartDesc
 Levia's assigned retainer. Has anger[N]
 issues, takes them out on enemies.[X]
 
-# 0x275 BearDesc
+## BearDesc
 Bear description.[X]
 
-# 0x276 EstellaDesc
+## EstellaDesc
 Former knight of Drek. Enlisted[N]
 in the army because of her sister.[X]
 
-# 0x277 CarinaDesc
+## CarinaDesc
 Mercenary-turned-healer from Drek.[N]
 Laid down her weapons for her sister.[X]
 
-# 0x278 AlmaDesc
+## AlmaDesc
 An off-putting traveling dark mage.[N]
 Oddly obsessed with resurrection.[X]
 
-# 0x279 RoswellDesc
+## RoswellDesc
 Flunkie from the knight academy.[N]
 Only desires a simple life.[X]
 
-# 0x27A HongChenDesc
+## HongChenDesc
 Hong Chen description.[X]
 
-# 0x27B MarisDesc
+## MarisDesc
 Calicos' snobby and pretentious heir.[N]
 Ignorant to life outside her castle.[X]
 
-# 0x27C PhillipaDesc
+## PhillipaDesc
 Knight in service to House Calicos.[N]
 Serves her liege with passion.[X]
 
-# 0x27D MaeveDesc
+## MaeveDesc
 Self-sufficient hunter residing in[N]
 Skograd. Local cryptid among citizens.[X]
 
-# 0x27E EvrenDesc
+## EvrenDesc
 Eldest prince of House Sarka.[N]
 Honorable and noble to a fault.[X]
 
-# 0x27F DaneDesc
+## DaneDesc
 Evren's assigned retainer.[N]
 Simple-minded and pleasant.[X]
 
-# 0x280 UlrichDesc
+## UlrichDesc
 Rookie pegasus knight employed[N]
 by House Sarka. People pleaser.[X]
 
-# 0x281 EmilleDesc
+## EmilleDesc
 Rookie pegasus knight employed by[N]
 House Sarka. Studying elder magic.[X]
 
-# 0x282 MaybellineDesc
+## MaybellineDesc
 Local folk hero with an abrasive[N]
 personality. Maybe she's born with it?[X]
 
-# 0x283 LuxDesc
+## LuxDesc
 Solemn child soldier raised in Drek.[N]
 Knows little of the world around him.[X]
 
-# 0x284 BriaDesc
+## BriaDesc
 Mercenary seeking glory in battle.[N]
 Loyal and chipper through hardship.[X]
 
-# 0x285 ElliotDesc
+## ElliotDesc
 Elliot description.[X]
 
-# 0x286 KylieDesc
+## KylieDesc
 Rebel wyvern rider from Stoflam.[N]
 Stoic, but can't handle conflict.[X]
 
-# 0x287 LuairDesc
+## LuairDesc
 Luair description.[X]
 
-# 0x288 AxelDesc
+## AxelDesc
 Recent graduate of the knight academy.[N]
 Hotheaded and zealous for fame.[X]
 
-# 0x289 WillaDesc
+## WillaDesc
 Willa description.[X]
 
-# 0x28A OrionDesc
+## OrionDesc
 Escapee and sage from Drek.[N]
 Lives to protect others' futures.[X]
 
-# 0x28B AstraeaDesc
+## AstraeaDesc
 Stoic runaway heir to House Circe.[N]
 Lacks trust in self and others.[X]
 
-# 0x28C AnselDesc
+## AnselDesc
 Devoted monk of Wolffia. Strives[N]
 to protect those dear to him.[X]
 
-# 0x28D EvelynDesc
+## EvelynDesc
 High-ranking general of Drek. Yearns[N]
 to leave the battlefield forever.[X]
 
-# 0x28E RamiDesc
+## RamiDesc
 Worldly headmaster of the magic academy.[N]
 Strives to know all the deepest secrets.[X]
 
-# 0x28F BrynhildDesc
+## BrynhildDesc
 Captain of House Sarka's royal guard.[N]
 Aims for perfection in everything.[X]
 
-# 0x290 SamilDesc
+## SamilDesc
 Enigmatic traveling fortune teller.[N]
 Old in age and cryptic in speech.[X]
 
-# 0x291 KynanDesc
+## KynanDesc
 Youngest prince of House Sarka.[N]
 Too young to be scarred by war.[X]
 
-# 0x292 CrocodileDesc
+## CrocodileDesc
 Infamous pirate captain from Drek.[N]
 Sailed to Meraly out of desperation.[X]
 
-# 0x293 TerranceDesc
+## TerranceDesc
 Border guard captain of Graminea.[N]
 It's not much, but it's honest work.[X]
 
-# 0x294 Ch3Boss1Desc
+## Ch3Boss1Desc
 Chapter 3 Boss 1 description.[X]
 
-# 0x295 Ch3Boss2Desc
+## Ch3Boss2Desc
 Chapter 3 Boss 2 description.[X]
 
-# 0x296 Ch4BossDesc
+## Ch4BossDesc
 Chapter 4 Boss description.[X]
 
-# 0x297 Ch5BossDesc
+## Ch5BossDesc
 Chapter 5 Boss description.[X]
 
-# 0x298 Ch6BossDesc
+## Ch6BossDesc
 Chapter 6 Boss description.[X]
 
-# 0x299 Ch6xBossDesc
+## Ch6xBossDesc
 Chapter 6x Boss description.[X]
 
-# 0x29A Ch7BossDesc
+## Ch7BossDesc
 Chapter 7 Boss description.[X]
 
-# 0x29B Ch7xBossDesc
+## Ch7xBossDesc
 Chapter 7x Boss description.[X]
 
-# 0x29C Ch8BossDesc
+## Ch8BossDesc
 Chapter 8 Boss description.[X]
 
-# 0x29D Ch9BossDesc
+## Ch9BossDesc
 Chapter 9 Boss description.[X]
 
-# 0x29E Ch10BossDesc
+## Ch10BossDesc
 Chapter 10 Boss description.[X]
 
-# 0x29F Ch11BossDesc
+## Ch11BossDesc
 Chapter 11 Boss description.[X]
 
-# 0x2A0 Ch12BossDesc
+## Ch12BossDesc
 Chapter 12 Boss description.[X]
 
-# 0x2A1 Ch13BossDesc
+## Ch13BossDesc
 Chapter 13 Boss description.[X]
 
-# 0x2A2 BlairDesc
+## BlairDesc
 General Nolier's right-hand woman.[N]
 Giddy, gleeful, and sadistic.[X]
 
-# 0x2A3 Ch15BossDesc
+## Ch15BossDesc
 Chapter 15 Boss description.[X]
 
-# 0x2A4 FernyigesDesc
+## FernyigesDesc
 The current cruel lord of House Sarka.[N]
 Rules over Meraly with an iron fist.[X]
 
-# 0x2A5 LeviathanDesc
+## LeviathanDesc
 Levia... how could you...[X]
 
-# 0x2A6 CassandraDesc
+## CassandraDesc
 High commander of the Drek army, who[N]
 will sacrifice all for her ambitions.[X]
 
