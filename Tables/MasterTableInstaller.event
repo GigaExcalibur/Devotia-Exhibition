@@ -4,4 +4,6 @@
 
 #include "NightmareModules\Items\WeaponTriangle.event"
 
+#include "NightmareModules\FE8-Walking Sounds Fix\FE8-Walking Sounds EA.txt"
+
 #include "TableInstaller.event"

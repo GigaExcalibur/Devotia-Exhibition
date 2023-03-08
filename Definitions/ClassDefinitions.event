@@ -49,6 +49,7 @@
 #define LightMage 0x31
 #define Cleric 0x32
 #define Priest 0x33
+// GORGON EGG 0x34 DO NOT USE
 #define Valkyrie 0x35
 #define Starseer 0x36
 #define Bishop 0x37
@@ -78,6 +79,7 @@
 #define DracoriderF 0x4F
 #define DracoriderM 0x50
 #define Phantom 0x51
+// Something with hardcoding at 0x52
 #define DracolordF 0x53
 #define DracolordM 0x54
 #define Bombardier 0x55

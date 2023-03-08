@@ -20,6 +20,7 @@
 	- Make new Valkyrie and Holywing classes for different weapon types
 	- Revise class descriptions to reference vanilla names
 	- Before beginning balancing, set all units' and classes' magic to 5
+	- Fix movement sounds
 
 # Non-Urgent
 - Finish importing battle animations
