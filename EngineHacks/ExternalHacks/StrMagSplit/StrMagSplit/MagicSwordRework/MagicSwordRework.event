@@ -21,11 +21,11 @@
 
 	MagicSwordList:
 	//MagicSwordEntry(0x09,WeaponTypeAnima,False,HitDef,HitRes)
-	MagicSwordEntry(LightBrand, WeaponTypeLight, False, HitDef, HitRes)
+	/* MagicSwordEntry(LightBrand, WeaponTypeLight, False, HitDef, HitRes)
 	MagicSwordEntry(LevinSword, WeaponTypeAnima, True, HitRes, HitRes)
 	MagicSwordEntry(FlameSword, WeaponTypeAnima, False, HitRes,HitDef)
 	MagicSwordEntry(WindEdge, WeaponTypeAnima, True, HitDef, HitRes)
-	MagicSwordEntry(OskhaBlade, WeaponTypeDark, False, HitLower, HitLower)
+	MagicSwordEntry(OskhaBlade, WeaponTypeDark, False, HitLower, HitLower) */
 	BYTE 0 0 0 //terminator
 
 

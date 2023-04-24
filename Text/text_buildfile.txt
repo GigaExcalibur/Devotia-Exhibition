@@ -1,33 +1,3 @@
-#include "Other\EngineText.txt" // Done
+#include "SystemText/SystemTextInstaller.event"
 
-#include "Other\statscreen_text.txt" // Done
-
-#include "Other\unitmenu_text.txt" // Done
-
-#include "NamesDescs\skilldesc_text.txt" // Done
-
-#include "Other\unitinfo_text.txt" // Organized
-
-#include "NamesDescs\CharNamesAndDescriptions.txt" // Organized
-
-#include "NamesDescs\ClassNamesAndDescriptions.txt" // Done
-
-#include "NamesDescs\ItemNamesAndDescs.txt" // Organized
-
-#include "NamesDescs\ChapterNames.txt" // Organized
-
-#include "Chapters\ChapterTextInstaller.event" // Organized
-
-#include "Guide\Categories.txt" // Done
-
-#include "Guide\Mechanics.txt" // Done
-
-#include "Guide\World.txt" // Done
-
-#include "Guide\Credits.txt" // Organized
-
-#include "Guide\Crew.txt" // Organized
-
-#include "Quotes\DeathQuotes.txt" // Organized
-
-#include "Quotes\SupportConversations.txt" // Organized
+#include "GameText/GameTextInstaller.event"

@@ -53,4 +53,4 @@ EndingScene:
 MoveToChapter(NextChapter)
 ENDA
 
-MESSAGE Ch.1 events end at CURRENTOFFSET
+MESSAGE Events end at offset CURRENTOFFSET

@@ -9,10 +9,11 @@
 #ifndef ClassTable
   #define ClassTable 0x807110
 #endif
-#undef ItemTable
-  #define ItemTable NewItemTable
-#ifndef DebuffTable
-  #define DebuffTable 0x203f100
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+#ifndef DebuffTableRam
+  #define DebuffTableRam 0x203f100
 #endif
 //#ifndef PersonalMusicTable
   //#define PersonalMusicTable 0x758a60
@@ -40,13 +41,12 @@
 #define CannotRepair 0x00000200
 #define MonsterWeapon 0x00000400
 #define WeaponLock1 0x00000800
-#define ThiefLock 0x00001000
+#define SwordmasterLock 0x00001000
 #define WeaponLock2 0x00002000
 #define NegateFlyingEffectiveness 0x00004000
 #define NegateCriticals 0x00008000
 #define CannotUse 0x00010000
 #define NegateDef 0x00020000
-
 #ifdef _FE8_
   #define EirikaLock 0x00040000
   #define EphraimLock 0x00080000
@@ -60,11 +60,9 @@
   #define AthosLock 0x00200000
 #endif
 
-#define ReaverEffect ReverseTriangle|DoubleWeaponTriangle
+//Used For Consolidated AdvWeaponLocks 
+#define AdvWeaponLock 0x01000000
 
-#define DWeapon IsWeapon|Indestructible|Unsellable
-#define DMagic DWeapon|MagicDamage
-#define DAccessory PassiveBoosts|Indestructible|Unsellable|CannotUse
 
 // Weapon Effect
 #define NoEffect 0x0
@@ -73,7 +71,7 @@
 #define EclipseEffect 0x3
 #define DevilEffect 0x4
 #define StoneEffect 0x5
-#define CannotDouble 0xC
+#define CannotDoubleEffect 0xC
 
 //Character/Class Ability
 #define MountedAid 0x00000001
@@ -133,74 +131,6 @@
 #define LightAffinity 6
 #define AnimaAffinity 7
 
-// Weapon Effects slash Spell Animations
-#define HandAxeAnimation 0x01
-#define ArrowAnimation 0x02
-#define JavelinAnimation 0x03
-#define DanceAnimation 0x0E
-#define BindingBladeAnimation 0x12
-#define FlametongueAnimation 0x13
-#define DivineStoneAnimation 0x14
-#define DarkDragonstoneAnimation 0x15
-#define FireAnimation 0x16
-#define ElfireAnimation 0x17
-#define ThunderAnimation 0x19
-#define BoltingAnimation 0x1A
-#define FimbulvetrAnimation 0x1B
-#define WindAnimation 0x1C
-#define FluxAnimation 0x1D
-#define NosferatuAnimation 0x1E
-#define LightningAnimation 0x1F
-#define PurgeAnimation 0x20
-#define DivineAnimation 0x22
-#define EclipseAnimation 0x24
-#define FenrirAnimation 0x25
-#define HealAnimation 0x26
-#define MendAnimation 0x27
-#define RecoverAnimation 0x28
-#define PhysicAnimation 0x29
-#define FortifyAnimation 0x2A
-#define LatonaAnimation 0x2B
-#define BarrierAnimation 0x31
-#define ShineAnimation 0x33
-#define LunaAnimation 0x34
-#define ExcaliburAnimation 0x35
-#define AuraAnimation 0x37
-#define IvaldiAnimation 0x3F
-#define GleipnirAnimation 0x41
-#define CrimsonEyeAnimation 0x42
-#define EvilEyeAnimation 0x43
-#define ShadowshowAnimation 0x44
-#define NaglfarAnimation 0x46
-#define MapAnimationOnly 0xFFFE
-#define NoAnimation 0xFFFF
-
-#define BlackMapSprite 0x1
-#define RedMapSprite 0x2
-#define GreenMapSprite 0x3
-#define BlueMapSprite 0x4
-#define YellowMapSprite 0x5
-
-// Weapon Lock Arrays
-#define KlaudiaLockID (0x01<<24)
-#define DaggerLockID (0x02<<24)
-#define JosephineLockID (0x03<<24)
-#define BearLockID (0x04<<24)
-#define EstellaLockID (0x05<<24)
-#define CarinaLockID (0x06<<24)
-#define HongChenLockID (0x07<<24)
-#define MarisLockID (0x08<<24)
-#define DaneLockID (0x09<<24)
-#define UlrichLockID (0x0A<<24)
-#define EmilleLockID (0x0B<<24)
-#define MaybellineLockID (0x0C<<24)
-#define AxelLockID (0x0D<<24)
-#define AstraeaLockID (0x0E<<24)
-#define SamilLockID (0x0F<<24)
-#define KynanLockID (0x10<<24)
-#define FernyigesLockID (0x11<<24)
-#define CassandraLockID (0x12<<24)
-
 #define negateByte(byte) "0x100-byte"
 #define IsPointer 0x8000000
 
@@ -222,17 +152,17 @@
 //Relating to Tequila's slayer/effectiveness rework
 //Used in the class editor and item editor tables
 //To understand how this works, check out Engine Hacks/Skill System/Teq Skills/FE8-Nullify/_README.txt
-#define ArmoredMovement	0x01
-#define CavalryMovement	0x02
-#define FlyingMovement	0x04
-#define HouseSarka		0x08
-#define SwordWielding	0x10
-#define LanceWielding	0x20
-#define AxeWielding		0x40
-#define BowWielding		0x80
-#define AnimaWielding	0x100
-#define LightWielding	0x200
-#define DarkWielding	0x400
+#define ArmoredMovement 0x01
+#define CavalryMovement 0x02
+#define FlyingMovement 0x04
+#define SwordWielding 0x08
+#define LanceWielding 0x10
+#define AxeWielding 0x20
+#define BowWielding 0x40
+#define AnimaWielding 0x80
+#define LightWielding 0x100
+#define DarkWielding 0x200
+#define HouseSarka 0x400
 
 //Status Effects
 #define NoStatusID 0

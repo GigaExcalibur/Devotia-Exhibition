@@ -1,0 +1,18 @@
+ALIGN 4
+PurpleStatusBGImage:
+#incbin "PurpleStatusBG.dmp"
+
+ALIGN 4
+PurpleStatusBGPalette:
+#incbin "PurpleStatusBGPalette.dmp"
+#incbin "PurpleStatusBGPalette.dmp"
+#incbin "PurpleStatusBGPalette.dmp"
+#incbin "PurpleStatusBGPalette.dmp"
+
+PUSH
+ORG $88638
+POIN PurpleStatusBGImage
+
+ORG $88640
+POIN PurpleStatusBGPalette
+POP

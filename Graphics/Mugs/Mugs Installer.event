@@ -1,44 +1,15 @@
-// #include "Portraits/Installer.event"
+#include "Mug-Preprocessor-master\Mug Installer.event"
+// setMugEntry(<mugindex>,<portrait label>,<mouth X>,<mouth Y>,<eye X>,<eye Y>)
+
+#define PortraitTable NewPortraitTable
 
 ALIGN 4
-KlaudiaMugLabel:
-#incext PortraitFormatter "portraits\Klaudia.png"
+NewPortraitTable:
+FILL 255 * 28
 
-ALIGN 4
-OmenMugLabel:
-#incext PortraitFormatter "portraits\Omen.png"
+PUSH
+ORG $5524
+POIN NewPortraitTable
+POP
 
-ALIGN 4
-JosephineMugLabel:
-#incext PortraitFormatter "portraits\Josephine.png"
-
-ALIGN 4
-CamMugLabel:
-#incext PortraitFormatter "portraits\Cam.png"
-
-ALIGN 4
-GiselleMugLabel:
-#incext PortraitFormatter "portraits\Giselle.png"
-
-ALIGN 4
-CarinaMugLabel:
-#incext PortraitFormatter "portraits\Carina.png"
-
-ALIGN 4
-AlmaMugLabel:
-#incext PortraitFormatter "portraits\Alma.png"
-
-ALIGN 4
-OldWomanMugLabel:
-#incext PortraitFormatter "portraits\OldWoman.png"
-
-// Assigning mugs
-setMugEntry(KlaudiaMug, KlaudiaMugLabel,2,5,3,3) //Example use of setMugEntry
-setMugEntry(OmenMug, OmenMugLabel,4,5,3,3)
-setMugEntry(JosephineMug, JosephineMugLabel,3,5,4,3)
-setMugEntry(CamMug, CamMugLabel,2,5,2,3)
-setMugEntry(GiselleMug, GiselleMugLabel,3,6,3,4)
-setMugEntry(CarinaMug, CarinaMugLabel,2,6,2,3)
-setMugEntry(AlmaMug, AlmaMugLabel,2,5,3,3)
-
-setMugEntry(OldWomanMug, OldWomanMugLabel,2,6,3,4)
+setMugEntry(KlaudiaMug, KlaudiaMugLabel, 2, 5, 3, 3)

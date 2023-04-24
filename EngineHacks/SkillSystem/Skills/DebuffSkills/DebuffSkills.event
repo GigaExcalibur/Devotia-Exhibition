@@ -14,7 +14,7 @@ POIN SealSkillList
 POIN GetDebuffs|1
 POIN ItemTable
 WORD FullMetalBodyID
-POIN WeaponDebuffTable
+POIN NewWeaponDebuffTable
 
 SealSkillList:
 BYTE SealStrID SealSklID SealSpdID SealDefID SealResID SealLukID SealMagID

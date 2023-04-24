@@ -130,7 +130,10 @@ POP
   #include "ExternalHacks/StaffHealAmount/staffhealamount.lyn.event"
   
   //Set Vulnerary Heal Amount
-  #include "ExternalHacks/VulneraryHealAmount/VulneraryHealAmount.event"
+  #include "InlineChanges/VulneraryHealAmount.event"
+  
+  //DrawSupports notes
+  #include "InlineChanges/DrawSupportsNotes.event"
   
   //Send items to convoy on death (Contro)
   #include "ExternalHacks/SendInventoryOnDeath/Installer.event"
@@ -140,6 +143,9 @@ POP
   
   //SetStatus (Vesly)
   #include "ExternalHacks/SetStatus/Installer.event"
+  
+  //FixDifficulty (Stan)
+  #include "ExternalHacks/FixDifficulty/FixDifficulty.event"
   
   //Debuffs
   #include "Necessary/SuspendDebuffs/Debuffs.event"
@@ -234,6 +240,12 @@ POP
 
   ALIGN 4
   #include "QualityOfLife/BattleStatsWithAnimsOff/FE8-BattleStats.event"
+  
+  //Awakening Style Durability
+  #include "ExternalHacks\AwakeningStyleDurability\AwakeningStyleDurability.lyn.event"
+  
+  //Text Engine Rework (Teq)
+  #include "ExternalHacks\FE8-Text_Engine_Rework\_FE8-Text_Engine_Rework_EA.event"
   
   ALIGN 4
   #include "Necessary/StatGetters/_InstallStatGetters.event"

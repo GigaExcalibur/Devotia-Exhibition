@@ -68,13 +68,13 @@
 .equ DrawWeaponRank, 0x08087788
 
 @RAM
-.equ DebuffTable, 0x203F100
 .equ gActiveBattleUnit, 0x203A4EC
 .equ StatScreenStruct, 0x2003BFC
 .equ BgBitfield, 0x300000D
 .equ TileBufferBase, 0x2003C2C
 .equ tile_origin, 0x2003C94
 .equ gpStatScreenPageBg0Map, 0x2003D2C
+.equ gpStatScreenPageBg1Map, 0x200422C
 .equ gpStatScreenPageBg2Map, 0x200472C
 .equ gGenericBuffer, 0x2020188
 .equ gBg0MapBuffer, 0x2022CA8
@@ -83,6 +83,12 @@
 .equ Const_2023D40, 0x2023D40
 .equ Const_2003D2C, 0x2003D2C
 .equ Const_200472C, 0x200472C
+
+.include "draw_skill_name_at.s"
+
+@DedadencesChanges
+.equ Tome, Anima
+.equ Knife, Light
 
 @With this in mind, any unlabeled RAM addresses beginning with 0x200 can reasonably be assumed to be offsets within the tilemap
 
@@ -116,11 +122,27 @@
   mov     r7, r8
   push    {r7}
   add     sp, #-0x50     
-  ldr     r7, =TileBufferBase @r7 contains the latest buffer. starts at 2003c2c.
+  ldr     r7, =TileBufferBase     @r7 contains the latest buffer. starts at 2003c2c.
   ldr     r5, =StatScreenStruct
   ldr     r0, [r5, #0xC]
-  mov     r8, r0              @r8 contains the current unit's data
+  mov     r8, r0                  @r8 contains the current unit's data
   clear_buffers
+  ldr     r0, =SSS_Flag
+  ldr     r0, [r0]
+  cmp     r0, #0x0                  @ If no Scrolling StatScreen, no TSA unpackaging.
+  beq     PageStartEnd
+    ldr     r0, =StatScreenStruct   @Update PageTSA. TODO make depend on condition SSS is defined!
+    ldrb    r0, [r0]                @r0 contains current pagenumber.
+    lsl     r0, #0x2
+    ldr     r1, =SSS_PageTSATable
+    ldr     r0, [r0, r1]            @pointer to TSA for right page.
+    ldr     r1, =gGenericBuffer
+    blh     Decompress
+    ldr     r0, =gpStatScreenPageBg1Map
+    ldr     r1, =gGenericBuffer
+    mov     r2, #0x0
+    blh     BgMap_ApplyTsa          @ Apply right page tsa.
+  PageStartEnd:
 .endm
 
 .macro page_end
@@ -717,7 +739,15 @@
 .endm
 
 .macro draw_stats_box showBallista=0
-  ldr     r0, =#0x8A02204     @box TSA
+  ldr     r0, =SSS_Flag
+  ldr     r0, [r0]
+  cmp     r0, #0x0
+  beq     DefaultBox
+    ldr     r0, =SSS_StatsBoxTSA
+    b       DecompressBoxTSA
+  DefaultBox:
+    ldr     r0, =#0x8A02204   @box TSA
+  DecompressBoxTSA:
   ldr     r4, =gGenericBuffer
   mov     r1, r4
   blh     Decompress
@@ -727,7 +757,7 @@
   mov     r1, r4
   blh     BgMap_ApplyTsa
   ldr     r0, =#0x8205A24     @map of text labels and positions
-  blh     DrawStatscreenTextMap
+  @blh     DrawStatscreenTextMap
   ldr     r6, =StatScreenStruct
   ldr     r0, [r6, #0xC]
   ldr     r0, [r0, #0x4]
@@ -760,6 +790,8 @@
         b       SS_DrawEquippedItemHighlight
         
     .endif
+	
+
   
   NoBallistaEquipped_Box:
   ldr     r0, [r6, #0xC] 
@@ -801,107 +833,47 @@
   ldr     r0, [r0, #0xC]
   ldr     r0, [r0, #0x4]
   ldrb    r0, [r0, #0x4]
-  cmp     r0, #Deny_Statscreen_Class_Hi
-  beq     SS_DrawItemBox_Unarmed
-  cmp     r0, #Deny_Statscreen_Class_Lo
-  beq     SS_DrawItemBox_Unarmed
+
+  draw_textID_at 14, 13, 0x0C5A, 3 @ Power
+  draw_textID_at 14, 15, 0x0C5C, 3 @ HitText
+  draw_textID_at 14, 17, 0x0C5E, 4 @ Crit
+  draw_textID_at 21, 13, 0x0C5B, 3 @ Attack speed
+  draw_textID_at 21, 15, 0x0C5D, 3 @ Avo
+  draw_textID_at 21, 17, 0x0C5F, 4 @ Crit Avo
   
   ldr     r4, =#0x200407C     @bgmap offset
   ldr     r6, =gActiveBattleUnit
-  mov     r0, r6
-  add     r0, #0x5A         @load battle atk
-  mov     r1, #0x0
-  ldsh    r2, [r0, r1]
-  mov     r0, r4
-  mov     r1, #0x2
-  blh     DrawDecNumber
-  mov     r0, r4
-  add     r0, #0x80
-  mov     r1, r6
-  add     r1, #0x60         @load battle hit
-  mov     r3, #0x0
-  ldsh    r2, [r1, r3]
-  mov     r1, #0x2
-  blh     DrawDecNumber
-  mov     r0, r4
-  add     r0, #0xE
-  mov     r1, r6
-  add     r1, #0x66         @load battle crit
-  mov     r3, #0x0
-  ldsh    r2, [r1, r3]
-  mov     r1, #0x2
-  blh     DrawDecNumber
-  add     r4, #0x8E
-  mov     r0, r6
-  add     r0, #0x62         @load battle avoid
-  mov     r6, #0x0
-  ldsh    r2, [r0, r6]
-  mov     r0, r4
-  mov     r1, #0x2
-  blh     DrawDecNumber
-  b       SS_DrawItemBox_RangeText
+
+  @Power
+  mov     r0, #0x5A
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 13
   
-  SS_DrawItemBox_Unarmed:
-  ldr     r4, =#0x200407C
-  mov     r0, r4
-  mov     r1, #0x2
-  mov     r2, #0xFF
-  blh     DrawDecNumber
-  mov     r0, r4
-  add     r0, #0x80
-  mov     r1, #0x2
-  mov     r2, #0xFF
-  blh     DrawDecNumber
-  mov     r0, r4
-  add     r0, #0xE
-  mov     r1, #0x2
-  mov     r2, #0xFF
-  blh     DrawDecNumber
-  add     r4, #0x8E
-  ldr     r0, =gActiveBattleUnit
-  add     r0, #0x62         @load battle avoid
-  mov     r1, #0x0
-  ldsh    r2, [r0, r1]
-  mov     r0, r4
-  mov     r1, #0x2
-  blh     DrawDecNumber
-  mov     r5, #0x0            @set item as blank
+  @Hit
+  mov     r0, #0x60
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 15
   
-  SS_DrawItemBox_RangeText:
-  mov     r0, r5
-  blh     GetItemRangeString
-  mov     r5, r0
-  ldr     r4, =#0x2003CB4
-  blh     Text_GetStringTextWidth
-  mov     r1, #0x37
-  sub     r1, r1, r0
-  mov     r0, r4
-  mov     r2, #0x2
-  mov     r3, r5
-  blh     Text_InsertString, r4
-  mov     r4, #0x0
-  ldr     r0, =gpStatScreenPageBg0Map
-  ldr     r3, =#0x7060
-  mov     r5, r3
-  ldr     r6, =#0x2C2
-  add     r2, r0, r6
-  ldr     r1, =#0x7068
-  mov     r3, r1
-  add     r6, #0x40
-  add     r1, r0, r6
+  @Crit
+  mov     r0, #0x66
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 17
   
-  @i think this loop just clears a gfx buffer
-  loc_0x8087660:
-  add     r0, r4, r5
-  strh    r0, [r2]
-  add     r0, r4, r3
-  strh    r0, [r1]
-  add     r2, #0x2
-  add     r1, #0x2
-  add     r4, #0x1
-  cmp     r4, #0x7
-  ble     loc_0x8087660
+  @AS
+  mov     r0, #0x5E
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 13
   
+  @Avo
+  mov     r0, #0x62
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 15
+  
+  @Crit Avo
+  mov     r0, #0x68
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 17
+ 
 .endm
 
 .macro draw_items_text showBallista=0
@@ -961,6 +933,8 @@
   
   GorgonEggSkip_ItemList:
   b       SS_FinishItemsList
+  
+  .ltorg
   
   SS_LoopItemsList:
   ldr     r2, [r7, #0xC]
@@ -1039,6 +1013,17 @@
   ldr     r1, =0x6001380
   ldr     r2, =0x1000a68
   swi     0xC @clear vram
+  ldr     r0, =SSS_Flag
+  ldr     r0, [r0]
+  cmp     r0, #0x0                  @ If no Scrolling StatScreen, no TSA clearing.
+  beq     ClearBuffersEnd
+    mov     r0, #0
+    str     r0, [sp]
+    mov     r0, sp
+    ldr     r1, =gpStatScreenPageBg1Map
+    ldr     r2, =0x1000140
+    swi     0xC @clear BG1TSA (0x878CC only clears BG0 and BG2)
+  ClearBuffersEnd:
 .endm
 
 

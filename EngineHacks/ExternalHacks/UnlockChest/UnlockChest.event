@@ -9,7 +9,7 @@
 	ALIGN 4
 	UnlockPostCombat:
 	#incbin "unlockafter.dmp"
-	WORD UnlockStaff
+	WORD Unlock
 	#ifdef GAIDEN_MAGIC
 		WORD GaidenUsingSpellMenu GaidenSelectedSpell
 	#else

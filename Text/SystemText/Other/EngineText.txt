@@ -1,0 +1,77 @@
+# 0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+
+# 0x0094
+HP Bars[.][X]
+
+# 0x00B2
+Set health bar display[X]
+
+# 0x069C PlaybillName
+ Playbill[X]
+ 
+# 0x0C53 FullNameIdentifier
+Name:[X]
+
+## PronounsIdentifier
+Pronouns:[X]
+
+## HobbyIdentifier
+Hobby:[X]
+
+## AgeIdentifier
+Age:[X]
+
+## HeightIdentifier
+Height:[X]
+
+## BirthdayIdentifier
+Birthday:[X]
+
+## SupportsIdentifier
+Supports:[X]
+
+## AttackStatsPanel
+  Atk[X]
+  
+## ASStatsPanel
+  AS[X]
+  
+## HitStatsPanel
+  Hit[X]
+  
+## AvoidStatsPanel
+  Avo[X]
+  
+## CritStatsPanel
+  Crit[X]
+  
+## CritAvoidStatsPanel
+  C.Avo[X]
+  
+## AttackStatsPanelRText
+The raw damage this unit[N]
+deals in combat.[X]
+
+## ASStatsPanelRText
+The effective attack speed of[N]
+this unit. Enables doubling.[X]
+
+## HitStatsPanelRText
+The raw likelihood this unit[N]
+will hit the opponent.[X]
+
+## AvoidStatsPanelRText
+The amount of enemy hit rate[N]
+this unit offsets.[X]
+
+## CritStatsPanelRText
+The raw likelihood this unit[N]
+will land a critical hit.[X]
+
+## CritAvoidStatsPanelRText
+The amount of enemy crit rate[N]
+this unit offsets.[X]
+
+## LearnedSkillText
+Learned  [X]

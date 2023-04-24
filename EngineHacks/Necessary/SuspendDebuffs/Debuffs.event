@@ -87,7 +87,7 @@ TeamDebuffTables:
     #include "asm/Debuffs/SetDebuffs.lyn.event"
     POIN GetDebuffs|1
     POIN ItemTable
-    POIN WeaponDebuffTable
+    POIN NewWeaponDebuffTable
 
   ALIGN 4
   Initialization:

@@ -11,6 +11,5 @@
 #endif
 
 {
-
 #include "asm/asm.event"
 }

@@ -1,0 +1,7 @@
+#include "Overture/OvertureTextInstaller.event"
+
+#include "SelectionQuotes.txt"
+
+#include "DeathQuotes.txt"
+
+#include "SupportConversations.txt"

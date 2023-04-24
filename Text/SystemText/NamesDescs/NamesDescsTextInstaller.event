@@ -1,0 +1,7 @@
+#include "ChapterNames.txt"
+
+#include "CharNamesDescs.txt"
+
+#include "ClassNamesDescs.txt"
+
+#include "ItemNamesDescs.txt"

@@ -9,9 +9,9 @@ MSS_page4:
 
 page_start
 
-draw_textID_at 13, 3, textID=0xd4c, width=16, colour=Blue
+draw_textID_at 13, 3, textID=0x0C53, width=4, colour=Blue
 
-@ first like
+@ full name (used to be first like)
 mov    r0,r8
 ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x4]	         @load character number
@@ -44,6 +44,7 @@ b LiteralJump1
 .align
 LiteralJump1:
 
+draw_textID_at 13, 5, textID=0x0C54, width=6, colour=Blue @pronouns
 @ second like
 mov    r0,r8
 ldr    r1,[r0]               @load character pointer
@@ -66,12 +67,12 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*5)+(2*17))
+ldr    r1, =(tile_origin+(0x20*2*5)+(2*19))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 13, 7, textID=0xd4d, width=16, colour=Blue
+draw_textID_at 13, 7, textID=0xC55, width=4, colour=Blue
 
 b LiteralJump2
 .ltorg
@@ -106,6 +107,8 @@ mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
+draw_textID_at 13, 13, textID=0xC58, width=5, colour=Blue @ Birthday
+
 @ second dislike
 mov    r0,r8
 ldr    r1,[r0]               @load character pointer
@@ -128,12 +131,12 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*9)+(2*17))
+ldr    r1, =(tile_origin+(0x20*2*13)+(2*18))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 13, 11, textID=0xd4f, width=16, colour=Blue
+draw_textID_at 13, 9, textID=0xC56, width=3, colour=Blue @age
 
 b LiteralJump3
 .ltorg
@@ -163,12 +166,12 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*11)+(2*16))
+ldr    r1, =(tile_origin+(0x20*2*9)+(2*17))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
 
-draw_textID_at 21, 11, textID=0xd4e, width=16, colour=Blue
+draw_textID_at 13, 11, textID=0xC57, width=4, colour=Blue
 
 b LiteralJump4
 .ltorg
@@ -198,10 +201,13 @@ str    r2, [sp]
 str    r0, [sp, #4]
 mov    r2, #0 @colour
 mov    r0, r7
-ldr    r1, =(tile_origin+(0x20*2*11)+(2*25))
+ldr    r1, =(tile_origin+(0x20*2*11)+(2*17))
 mov    r3, #0
 blh    DrawTextInline, r4
 add    r7, #8
+
+@draw_textID_at 13, 9, textID=0xC59, width=6, colour=Blue
+@blh      DrawSupports
 
 @ Next let's draw Gaiden spells if the hack is installed.
 draw_gaiden_spells_at 13, 13, GaidenStatScreen @ GaidenStatScreen is a pointer to the routine, GaidenStatScreen.

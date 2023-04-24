@@ -8,5 +8,5 @@ RangeAnimHack:
 POIN RangeAnimList
 
 RangeAnimList:
-BYTE FlameSword LevinSword WindEdge OskhaBlade Hatchet HandAxe ShortAxe Tomahawk Pugi Yamaha FernyigesPRF 0
+BYTE /* FlameSword LevinSword WindEdge OskhaBlade Hatchet HandAxe ShortAxe Tomahawk Pugi Yamaha FernyigesPRF */ 0
 ALIGN 4

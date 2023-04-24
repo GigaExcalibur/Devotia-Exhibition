@@ -9,9 +9,9 @@ Note that value is first divided by 8, so the example image is very slightly dif
 #define RGB2HEX(red, green, blue) "SHORT (red>>3)|((green>>3)<<5)|((blue>>3)<<10)"
 RGB2HEX(0, 0, 0)
 
-RGB2HEX(86, 156, 73)
-RGB2HEX(56, 201, 20)
-RGB2HEX(24, 88, 24)
+RGB2HEX(200, 160, 248)
+RGB2HEX(224, 200, 248)
+RGB2HEX(56, 32, 64)
 
 RGB2HEX(86, 156, 73)
 RGB2HEX(133, 197, 105)

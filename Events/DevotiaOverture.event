@@ -67,38 +67,38 @@ ENDTRAP
 
 ALIGN 4
 StartingPlayerUnits:
-UNIT Klaudia MageLord Klaudia Level(1, Ally, False) [1, 0] 0x0 0x0 0x1 REDA1R2 [Spark] NoAI
-UNIT Omen RunelordF Klaudia Level(1, Ally, False) [2, 0] 0x0 0x0 0x1 REDA2R1 [SteelSword, Vulnerary] NoAI
-UNIT Josephine MageArmor Klaudia Level(5, Ally, False) [0, 0] 0x0 0x0 0x1 REDA0R1 [Sirventes, Vulnerary] NoAI
+UNIT Klaudia MageLord Klaudia Level(1, Ally, False) [1, 0] 0x0 0x0 0x1 REDA1R2 [0x0] NoAI
+UNIT Omen 0x80 Klaudia Level(1, Ally, False) [2, 0] 0x0 0x0 0x1 REDA2R1 [SteelSword, Vulnerary] NoAI
+UNIT Josephine MageArmor Klaudia Level(5, Ally, False) [0, 0] 0x0 0x0 0x1 REDA0R1 [0x0, Vulnerary] NoAI
 UNIT
 
 ALIGN 4
 GiselleUnit:
-UNIT Giselle ThiefF Klaudia Level(1, Ally, False) [4, 5] 0x0 0x0 0x1 REDA4R6 [IronDagger, TrainingSword] NoAI
+UNIT Giselle ThiefF Klaudia Level(1, Ally, False) [4, 5] 0x0 0x0 0x1 REDA4R6 [0x0, 0x0] NoAI
 UNIT
 
 ALIGN 4
 StartingEnemyUnits:
-UNIT Crocodile Berserker Crocodile Level(1, Enemy, False) [18, 6] 0x0 0x0 0x0 0x0 [SlimAxe] NeverMoveAI
-UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [11, 10] 0x0 0x0 0x1 REDA11R7 [SlimBow] AttackInRangeAI
-UNIT Marauder ArcherM Crocodile Level(1, Enemy, False) [10, 13] 0x0 0x0 0x0 0x0 [SlimBow] AttackInRangeAI
-UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [1, 7] 0x0 0x0 0x0 0x0 [SlimBow] AttackInRangeAI
-UNIT Marauder ArcherM Crocodile Level(1, Enemy, False) [4, 10] 0x0 0x0 0x1 REDA4R8 [SlimBow] AttackInRangeAI
-UNIT Marauder WoodsmanM Crocodile Level(1, Enemy, False) [15, 2] 0x0 0x0 0x1 REDA8R2 [SlimAxe] AttackInRangeAI
-UNIT Marauder WoodsmanF Crocodile Level(1, Enemy, False) [5, 10] 0x0 0x0 0x1 REDA8R6 [SlimAxe] AttackInRangeAI
-UNIT Marauder WoodsmanM Crocodile Level(1, Enemy, False) [15, 2] 0x0 0x0 0x0 0x0 [SlimAxe] AttackInRangeAI
-UNIT Marauder WoodsmanF Crocodile Level(1, Enemy, False) [5, 12] 0x0 0x0 0x0 0x0 [SlimAxe] AttackInRangeAI
-UNIT Cam PirateF Crocodile Level(1, Enemy, False) [1, 13] 0x0 0x0 0x0 0x0 [TrainingAxe] AttackInRangeAI
-UNIT Marauder PirateM Crocodile Level(1, Enemy, False) [20, 1] 0x0 0x0 0x0 0x0 [SlimAxe] BrigandAI
-UNIT Marauder MyrmidonF Crocodile Level(1, Enemy, False) [14, 8] 0x0 0x0 0x0 0x0 [SlimSword] AttackInRangeAI
-UNIT Marauder MyrmidonM Crocodile Level(1, Enemy, False) [14, 10] 0x0 0x0 0x0 0x0 [SlimSword] AttackInRangeAI
-UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [16, 11] 0x0 0x0 0x0 0x0 [SlimBow] AttackInRangeAI
+UNIT Crocodile Berserker Crocodile Level(1, Enemy, False) [18, 6] 0x0 0x0 0x0 0x0 [0x0] NeverMoveAI
+UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [11, 10] 0x0 0x0 0x1 REDA11R7 [0x0] AttackInRangeAI
+UNIT Marauder ArcherM Crocodile Level(1, Enemy, False) [10, 13] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
+UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [1, 7] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
+UNIT Marauder ArcherM Crocodile Level(1, Enemy, False) [4, 10] 0x0 0x0 0x1 REDA4R8 [0x0] AttackInRangeAI
+UNIT Marauder WoodsmanM Crocodile Level(1, Enemy, False) [15, 2] 0x0 0x0 0x1 REDA8R2 [0x0] AttackInRangeAI
+UNIT Marauder WoodsmanF Crocodile Level(1, Enemy, False) [5, 10] 0x0 0x0 0x1 REDA8R6 [0x0] AttackInRangeAI
+UNIT Marauder WoodsmanM Crocodile Level(1, Enemy, False) [15, 2] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
+UNIT Marauder WoodsmanF Crocodile Level(1, Enemy, False) [5, 12] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
+UNIT Cam PirateF Crocodile Level(1, Enemy, False) [1, 13] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
+UNIT Marauder PirateM Crocodile Level(1, Enemy, False) [20, 1] 0x0 0x0 0x0 0x0 [0x0] BrigandAI
+UNIT Marauder MyrmidonF Crocodile Level(1, Enemy, False) [14, 8] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
+UNIT Marauder MyrmidonM Crocodile Level(1, Enemy, False) [14, 10] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
+UNIT Marauder ArcherF Crocodile Level(1, Enemy, False) [16, 11] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI
 UNIT
 
 ALIGN 4
 EnemyReinforcements:
-UNIT Marauder PirateF Crocodile Level(1, Enemy, False) [19, 8] 0x0 0x0 0x0 0x0 [SlimAxe] BrigandAI
-UNIT Marauder PirateM Crocodile Level(1, Enemy, False) [19, 10] 0x0 0x0 0x0 0x0 [SlimAxe] BrigandAI
+UNIT Marauder PirateF Crocodile Level(1, Enemy, False) [19, 8] 0x0 0x0 0x0 0x0 [0x0] BrigandAI
+UNIT Marauder PirateM Crocodile Level(1, Enemy, False) [19, 10] 0x0 0x0 0x0 0x0 [0x0] BrigandAI
 UNIT
 
 ALIGN 4
@@ -211,7 +211,7 @@ GOTO 3
 LABEL 2 // Village item if visitor is Klaudia
 Text(OvertureKnightBarracksKlaudia)
 ClearBackground
-GiveItem(ActiveUnit, AgedSpirits)
+GiveItem(ActiveUnit, 0x0)
 LABEL 3
 ENDA
 
@@ -220,7 +220,7 @@ VisitMovementVillage:
 SetBackground(0x0)
 Text(OvertureMovementVillage)
 ClearBackground
-GiveItem(ActiveUnit, SarkaNecklace)
+GiveItem(ActiveUnit, 0x0)
 ENDA
 
 ALIGN 4
@@ -228,7 +228,7 @@ VisitSamilVillage:
 SetBackground(0x0)
 Text(OvertureSamilVillage)
 ClearBackground
-GiveItem(ActiveUnit, SenseBlindfold)
+GiveItem(ActiveUnit, 0x0)
 ENDA
 
 ALIGN 4

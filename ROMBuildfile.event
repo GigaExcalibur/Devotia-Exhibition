@@ -18,12 +18,11 @@
 	MESSAGE Used graphics space ends at currentOffset
 	
     //CSV tables
-    #include "Tables/MasterTableInstaller.event"
+    #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
 	
 	//Support data
 	#include "Supports/SupportInstaller.event"
-	MESSAGE Used support space ends at currentOffset
 
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"
@@ -31,7 +30,7 @@
 
     //Events
     #include "Events/DevotiaOverture.event"
-	MESSAGE Chapter One events end at currentOffset
+	MESSAGE Used events end at currentOffset
     #include "Events/WorldMapEvents.event"
 
     //Maps

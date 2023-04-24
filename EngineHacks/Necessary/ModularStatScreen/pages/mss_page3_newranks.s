@@ -9,51 +9,104 @@ MSS_page3:
 
 page_start
 
+draw_weapon_rank_at 1, 1, Sword, 0
+draw_weapon_rank_at 1, 3, Lance, 1
+draw_weapon_rank_at 1, 5, Axe, 2
+draw_weapon_rank_at 1, 7, Staff, 3
+draw_weapon_rank_at 1, 9, Bow, 4
+draw_weapon_rank_at 1, 11, Anima, 5
+draw_weapon_rank_at 1, 13, Light, 6
+draw_weapon_rank_at 1, 15, Dark, 7
+
+ldr r0,=SkillsTextIDLink
+ldrh r0, [r0]
+draw_textID_at 21, 3, colour=White @skills
+
+.set NoAltIconDraw, 1 @this is the piece that makes them use a separate sheet
 mov r0, r8
-push {r5-r7}
-mov r5, #0x0 	@counter for bar id 
-mov r7, #0x28 	@weapon rank offset (starts at sword)
+ldr r1, =Skill_Getter
+mov lr, r1
+.short 0xf800 @skills now stored in the skills buffer
 
-LoopWeapons:
-mov r6, r8 		@unit
-ldrb r6, [r6, r7]
-cmp r6, #0x0    @does unit have rank?
-ble NoRank
+mov r6, r0
+ldrb r0, [r6] 
+cmp r0, #0
+beq SkillEnd
+draw_skill_icon_at 21, 5
 
-mov     r0, r5        @bar id
-SetX:
-mov     r1, r5        @tile_x = even 1 odd 9
-mov     r2, #0x1
-and     r1, r2
-cmp     r1, #0x1
-beq     OddRank
-mov     r1, #0x1
-b SetY
-OddRank:
-mov		r1, #0x9
+ldrb r0, [r6,#1]
+cmp r0, #0
+beq SkillEnd
+draw_skill_icon_at 21, 7
 
-SetY:
-mov     r2, r5        @tile_y = 1 1 3 3 5 5 7 7
-lsr     r2, r2, #0x1
-lsl     r2, r2, #0x1  @clear last bit and add 1
-add     r2, #0x1      
-mov     r3, r7        @weapon id - calculate from currentOffset
-sub     r3, r3, #0x28
-blh     DrawWeaponRank, r4        @08087864
+ldrb r0, [r6, #2]
+cmp r0, #0
+beq SkillEnd
+draw_skill_icon_at 21, 9
 
-add 	r5, #0x1 @increment bar counter
-  
-NoRank:
-add r7, #0x1
-cmp r7, #0x2F
-ble LoopWeapons
-b EndRanks
+ldrb r0, [r6, #3]
+cmp r0, #0
+beq SkillEnd
+draw_skill_icon_at 21, 11
 
-.ltorg
+ldrb r0, [r6, #4]
+cmp r0, #0
+beq SkillEnd
+draw_skill_icon_at 21, 13
 
-EndRanks:
-pop {r5-r7}
+ldrb r0, [r6, #5]
+cmp r0, #0
+beq SkillEnd
+draw_skill_icon_at 21, 15
 
-blh      DrawSupports
+SkillEnd:
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@ Formatting for skill names, designed to match that of skill icons as much as possible. Also meant to be located in exactly this spot, after the skill icons are drawn. It probably works elsewhere, but I know it works here lol
+@The only different is the need for a SkillNameHalfway label, as SkillNameEnd is out of beq range for the first three macros. This is not a pretty workaround but it works.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@Get skills in buffer
+mov r0, r8
+ldr r1, =Skill_Getter
+mov lr, r1
+.short 0xf800 @skills now stored in the skills buffer
+mov r6, r0
+
+ldrb r0, [r6, #0] 
+cmp r0, #0
+beq SkillNameHalfway
+draw_skill_name_at 23, 5, colour=White
+
+ldrb r0, [r6, #1] 
+cmp r0, #0
+beq SkillNameHalfway
+draw_skill_name_at 23, 7, colour=White
+
+ldrb r0, [r6, #2] 
+cmp r0, #0
+beq SkillNameHalfway
+draw_skill_name_at 23, 9, colour=White
+
+SkillNameHalfway:
+cmp r0, #0
+beq SkillNameEnd
+
+ldrb r0, [r6, #3] 
+cmp r0, #0
+beq SkillNameEnd
+draw_skill_name_at 23, 11, colour=White 
+
+ldrb r0, [r6, #4] 
+cmp r0, #0
+beq SkillNameEnd
+draw_skill_name_at 23, 13, colour=White 
+
+ldrb r0, [r6, #5] 
+cmp r0, #0
+beq SkillNameEnd
+draw_skill_name_at 23, 15, colour=White 
+
+SkillNameEnd:
 
 page_end

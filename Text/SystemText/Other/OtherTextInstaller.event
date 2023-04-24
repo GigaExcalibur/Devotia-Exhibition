@@ -1,0 +1,7 @@
+#include "EngineText.txt"
+
+#include "SkillSysText.txt"
+
+#include "SkillDescs.txt"
+
+#include "PersonalData.txt"

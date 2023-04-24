@@ -1,0 +1,22 @@
+#define CastleObjectID 0x1
+#define CastlePaletteID 0x2
+#define CastleConfigID 0x3
+#define CastleAnimationID 0x5
+
+ALIGN 4
+CastleObject:
+#incbin "Improved Castle Object_Palette 3.dmp"
+
+ALIGN 4
+CastleConfig:
+#incext compress "Castle Update Config.mapchip_config"
+
+ALIGN 4
+CastlePalette:
+#incbin "CastlePalette.dmp"
+
+EventPointerTable(CastleObjectID, CastleObject)
+EventPointerTable(CastlePaletteID, CastlePalette)
+EventPointerTable(CastleConfigID, CastleConfig)
+
+#include "MapAnimations/AnimationInstaller.event"

@@ -66,7 +66,7 @@ literalJump2:
 
 
 
-draw_textID_at 13, 17, textID=0x4f7 @con
+/* draw_textID_at 13, 17, textID=0x4f7 @con
 draw_con_bar_with_getter_at 16, 17
 
 draw_textID_at 21, 3, textID=0x4f8 @aid
@@ -78,7 +78,7 @@ draw_trv_text_at 21, 5
 draw_textID_at 21, 7, textID=0x4f1 @affin
 draw_affinity_icon_at 24, 7
 
-draw_status_text_at 21, 9
+draw_status_text_at 21, 9 */
 
 b exitVanillaStatStuff
 

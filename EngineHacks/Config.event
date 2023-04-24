@@ -169,7 +169,7 @@
 #define ENABLE_PERSONAL_INFO
 
 // If uncommented, the third page of the stat screen will only show weapon ranks that the unit has a rank in.
-#define ONLY_SHOW_USED_RANKS
+//#define ONLY_SHOW_USED_RANKS
 
 // If uncommented, the second page of the stat screen will display data of map-based ballista in the inventory.
 //#define QOL_STAT_SCREEN_BALLISTA

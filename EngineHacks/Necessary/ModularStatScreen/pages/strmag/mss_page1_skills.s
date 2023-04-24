@@ -27,13 +27,13 @@ mov		r0,#0
 IsPlayerUnit:
 str		r0,[sp,#0x14]
 
-draw_textID_at 13, 3, textID=0x4fe, growth_func=2 @str
-draw_textID_at 13, 5, textID=0x4ff, growth_func=3 @mag
-draw_textID_at 13, 7, textID=0x4EC, growth_func=4 @skl
-draw_textID_at 13, 9, textID=0x4ED, growth_func=5 @spd
-draw_textID_at 13, 11, textID=0x4ee, growth_func=6 @luck
-draw_textID_at 13, 13, textID=0x4ef, growth_func=7 @def
-draw_textID_at 13, 15, textID=0x4f0, growth_func=8 @res
+draw_textID_at 13, 3, textID=0x4fe, growth_func=2, colour=Blue @str
+draw_textID_at 13, 5, textID=0x4ff, growth_func=3, colour=Blue @mag
+draw_textID_at 13, 7, textID=0x4EC, growth_func=4, colour=Blue @skl
+draw_textID_at 13, 9, textID=0x4ED, growth_func=5, colour=Blue @spd
+draw_textID_at 13, 11, textID=0x4ee, growth_func=6, colour=Blue @luck
+draw_textID_at 21, 3, textID=0x4ef, growth_func=7, colour=Blue @def
+draw_textID_at 21, 5, textID=0x4f0, growth_func=8, colour=Blue @res
 
 b 	NoRescue
 .ltorg 
@@ -79,14 +79,14 @@ ldr		r0,[r0,#20]		@luk growth getter
 draw_growth_at 18, 11
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#24]		@def growth getter
-draw_growth_at 18, 13
+draw_growth_at 25, 3
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0,#28]		@res growth getter
-draw_growth_at 18, 15
+draw_growth_at 25, 5
 ldr		r0,[sp,#0xC]
 ldr		r0,[r0]			@hp growth getter (not displaying because there's no room atm)
-draw_growth_at 18, 17
-draw_textID_at 13, 17, textID=0x4E9, growth_func=1 @hp name
+draw_growth_at 25, 7
+draw_textID_at 21, 7, textID=0x4E9, growth_func=1, colour=Blue @hp name
 b		NextColumn
 .ltorg
 
@@ -95,11 +95,11 @@ b		ShowStats3
 
 NextColumn:
 
-draw_textID_at 21, 3, textID=0x4f7 @con
-draw_con_bar_with_getter_at 24, 3
+draw_textID_at 21, 9, textID=0x4f7, colour=Blue @con
+draw_con_bar_with_getter_at 24, 9
 
 
-draw_textID_at 21, 5, textID=0x4f8 @aid
+/* draw_textID_at 21, 5, textID=0x4f8 @aid
 draw_number_at 25, 5, 0x80189B8, 2 @aid getter
 draw_aid_icon_at 26, 5
 
@@ -107,16 +107,16 @@ draw_status_text_at 21, 7
 
 draw_textID_at 21, 9, textID=0x4f1 @affin
 
-draw_affinity_icon_at 24, 9
+draw_affinity_icon_at 24, 9 */
 
 
 ldr r0,=TalkTextIDLink
 ldrh r0,[r0]
-draw_talk_text_at 21, 11
+draw_talk_text_at 21, 11, colour=Blue
 
-ldr r0,=SkillsTextIDLink
+/* ldr r0,=SkillsTextIDLink
 ldrh r0, [r0]
-draw_textID_at 21, 13, colour=White @skills
+draw_textID_at 21, 13, colour=White @skills */
 
 Nexty:
 
@@ -129,17 +129,17 @@ draw_mag_bar_at 16, 5
 draw_skl_bar_at 16, 7
 draw_spd_bar_at 16, 9
 draw_luck_bar_at 16, 11
-draw_def_bar_at 16, 13
-draw_res_bar_at 16, 15
-draw_textID_at 13, 17, 0x4f6 @move
-draw_move_bar_with_getter_at 16, 17
+draw_def_bar_at 24, 3
+draw_res_bar_at 24, 5
+draw_textID_at 21, 7, 0x4f6 @move
+draw_move_bar_with_getter_at 24, 7
 
 b		NextColumn
 .ltorg
 
 skipliterals:
 
-.set NoAltIconDraw, 1 @this is the piece that makes them use a separate sheet
+/* .set NoAltIconDraw, 1 @this is the piece that makes them use a separate sheet
 
 mov r0, r8
 ldr r1, =Skill_Getter
@@ -177,12 +177,77 @@ cmp r0, #0
 beq SkillEnd
 draw_skill_icon_at 27, 17
 
-SkillEnd:
+SkillEnd: */
 
 @ draw_textID_at 13, 15, textID=0x4f6 @move
 @ draw_move_bar_at 16, 15
 
 @blh DrawBWLNumbers
+
+@draw stats box
+  ldr     r0, =SSS_Flag
+  ldr     r0, [r0]
+  cmp     r0, #0x0
+  beq     DefaultBox
+    ldr     r0, =SSS_StatsBoxTSA
+    b       DecompressBoxTSA
+  DefaultBox:
+    ldr     r0, =#0x8A02204   @box TSA
+  DecompressBoxTSA:
+  ldr     r4, =gGenericBuffer
+  mov     r1, r4
+  blh     Decompress
+  ldr     r0, =#0x20049EE     @somewhere on the bgmap
+  mov     r2, #0xC1
+  lsl     r2, r2, #0x6
+  mov     r1, r4
+  blh     BgMap_ApplyTsa
+  ldr     r0, =#0x8205A24     @map of text labels and positions
+  @blh     DrawStatscreenTextMap
+  ldr     r6, =StatScreenStruct
+  ldr     r0, [r6, #0xC]
+  ldr     r0, [r0, #0x4]
+  ldrb    r0, [r0, #0x4]
+
+  draw_textID_at 14, 13, 0x0C5A, 3 @ Power
+  draw_textID_at 14, 15, 0x0C5C, 3 @ HitText
+  draw_textID_at 14, 17, 0x0C5E, 4 @ Crit
+  draw_textID_at 21, 13, 0x0C5B, 3 @ Attack speed
+  draw_textID_at 21, 15, 0x0C5D, 3 @ Avo
+  draw_textID_at 21, 17, 0x0C5F, 4 @ Crit Avo
+  
+  ldr     r4, =#0x200407C     @bgmap offset
+  ldr     r6, =gActiveBattleUnit
+
+  @Power
+  mov     r0, #0x5A
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 13
+  
+  @Hit
+  mov     r0, #0x60
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 15
+  
+  @Crit
+  mov     r0, #0x66
+  ldsh    r0, [r6, r0]
+  draw_number_at 20, 17
+  
+  @AS
+  mov     r0, #0x5E
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 13
+  
+  @Avo
+  mov     r0, #0x62
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 15
+  
+  @Crit Avo
+  mov     r0, #0x68
+  ldsh    r0, [r6, r0]
+  draw_number_at 27, 17
 
 ldr		r0,=StatScreenStruct
 sub		r0,#0x2

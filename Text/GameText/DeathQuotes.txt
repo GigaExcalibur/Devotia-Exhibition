@@ -1,0 +1,13 @@
+## KlaudiaDeathQuoteID
+[MR][LoadKlaudia]
+[MR]Is my duty to be fulfilled so soon? I'll[N]
+see you on the other side, my beloved[Beat][CloseEyes][A][X]
+
+## OmenDeathQuoteID
+[MR][LoadOmen]
+[MR]Ugh, I got careless. Brothers, I[N]
+regret I must fall back now[Beat][CloseEyes][A][X]
+
+## JosephineDeathQuoteID
+[MR][LoadJosephine]
+[MR].[A][X]

@@ -1,0 +1,7 @@
+ALIGN 4
+KlaudiaMugLabel:
+#incbin "Klaudia_mug.dmp"
+#incbin "Klaudia_frames.dmp"
+#incbin "Klaudia_palette.dmp"
+#incbin "Klaudia_minimug.dmp"
+

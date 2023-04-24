@@ -124,7 +124,7 @@ literalJump2:
 
 
 
-draw_textID_at 13, 17, textID=0x4f7 @con
+/* draw_textID_at 13, 17, textID=0x4f7, colour=Blue @con
 draw_con_bar_with_getter_at 16, 17
 
 draw_textID_at 21, 3, textID=0x4f8 @aid
@@ -136,7 +136,7 @@ draw_trv_text_at 21, 5
 draw_textID_at 21, 7, textID=0x4f1 @affin
 draw_affinity_icon_at 24, 7
 
-draw_status_text_at 21, 9
+draw_status_text_at 21, 9 */
 
 b exitVanillaStatStuff
 
@@ -153,57 +153,6 @@ b startSkills
 
 .ltorg
 .align
-
-startSkills:
-
-.set NoAltIconDraw, 1 @this is the piece that makes them use a separate sheet
-
-ldr r0,=SkillsTextIDLink
-ldrh r0, [r0]
-draw_textID_at 21, 13, colour=White @skills
-
-
-mov r0,r8
-ldr r1,=Skill_Getter
-mov r14,r1
-.short 0xF800
-
-mov r6,r0
-ldrb r0,[r6]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 21, 15
-
-ldrb r0,[r6,#1]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 24, 15
-
-ldrb r0,[r6,#2]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 27, 15
-
-ldrb r0,[r6,#3]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 21, 17
-
-ldrb r0,[r6,#4]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 24, 17
-
-ldrb r0,[r6,#5]
-cmp r0,#0
-beq SkillsEnd
-draw_skill_icon_at 27, 17
-b SkillsEnd
-
-.ltorg
-.align
-
-SkillsEnd:
 
 @ draw_textID_at 13, 15, textID=0x4f6 @move
 @ draw_move_bar_at 16, 15

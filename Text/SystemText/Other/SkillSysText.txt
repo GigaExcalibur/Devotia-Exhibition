@@ -1,0 +1,355 @@
+## HouseText
+//first text ID in the free block
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+
+## VillageText
+[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[N]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[N]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[N]
+for items and gold.[X]
+
+## EscapeName
+ Escape[X]
+
+## EscapeDesc
+Have this unit[N]
+leave this chapter.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Complete this chapter[N]
+by having this unit arrive.[X]
+
+## LordMustEscapeLastText
+This unit must escape last.[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## UM_GaidenBlackMagic
+ B. Magic[X]
+
+## UM_GaidenWhiteMagic
+ W. Magic[X]
+
+## UM_GaidenMagicDesc
+Spend HP to cast spells[NL]
+this unit has learned.[X]
+
+## GaidenMagicUMErrorText
+You don't have enough HP[NL]
+to cast any spells.[X]
+
+## GaidenMagicSpellMenuErrorText
+You don't have enough HP[NL]
+to cast this spell.[X]
+
+## GaidenMagicHPCostText
+Cost[X]
+
+## PrepScreenUseSkillScroll
+ Skill learned[X]
+
+## SkillScrollDesc
+A scroll that teaches[N]
+a skill when used.[X]
+
+## SS_TalkText
+Talk[X]
+
+## SS_SkillsText
+Skills[X]
+
+## SS_TalkRText
+Character with whom this unit[N]
+may talk on the battlefield.[X]
+
+## SS_SkillsRText
+Special abilities that can do[N]
+many different things.[X]
+
+## SS_SkillsDefaultRText
+No skill description found.[X]
+
+## PersonalDataDesc1
+Press Select to toggle[N]
+between stats and growths.[X]
+
+## PersonalDataDesc2
+This unit's personal[N]
+stats and skills.[X]
+
+## LeadText
+Lead[X]
+
+## LeadRText
+Leadership. Grants +5 Hit +3 Avo[N]
+to all ally units per star.[X]
+
+## AllyStarCountRText
+Total number of leadership stars[N]
+for ally units.[X]
+
+## EnemyStarCountRText
+Total number of leadership stars[N]
+for enemy units.[X]
+
+## DonateURL
+donorbox.org/donate-to-circles[X]
+
+## SS_BiorhythmText
+Bio[X]
+
+## SS_BiorhythmRText
+Biorhythm. Affects[N]
+Hit and Avoid.[X]
+
+## SS_BiorhythmNeutral
+Neutral[X]
+
+## SS_BiorhythmGood
+Good[X]
+
+## SS_BiorhythmGreat
+Great[X]
+
+## SS_BiorhythmBest
+Best[X]
+
+## SS_BiorhythmPoor
+Poor[X]
+
+## SS_BiorhythmBad
+Bad[X]
+
+## SS_BiorhythmWorst
+Worst[X]
+
+## FullNameRText
+This character's full name.[X]
+
+## PronounsRText
+This character's[N]
+preferred pronouns.[X]
+
+## HobbyRText
+What this character does[N]
+in their spare time.[X]
+
+## SupportsRText
+Characters this unit has a[N]
+special relationship with.[X]
+
+## AgeDesc
+This character's current age.[X]
+
+## HeightDesc
+This character's height.[X]
+
+## BirthdayDesc
+This character's birthday.[X]
+
+## UM_Rally
+ Rally[X]
+
+## UM_RallyDesc
+Buff nearby allies.[X]
+
+## UM_Lunge
+ Lunge[X]
+
+## UM_LungeDesc
+Switch places with opponent[N]
+after combat.[N]
+(3 Durability Per Hit)[X]
+
+## UM_Mercy
+ Mercy[X]
+
+## UM_MercyDesc
+Leave opponent with[N]
+at least 1 HP.[N]
+(3 Durability Per Hit)[X]
+
+## UM_Gamble
+ Gamble[X]
+
+## UM_GambleDesc
+2x crit rate, 0.5x hit rate.[N]
+(3 Durability Per Hit)[X]
+
+
+## UMText_DV
+ Dragon Vein[X]
+
+## UMText_DVDesc
+Use the power of dragons.[X]
+
+## UM_Shove
+ Shove[X]
+
+## UM_ShoveDesc
+Push an adjacent unit one[N]
+tile away.[X]
+
+## UM_Smite
+ Smite[X]
+
+## UM_SmiteDesc
+Push an adjacent unit two[N]
+tiles away.[X]
+
+## UM_Pivot
+ Pivot[X]
+
+## UM_PivotDesc
+Move to opposite side of[N]
+an adjacent ally.[X]
+
+## UM_Reposition
+ Reposition[X]
+
+## UM_RepositionDesc
+Move adjacent ally to this[N]
+unit's opposite side.[X]
+
+## UM_Swap
+ Swap[X]
+
+## UM_SwapDesc
+Swap positions with adjacent[N]
+ally.[X]
+
+## UM_Capture
+ Capture[X]
+
+## UM_CaptureDesc
+Strike a fatal blow with reduced[N]
+stats to capture an enemy.[X]
+
+## UM_EditSkill
+ Edit Skills[X]
+
+## UM_EditSkillDesc
+DEBUG: Edit this unit's skill set.[X]
+
+## UM_CombatArts
+ Combat Arts[X]
+ 
+## UM_CombatArtsDesc
+Select an alternative attack.[X]
+
+## UM_Adept
+ Adept[X]
+ 
+## UM_AdeptDesc
+Gain a consecutive attack.[N]
+(3 Durability Per Hit)[X]
+
+## UM_Aether
+ Aether[X]
+ 
+## UM_AetherDesc
+First strike absorbs HP,[N]
+second strike negates defenses.[N]
+(4 Durability Per Hit)[X]
+
+## UM_Astra
+ Astra[X]
+ 
+## UM_AstraDesc
+5 attacks at half damage.[N]
+(1 Durability Per Hit)[X]
+
+## UM_DragonFang
+ Dragon Fang[X]
+ 
+## UM_DragonFangDesc
+1.5x damage.[N]
+(3 Durability Per Hit)[X]
+
+## UM_Glacies
+ Glacies[X]
+
+## UM_GlaciesDesc
+Add unit's Resistance to damage[N]
+dealt. (3 Durability Per Hit)[X]
+
+## UM_Ignis
+ Ignis[X]
+ 
+## UM_IgnisDesc
+Add Def/2 and Res/2[N]
+to damage dealt.[N]
+(3 Durability Per Hit)[X]
+ 
+## UM_Luna
+ Luna[X]
+ 
+## UM_LunaDesc
+Negates enemy defenses.[N]
+(3 Durability Per Hit)[X]
+
+## UM_Sol
+ Sol[X]
+ 
+## UM_SolDesc
+Restore damage dealt as HP.[N]
+(3 Durability Per Hit)[X]
+
+## UM_SureShot
+ Sure Shot[X]
+ 
+## UM_SureShotDesc
+A precision attack that always[N]
+hits and does 1.5x damage.[N]
+(4 Durability Per Hit)[X]
+
+## UM_Swarp
+ Swarp[X]
+
+## UM_SwarpDesc
+Swap positions with a distant[N]
+ally.[X]
+
+## UM_AoEName
+ AoE[X]
+
+## UM_AoEDesc
+Hit multiple units.[X]
+
+## UM_AoEHelp
+Select an area to Attack. Press L/R to Rotate.[X]
+
+## UM_AoEHealHelp
+Select an area to Heal. Press L/R to Rotate.[X]

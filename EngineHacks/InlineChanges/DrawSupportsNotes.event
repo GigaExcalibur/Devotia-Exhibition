@@ -1,0 +1,19 @@
+PUSH
+ORG 0x876A4
+BYTE 0x3 // Support list y-position
+
+ORG 0x876CE
+BYTE 0x80 // VRAM space
+
+ORG 0x876B4
+BYTE 0x0A // Max number of support conversations to glow green?
+
+ORG 0x87784
+WORD 0x02003D3C // Support list x-position
+
+ORG 0x28620
+BYTE 0x02 // Units must be within 2 spaces for support bonuses
+
+ORG 0x2833E
+BYTE 0x07 // Maximum number of support convos -1
+POP
