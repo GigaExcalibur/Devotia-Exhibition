@@ -1,9 +1,12 @@
+// Lord class lines
 #define MageLord 0x80
 #define GremoryLord 0x81
 #define Princess 0x82
 #define MasterKnight 0x83
+
+// Infantry sword class line
 #define MyrmidonF 0x84
-#define MyrmidonF 0x85
+#define MyrmidonM 0x85
 #define MercenaryF 0x86
 #define RunelordF 0x87
 #define RunelordM 0x88
@@ -11,102 +14,124 @@
 #define TruebladeM 0x8A
 #define HeroF 0x8B
 #define HeroM 0x8C
-Thief (F)
-Thief (M)
-Hunter (F)
-Hunter (M)
-Trickster (F)
-Rogue (F)
-Rogue (M)
-Sniper (F)
-Sniper (M)
-Lancer (F)
-Lancer (M)
-Woodsman (F)
-Woodsman (M)
-Pirate (F)
-Pirate (M)
-Warmaster
-Varangian (F)
-Varangian (M)
-Halberdier
-Berserker
-Sword Armor
-Lance Armor
-Axe Armor
-Mage Armor
-General
-Chevalier
-Harbinger
-Baron
-Anima Mage (F)
-Anima Mage (M)
-Dark Mage (F)
-Dark Mage (M)
-Sorcerer
-Sage (F)
-Sage (M)
-Necromancer
-Light Mage
-Cleric
-Priest
-Valkyrie
-Starseer
-Bishop
-Templar (F)
-Templar (M)
-Sword Cavalier (F)
-Sword Cavalier (M)
-Lance Cavalier (F)
-Lance Cavalier (M)
-Axe Cavalier (F)
-Axe Cavalier (M)
-Sword Lance Paladin (F)
-Sword Lance Paladin (M)
-Sword Axe Paladin (F)
-Sword Axe Paladin (M)
-Lance Axe Paladin (F)
-Lance Axe Paladin (M)
-Scout (F)
-Scout (M)
-Ranger (F)
-Ranger (M)
-Windrider
-Harrier
-Seraph Wing
-Falconeer
-Daemon Wing
-Dracorider (F)
-Dracorider (M)
-Dracolord (F)
-Dracolord (M)
-Bombardier
-Barbarossa
-Villager
-Windrider (Lance)
-Trobairitz
-Thaumaturge
-Raider
-Ravager
-Bow Armor
-Juggernaut
-Malignant
-Melusine
-Drifter
-Adventurer
-Strategist
-Spellstrider
-Skirmisher
-Oliphantier
-Renegade
-Savior
-Champion
-Bard
-Crown Prince
-Prince
-Overlord
-Agastya
-Gremory Lord (Savitr)
-Civilian (Woman)
-Civilian (Man)
-Civilian (Child)
+
+// Outlaw class line
+#define ThiefF 0x8D
+#define ThiefM 0x8e
+#define HunterF 0x8F
+#define HunterM 0x90
+#define Trickster 0x91
+#define RogueF 0x92
+#define RogueM 0x93
+#define SniperF 0x94
+#define SniperM 0x95
+
+// Other physical infantry class line
+#define LancerF 0x96
+#define LancerM 0x97
+#define WoodsmanF 0x98
+#define WoodsmanM 0x99
+#define PirateF 0x9A
+#define PirateM 0x9B
+#define Warmaster 0x9C
+#define VarangianF 0x9D
+#define VarangianM 0x9e
+#define Halberdier 0x9F
+#define Berserker 0xA0
+
+// Armor class line
+#define SwordArmor 0xA1
+#define LanceArmor 0xA2
+#define AxeArmor 0xA3
+#define MageArmor 0xA4
+#define General 0xA5
+#define Chevalier 0xA6
+#define Harbinger 0xA7
+#define Baron 0xA8
+
+// Anima/Dark class line
+#define AnimaMageF 0xA9
+#define AnimaMageM 0xAA
+#define DarkMageF 0xAB
+#define DarkMageM 0xAC
+#define Sorcerer 0xAD
+#define SageF 0xAe
+#define SageM 0xAF
+#define Necromancer 0xB0
+
+// Light/Staff class line
+#define Light Mage 0xB1
+#define Cleric 0xB2
+#define Priest 0xB3
+#define Valkyrie 0xB4
+#define Starseer 0xB5
+#define Bishop 0xB6
+#define TemplarF 0xB7
+#define TemplarM 0xB8
+
+// Cavalier class lines
+#define SwordCavalierF 0xB9
+#define SwordCavalierM 0xBA
+#define LanceCavalierF 0xBB
+#define LanceCavalierM 0xBC
+#define AxeCavalierF 0xBD
+#define AxeCavalierM 0xBe
+#define SwordLancePaladinF 0xBF
+#define SwordLancePaladinM 0xC0
+#define SwordAxePaladinF 0xC1
+#define SwordAxePaladinM 0xC2
+#define LanceAxePaladinF 0xC3
+#define LanceAxePaladinM 0xC4
+#define ScoutF 0xC5
+#define ScoutM 0xC6
+#define RangerF 0xC7
+#define RangerM 0xC8
+
+// Flying class lines
+#define WindriderSword 0xC9
+#define Harrier 0xCA
+#define SeraphWing 0xCB
+#define Falconeer 0xCC
+#define DaemonWing 0xCD
+#define DracoriderF 0xCe
+#define DracoriderM 0xCF
+#define DracolordF 0xD0
+#define DracolordM 0xD1
+#define Bombardier 0xD2
+#define Barbarossa 0xD3
+
+// Other class lines
+#define Villager 0xD4
+#define WindriderLance 0xD5
+#define Trobairitz 0xD6
+#define Thaumaturge 0xD7
+#define Raider 0xD8
+#define Ravager 0xD9
+
+// Decadent classes
+#define BowArmor 0xDA
+#define Juggernaut 0xDB
+#define Malignant 0xDC
+#define Melusine 0xDD
+#define Drifter 0xDe
+#define Adventurer 0xDF
+#define Strategist 0xE0
+#define Spellstrider 0xE1
+#define Skirmisher 0xE2
+#define Oliphantier 0xE3
+#define Renegade 0xE4
+#define Savior 0xE5
+#define Champion 0xE6
+
+// Miscellaneous classes
+#define Bard 0xE7
+#define CrownPrince 0xE8
+#define Prince 0xE9
+#define Overlord 0xEA
+#define Agastya 0xEB
+#define GremoryLordSavitr 0xEC
+#define CivilianWoman 0xED
+#define CivilianMan 0xEe
+#define CivilianChild 0xEf
+#define Therion 0xF0
+#define TherionWister 0xF1
