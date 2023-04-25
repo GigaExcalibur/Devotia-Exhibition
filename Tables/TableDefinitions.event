@@ -177,6 +177,79 @@
 #define SickStatusID 9
 #define PetrifyStatusID 13
 
+// Movement cost pointers
+#define PromotedInfantryMoveCost 0x880b808
+#define PromotedInfantryRainMoveCost 0x880bc59
+#define PromotedInfantrySnowMoveCost 0x880c069
+
+#define PromotedCavalryMoveCost 0x880bad3
+#define PromotedCavalryRainMoveCost 0x880bf24
+#define PromotedCavalrySnowMoveCost 0x880c334
+
+#define UnpromotedCavalryMoveCost 0x880ba92
+#define UnpromotedCavalryRainMoveCost 0x880bee3
+#define UnpromotedCavalrySnowMoveCost 0x880c2f3
+
+#define ArmoredMoveCost 0x880b88a
+#define ArmoredRainMoveCost 0x880bcdb
+#define ArmoredSnowMoveCost 0x880c0eb
+
+#define ThiefMoveCost 0x880b9cf
+#define ThiefRainMoveCost 0x880be20
+#define ThiefSnowMoveCost 0x880c230
+
+#define FlyingMoveCost 0x880bb96
+#define FlyingRainMoveCost 0x880bfe7
+#define FlyingSnowMoveCost 0x880c3f7
+
+#define UnpromotedInfantryMoveCost 0x880b849
+#define UnpromotedInfantryRainMoveCost 0x880bc9a
+#define UnpromotedInfantrySnowMoveCost 0x880c0aa
+
+#define RangerMoveCost 0x880bb55
+#define RangerRainMoveCost 0x880bfa6
+#define RangerSnowMoveCost 0x880c3b6
+
+#define MagicMoveCost 0x880ba10
+#define MagicRainMoveCost 0x880be61
+#define MagicSnowMoveCost 0x880c271
+
+#define AxeInfantryMoveCost 0x880b8cb
+#define AxeInfantryRainMoveCost 0x880bd1c
+#define AxeInfantrySnowMoveCost 0x880c12c
+
+#define BrigandMoveCost 0x880b94d
+#define BrigandRainMoveCost 0x880bd9e
+#define BrigandSnowMoveCost 0x880c1ae
+
+#define PirateMoveCost 0x880b98e
+#define PirateRainMoveCost 0x880bddf
+#define PirateSnowMoveCost 0x880c1ef
+
+#define BerserkerMoveCost 0x880b90c
+#define BerserkerRainMoveCost 0x880bd5d
+#define BerserkerSnowMoveCost 0x880c16d
+
+#define DogMoveCost 0x880bb14
+#define DogRainMoveCost 0x880bf65
+#define DogSnowMoveCost 0x880c375
+
+#define DemonKingMoveCost 0x880bbd7
+
+#define CivilianMoveCost 0x880ba51
+#define CivilianRainMoveCost 0x880bea2
+#define CivilianSnowMoveCost 0x880c2b2
+
+// Terrain Bonuses
+#define GetsAvoidTerrainBonus 0x880c479
+#define NoAvoidTerrainBonus 0x880c53c
+
+#define GetsDefTerrainBonus 0x880c4ba
+#define NoDefTerrainBonus 0x880c57d
+
+#define GetsResTerrainBonus 0x880c4fb
+#define NoResTerrainBonus 0x880c5be
+
 //for setting what status effect 
 //status staves will give 
 #define ItemStatus(StatusID,Duration) "StatusID | (Duration << 4)"
