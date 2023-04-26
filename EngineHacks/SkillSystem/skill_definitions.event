@@ -1071,58 +1071,12 @@
 //Skills in use in Devotia Exhibition
 
 // Necessary Skills
-#define ShoveID 0x01		// All infantry
-#define CantoID 0x02		// All mounted
-#define CantoPlusID 0x03	// Here because Canto. Also Bria
-#define StealID 0x04		// Thieves
-#define StealPlusID 0x05	// Here because Steal.
-#define SupplyID 0x06		// Lords
-#define CritBoostID 0x07	// Mono-weapon infantry
-#define DanceID 0x08		// Bards
-#define SummonID 0x09		// Summoners
-
-// Personal Skills
-#define DisciplineID 0x0A 	// Klaudia
-#define SpurMagID 0x0B 		// Omen
-#define LightWeightID 0x0C 	// Josephine
-#define SmiteID 0x0D 		// Cam
-#define PassID 0x0e 		// Giselle
-#define CharmID 0x0F 		// Levia
-#define FrenzyID 0x10		// Stuart
-							// Bear
-#define StrongRiposteID 0x12 // Estella
-#define CamaraderieID 0x13 	// Carina
-#define LifetakerID 0x14	// Alma
-#define VoiceOfPeaceID 0x15 // Roswell
-							// Hong Chen
-#define RenewalID 0x17		// Maris
-#define TrampleID 0x18		// Phillipa
-							// Maeve
-#define CharismaID 0x1A		// Evren
-#define SolidarityID 0x1B	// Dane
-							// Ulrich
-#define ArcaneBladeID 0x1D 	// Emille
-#define IntimidateID 0x1e	// Maybelline
-#define WrathID 0x1F		// Lux
-							// Elliot
-#define TantivyID 0x21		// Kylie
-							// Luair
-#define PivotID 0x23		// Axel
-#define QuickBurnID 0x24	// Willa
-#define VanityID 0x25		// Orion
-#define ParagonID 0x26		// Astraea
-							// Ansel
-#define SavageBlowID 0x28	// Evelyn
-#define OpportunistID 0x29	// Rami
-#define PerfectionistID 0x2A // Brynhild
-#define FortuneID 0x2B		// Samil
-#define MiracleID 0x2C		// Kynan
-
-// Learned Skills
-
-// Item Skills
-
-
-// Enemy-only Skills
-#define NullifyID 0xFB
-#define VoidCurseID 0xFC
+#undef ShoveID; #define ShoveID 0x01		// All infantry
+#undef CantoID; #define CantoID 0x02		// All mounted
+#undef CantoPlusID; #define CantoPlusID 0x03	// Here because Canto. Also Bria
+#undef StealID; #define StealID 0x04		// Thieves
+#undef StealPlusID; #define StealPlusID 0x05	// Here because Steal.
+#undef SupplyID; #define SupplyID 0x06		// Lords
+#undef CritBoostID; #define CritBoostID 0x07	// Mono-weapon infantry
+#undef DanceID; #define DanceID 0x08		// Bards
+#undef SummonID; #define SummonID 0x09		// Summoners

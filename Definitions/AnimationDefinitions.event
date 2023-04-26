@@ -259,9 +259,9 @@
 #define AdventurerStaff 0x0e0
 #define AdventurerUnarmed 0x0e1
 #define StrategistMagic 0x0e2
-#define StrategistSword 0x0e3
-#define StrategistStaff 0x0e4
-#define StrategistMagic 0x0e5
+#define SpellstriderSword 0x0e3
+#define SpellstriderStaff 0x0e4
+#define SpellstriderMagic 0x0e5
 
 #define SkirmisherBow 0x0e6
 #define SkirmisherUnarmed 0x0e7

@@ -63,10 +63,10 @@
 #define Profiteer 0x70
 #define Circean 0x71
 #define Skogradan 0x72
-#define Knight 0x73
+#undef Knight; #define Knight 0x73
 #define Calicosi 0x74
 #define Stoflami 0x75
 #define Wolffian 0x76
 #define Wisterian 0x77
-#define Brigand 0x78
+#undef Brigand; #define Brigand 0x78
 #define RoyalGuard 0x79

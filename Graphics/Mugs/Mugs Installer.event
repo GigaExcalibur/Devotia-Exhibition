@@ -1,6 +1,7 @@
 #include "Mug-Preprocessor-master\Mug Installer.event"
 // setMugEntry(<mugindex>,<portrait label>,<mouth X>,<mouth Y>,<eye X>,<eye Y>)
 
+#undef PortraitTable
 #define PortraitTable NewPortraitTable
 
 ALIGN 4

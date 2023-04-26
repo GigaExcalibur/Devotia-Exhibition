@@ -403,15 +403,15 @@ Rains judgement down on enemies.[X]
 War monks and clerics able to both[N]
 end enemies' lives and save allies'.[X]
 
-## SwordCavalierDesc
+## SwordCavDesc
 Chivalrous horsemen nobly employed.[N]
 This variant is trained in swords.[X]
 
-## LanceCavalierDesc
+## LanceCavDesc
 Chivalrous horsemen nobly employed.[N]
 This variant is trained in lances.[X]
 
-## AxeCavalierDesc
+## AxeCavDesc
 Chivalrous horsemen nobly employed.[N]
 This variant is trained in axes.[X]
 

@@ -37,14 +37,14 @@
 #define VarangianF 0x9D
 #define VarangianM 0x9e
 #define Halberdier 0x9F
-#define Berserker 0xA0
+#undef Berserker; #define Berserker 0xA0
 
 // Armor class line
 #define SwordArmor 0xA1
 #define LanceArmor 0xA2
 #define AxeArmor 0xA3
 #define MageArmor 0xA4
-#define General 0xA5
+#undef General; #define General 0xA5
 #define Chevalier 0xA6
 #define Harbinger 0xA7
 #define Baron 0xA8
@@ -57,15 +57,15 @@
 #define Sorcerer 0xAD
 #define SageF 0xAe
 #define SageM 0xAF
-#define Necromancer 0xB0
+#undef Necromancer; #define Necromancer 0xB0
 
 // Light/Staff class line
 #define LightMage 0xB1
-#define Cleric 0xB2
-#define Priest 0xB3
-#define Valkyrie 0xB4
+#undef Cleric; #define Cleric 0xB2
+#undef Priest; #define Priest 0xB3
+#undef Valkyrie; #define Valkyrie 0xB4
 #define Starseer 0xB5
-#define Bishop 0xB6
+#undef Bishop; #define Bishop 0xB6
 #define TemplarF 0xB7
 #define TemplarM 0xB8
 
@@ -106,7 +106,7 @@
 #define Trobairitz 0xD6
 #define Thaumaturge 0xD7
 #define Raider 0xD8
-#define Ravager 0xD9
+#undef Ravager; #define Ravager 0xD9
 
 // Decadent classes
 #define BowArmor 0xDA
@@ -124,9 +124,9 @@
 #define Champion 0xE6
 
 // Miscellaneous classes
-#define Bard 0xE7
+#undef Bard; #define Bard 0xE7
 #define CrownPrince 0xE8
-#define Prince 0xE9
+#undef Prince; #define Prince 0xE9
 #define Overlord 0xEA
 #define Agastya 0xEB
 #define GremoryLordSavitr 0xEC
