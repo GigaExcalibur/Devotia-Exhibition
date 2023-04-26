@@ -33,7 +33,7 @@ POP
 ALIGN 16
 ORG currentOffset + 0x08
 ClassAnimTable:
-ORG currentOffset + 0x20 * 0x200
+ORG currentOffset + 0x20 * 0x140
 PUSH
 ORG ClassAnimTable
 #incbin "VanillaClasAnimEntries.dmp"
