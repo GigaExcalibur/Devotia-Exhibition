@@ -1,439 +1,572 @@
-## MageLordNameID
+## MageLordName
 Mage Lord[X]
 
-## GremoryLordNameID
+## GremoryLordName
 Gremory [_L][_o][_r][_d][X]
 
-## PrincessNameID
+## PrincessName
 Princess[X]
 
-## MasterKnightNameID
+## MasterKnightName
 Master Knight[X]
 
-## MyrmidonNameID
+## MyrmidonName
 Myrmidon[X]
 
-## MercenaryNameID
+## MercenaryName
 Mercenary[X]
 
-## RunelordNameID
+## RunelordName
 Runelord[X]
 
-## TruebladeNameID
+## TruebladeName
 Trueblade[X]
 
-## HeroNameID
+## HeroName
 Hero[X]
 
-## ThiefNameID
+## ThiefName
 Thief[X]
 
-## ArcherNameID
-Archer[X]
+## HunterName
+Hunter[X]
 
-## TricksterNameID
+## TricksterName
 Trickster[X]
 
-## RogueNameID
+## RogueName
 Rogue[X]
 
-## SniperNameID
+## SniperName
 Sniper[X]
 
-## LancerNameID
+## LancerName
 Lancer[X]
 
-## WoodsmanNameID
+## WoodsmanName
 Woodsman[X]
 
-## PirateNameID
+## PirateName
 Pirate[X]
 
-## WarmasterNameID
+## WarmasterName
 Warmaster[X]
 
-## VarangianNameID
+## VarangianName
 Varangian[X]
 
-## HalberdierNameID
+## HalberdierName
 Halberdier[X]
 
-## BerserkerNameID
+## BerserkerName
 Berserker[X]
 
-## SwordArmorNameID
+## SwordArmorName
 Sword Armor[X]
 
-## LanceArmorNameID
+## LanceArmorName
 Lance Armor[X]
 
-## AxeArmorNameID
+## AxeArmorName
 Axe Armor[X]
 
-## MageArmorNameID
+## MageArmorName
 Mage Armor[X]
 
-## ChevalierNameID
-Chevalier[X]
-
-## HarbingerNameID
-Harbinger[X]
-
-## GeneralNameID
+## GeneralName
 General[X]
 
-## BaronNameID
+## ChevalierName
+Chevalier[X]
+
+## HarbingerName
+Harbinger[X]
+
+## BaronName
 Baron[X]
 
-## AnimaMageNameID
+## AnimaMageName
 Anima Mage[X]
 
-## DarkMageNameID
+## DarkMageName
 Dark Mage[X]
 
-## SorcererNameID
+## SorcererName
 Sorcerer[X]
 
-## SageNameID
+## SageName
 Sage[X]
 
-## NecromancerNameID
+## NecromancerName
 Necromancer[X]
 
-## LightMageNameID
+## LightMageName
 Light Mage[X]
 
-## ClericNameID
+## ClericName
 Cleric[X]
 
-## PriestNameID
+## PriestName
 Priest[X]
 
-## ValkyrieNameID
+## ValkyrieName
 Valkyrie[X]
 
-## StarseerNameID
+## StarseerName
 Starseer[X]
 
-## BishopNameID
+## BishopName
 Bishop[X]
 
-## TemplarNameID
+## TemplarName
 Templar[X]
 
-## SwordCavNameID
+## SwordCavName
 Sword Cav.[X]
 
-## LanceCavNameID
+## LanceCavName
 Lance Cav.[X]
 
-## AxeCavNameID
+## AxeCavName
 Axe Cav.[X]
 
-## SwordLancePalNameID
+## SwordLancePalName
 Swd/Lnc Pal.[X]
 
-## SwordAxePalNameID
+## SwordAxePalName
 Swd/Axe Pal.[X]
 
-## LanceAxePalNameID
+## LanceAxePalName
 Lnc/Axe Pal.[X]
 
-## ScoutNameID
+## ScoutName
 Scout[X]
 
-## RangerNameID
+## RangerName
 Ranger[X]
 
-## WindriderNameID
+## WindriderName
 Windrider[X]
 
-## HarrierNameID
+## HarrierName
 Harrier[X]
 
-## HolywingNameID
-Holywing[X]
+## SeraphWingName
+Seraph Wing[X]
 
-## FalconeerNameID
+## FalconeerName
 Falconeer[X]
 
-## DarkwingNameID
-Darkwing[X]
+## DaemonWingName
+Daemon Wing[X]
 
-## DracoriderNameID
+## DracoriderName
 Dracorider[X]
 
-## DracolordNameID
+## DracolordName
 Dracolord[X]
 
-## BombardierNameID
+## BombardierName
 Bombardier[X]
 
-## BarbarossaNameID
+## BarbarossaName
 Barbarossa[X]
 
-## BardNameID
+## VillagerName
+Villager[X]
+
+## TrobairitzName
+Trobairitz[X]
+
+## ThaumaturgeName
+Thaumaturge[X]
+
+## RaiderName
+Raider[X]
+
+## RavagerName
+Ravager[X]
+
+## BowArmorName
+Bow Armor[X]
+
+## JuggernautName
+Juggernaut[X]
+
+## MalignantName
+Malignant[X]
+
+## MelusineName
+Melusine[X]
+
+## DrifterName
+Drifter[X]
+
+## AdventurerName
+Adventurer[X]
+
+## StrategistName
+Strategist[X]
+
+## SpellstriderName
+Spellstrider[X]
+
+## SkirmisherName
+Skirmisher[X]
+
+## OliphantierName
+Oliphantier[X]
+
+## RenegadeName
+Renegade[X]
+
+## SaviorName
+Savior[X]
+
+## ChampionName
+Champion[X]
+
+## BardName
 Bard[X]
 
-## CrownPrinceNameID
+## CrownPrinceName
 Crown Prince[X]
 
-## PrinceNameID
+## PrinceName
 Prince[X]
 
-## OverlordNameID
+## OverlordName
 Overlord[X]
 
-## AgastyaNameID
+## AgastyaName
 Agastya[X]
 
-## CivilianNameID
+## CivilianName
 Civilian[X]
 
-## MageLordDescID
-Noble member of House Orsolle.[N]
-Proficient: [AnimaIcon][X]
+## TherionName
+Therion[X]
 
-## GremoryLordDescID
+## MageLordDesc
+Noble heir to House Orsolle.[N]
+Has great potential in magic.[X]
+
+## GremoryLordDesc
 Noble lord of House Orsolle.[N]
-Proficient: [LanceIcon][AnimaIcon][LightIcon][DarkIcon][X]
+Proficient in all magic types.[X]
 
-## PrincessDescID
+## PrincessDesc
 Noble member of House Sarka.[N]
-Proficient: [SwordIcon][StaffIcon][X]
+Refinely trained in sword and staff.[X]
 
-## MasterKnightDescID
-Noble highly trained in combat. [CavalryIcon][N]
-Proficient: [SwordIcon][LanceIcon][AxeIcon][BowIcon][StaffIcon][X]
+## MasterKnightDesc
+Noble highly trained in combat.[N]
+Wields all weapon types effortlessly.[X]
 
-## MyrmidonDescID
-Sword students in training.[N]
-Proficient: [SwordIcon][X]
+## MyrmidonDesc
+Beginner sword students who have[N]
+just begun their study of the blade.[X]
 
-## MercenaryDescID
-Sellswords only loyal to contracts.[N]
-Proficient: [SwordIcon][X]
+## MercenaryDesc
+Sellswords only loyal to contractors.[N]
+Jack of all trades, master of none.[X]
 
-## RunelordDescID
-Renegades who fight in the shadows.[N]
-Proficient: [SwordIcon][DarkIcon][X]
+## RunelordDesc
+Dread fighers who choose to skulk in[N]
+the shadows. Can wield daggers.[X]
 
-## TruebladeDescID
-Sword students graduated from training.[N]
-Proficient: [SwordIcon][X]
+## TruebladeDesc
+Sword masters who have fully completed[N]
+training. Completed study of the blade.[X]
 
-## HeroDescID
-Folk heroes of the common people.[N]
-Proficient: [SwordIcon][AxeIcon][X]
+## HeroDesc
+Legendary folk heroes of the common[N]
+people. High resistance for sword users.[X]
 
-## ThiefDescID
-Deviants who can steal and break locks.[N]
-Proficient: [SwordIcon][X]
+## ThiefDesc
+Deviants who break locks and steal[N]
+the belongings of their enemies.[X]
 
-## ArcherDescID
-Skilled long-range attackers.[N]
-Proficient: [BowIcon][X]
+## HunterDesc
+Long-ranged archers who pelt[N]
+their enemies from afar.[X]
 
-## TricksterDescID
-Advanced thieves who toy with enemies.[N]
-Proficient: [SwordIcon][BowIcon][StaffIcon][X]
+## TricksterDesc
+Accomplished outlaws who toy with[N]
+their enemies with swords and bows.[X]
 
-## RogueDescID
-Whispers who strip enemies of equipment.[N]
-Proficient: [SwordIcon][X]
+## RogueDesc
+Invisible scourges who can rob the[N]
+clothes off a person's back.[X]
 
-## SniperDescID
-Sureshot master of bows.[N]
-Proficient: [BowIcon][X]
+## SniperDesc
+Skilled marksmen who can take[N]
+out enemies with a single shot.[X]
 
-## LancerDescID
-Basic footmen with average stats.[N]
-Proficient: [LanceIcon][X]
+## LancerDesc
+Average soldiers with no special[N]
+abilities. Generic, one could say.[X]
 
-## WoodsmanDescID
-Combatants without formal training.[N]
-Proficient: [AxeIcon][X]
+## WoodsmanDesc
+Fighters without formal training. Swings[N]
+an axe to compensate for lack of skill.[X]
 
-## PirateDescID
-Raiders who ransack houses and villages.[N]
-Proficient: [AxeIcon][X]
+## PirateDesc
+Maritime ruffians who ransack and[N]
+pillage houses for booty and glory.[X]
 
-## WarmasterDescID
-Elite soldiers in infantry combat.[N]
-Proficient: [LanceIcon][AxeIcon][X]
+## WarmasterDesc
+Master of arms capable enough in solo[N]
+combat to wield multiple weapons.[X]
 
-## VarangianDescID
-Burly juggernaut frontliners.[N]
-Proficient: [AxeIcon][BowIcon][X]
+## VarangianDesc
+Extremely burly frontliner warriors.[N]
+High raw might with bows and axes.[X]
 
-## HalberdierDescID
-Dragoons with mastery of the lance.[N]
-Proficient: [LanceIcon][X]
+## HalberdierDesc
+Loose cannon elite soldier with[N]
+sole mastery of lances.[X]
 
-## BerserkerDescID
+## BerserkerDesc
 Monstrous glass cannon fighters.[N]
-Proficient: [AxeIcon][X]
+Their build can cross mountains.[X]
 
-## SwordArmorDescID
-Chivalrous knights nobly employed. [ArmorIcon][N]
-Proficient: [SwordIcon][X]
+## SwordArmorDesc
+Chivalrous knights nobly employed.[N]
+This variant wields swords.[X]
 
-## LanceArmorDescID
-Chivalrous knights nobly employed. [ArmorIcon][N]
-Proficient: [LanceIcon][X]
+## LanceArmorDesc
+Chivalrous knights nobly employed.[N]
+This variant wields lances.[X]
 
-## AxeArmorDescID
-Chivalrous knights nobly employed. [ArmorIcon][N]
-Proficient: [AxeIcon][X]
+## AxeArmorDesc
+Chivalrous knights nobly employed.[N]
+This variant wields axes.[X]
 
-## MageArmorDescID
-Chivalrous knights nobly employed. [ArmorIcon][N]
-Proficient: [LightIcon][X]
+## MageArmorDesc
+Chivalrous knights nobly employed.[N]
+An exception to wield light magic.[X]
 
-## ChevalierDescID
-Highly defensive horsebacked knights. [CavalryIcon][N]
-Proficient: [LanceIcon][AxeIcon][X]
+## ChevalierDesc
+Great defensive horsebacked knights.[N]
+Tramples enemies with lances and axes.[X]
 
-## HarbingerDescID
-Advanced knights who forsook chivalry. [CavalryIcon][N]
-Proficient: [AxeIcon][LightIcon][DarkIcon][X]
+## HarbingerDesc
+Advanced knights who forsook chivalry.[N]
+Their axes cleave with dark energy.[X]
 
-## GeneralDescID
-Physically immortal fortress knights. [ArmorIcon][N]
-Proficient: [SwordIcon][LanceIcon][BowIcon][X]
+## GeneralDesc
+Physically immortal fortress knights.[N]
+Wields all basic physical weapons.[X]
 
-## BaronDescID
-Knights with intense magical prowess. [ArmorIcon][N]
-Proficient: [SwordIcon][AnimaIcon][LightIcon][X]
+## BaronDesc
+Knights with intense spiritual prowess.[N]
+Their armor serves as a magic conduit.[X]
 
-## AnimaMageDescID
+## AnimaMageDesc
 Students of magic, often of high birth.[N]
-Proficient: [AnimaIcon][X]
+This variant studied anima magic.[X]
 
-## DarkMageDescID
+## DarkMageDesc
 Students of magic, often of high birth.[N]
-Proficient: [DarkIcon][X]
+This variant studied dark magic.[X]
 
-## SorcererDescID
-Horsebacked mages who raze the battlefield. [CavalryIcon][N]
-Proficient: [AnimaIcon][DarkIcon][X]
+## SorcererDesc
+Mage knights that raze the battlefield.[N]
+Commands spells of anima and dark magic.[X]
 
-## SageDescID
-Masters of magical theory.[N]
-Proficient: [AnimaIcon][LightIcon][X]
+## SageDesc
+Masters of magical theory. Channels[N]
+energy of anima, light, and staves.[X]
 
-## NecromancerDescID
-Necromancers able to raise the dead.[N]
-Proficient: [DarkIcon][X]
+## NecromancerDesc
+Summoners able to raise the dead.[N]
+This pursuit forsakes other ranks.[X]
 
-## LightMageDescID
+## LightMageDesc
 Students of magic, often of high birth.[N]
-Proficient: [LightIcon][X]
+This variant studied light magic.[X]
 
-## ClericDescID
+## ClericDesc
 Religious healers training in staves.[N]
-Proficient: [StaffIcon][X]
+Cannot fight back when attacked.[X]
 
-## ValkyrieDescID
-Horsebacked healers and saviors. [CavalryIcon][N]
-Proficient: [SwordIcon][LightIcon][StaffIcon][X]
+## ValkyrieDesc
+Horsebacked healers and saviors.[N]
+Can both cure and defend themselves.[X]
 
-## StarseerDescID
+## StarseerDesc
 Divinely chosen bestowers of light.[N]
-Proficient: [StaffIcon], [SwordIcon] or [LightIcon][X]
+Rains judgement down on enemies.[X]
 
-## TemplarDescID
-Healers able to defend themselves in combat.[N]
-Proficient: [AxeIcon][StaffIcon][X]
+## TemplarDesc
+War monks and clerics able to both[N]
+end enemies' lives and save allies'.[X]
 
-## SwordCavalierDescID
-Chivalrous horsemen nobly employed. [CavalryIcon][N]
-Proficient: [SwordIcon][X]
+## SwordCavalierDesc
+Chivalrous horsemen nobly employed.[N]
+This variant is trained in swords.[X]
 
-## LanceCavalierDescID
-Chivalrous horsemen nobly employed. [CavalryIcon][N]
-Proficient: [LanceIcon][X]
+## LanceCavalierDesc
+Chivalrous horsemen nobly employed.[N]
+This variant is trained in lances.[X]
 
-## AxeCavalierDescID
-Chivalrous horsemen nobly employed. [CavalryIcon][N]
-Proficient: [AxeIcon][X]
+## AxeCavalierDesc
+Chivalrous horsemen nobly employed.[N]
+This variant is trained in axes.[X]
 
-## SwordLancePalDescID
-Elite horsemen nobly employed. [CavalryIcon][N]
-Proficient: [SwordIcon][LanceIcon][X]
+## SwordLancePalDesc
+Elite horsemen nobly employed.[N]
+Trained in swords and lances.[X]
 
-## SwordAxePalDescID
-Elite horsemen nobly employed. [CavalryIcon][N]
-Proficient: [SwordIcon][AxeIcon][X]
+## SwordAxePalDesc
+Elite horsemen nobly employed.[N]
+Trained in swords and axes.[X]
 
-## LanceAxePalDescID
-Elite horsemen nobly employed. [CavalryIcon][N]
-Proficient: [LanceIcon][AxeIcon][X]
+## LanceAxePalDesc
+Elite horsemen nobly employed.[N]
+Trained in lances and axes.[X]
 
-## ScoutDescID
-Quick-footed mounted archers. [CavalryIcon][N]
-Proficient: [BowIcon][X]
+## ScoutDesc
+Quick-footed mounted archers.[N]
+Should be kept out of melee combat.[X]
 
-## RangerDescID
-Horsebacked guerilla bow masters. [CavalryIcon][N]
-Proficient: [SwordIcon][BowIcon][X]
+## RangerDesc
+Horsebacked guerilla bow masters.[N]
+Able to fight at close and afar.[X]
 
-## WindriderDescID
-Highly mobile flying soldiers. [FlyingIcon][N]
-Proficient: [SwordIcon][X]
+## WindriderDesc
+Highly mobile pegasus knights.[N]
+Resists magic, but weak to bows.[X]
 
-## HarrierDescID
-Fliers with penchant for dark magic. [FlyingIcon][N]
-Proficient: [DarkIcon][X]
+## HarrierDesc
+Dark fliers who prefer magic in combat.[N]
+Much frailer than their contemporaries.[X]
 
-## HolywingDescID
-Airborne saviors on the battlefield. [FlyingIcon][N]
-Proficient: [SwordIcon] or [DarkIcon], [StaffIcon][X]
+## SeraphWingDesc
+Airborne saviors on the battlefield.[N]
+Extremely flexible with staff placement.[X]
 
-## FalconeerDescID
-Disciplined flying combat masters. [FlyingIcon][N]
-Proficient: [SwordIcon][LanceIcon][X]
+## FalconeerDesc
+Disciplined falcon riding knights.[N]
+Swiftly strikes with swords and lances.[X]
 
-## DarkwingDescID
-Flying scourges with dominion over magic. [FlyingIcon][N]
-Proficient: [AnimaIcon][DarkIcon][X]
+## DaemonWingDesc
+Ebon-winged flying elites who fly[N]
+with aptitude in anima and dark magic.[X]
 
-## DracoriderDescID
-Flying soldiers native to Stoflam. [FlyingIcon][N]
-Proficient: [AxeIcon][X]
+## DracoriderDesc
+Wyvern riders native to Stoflam.[N]
+High strength and defense with axes.[X]
 
-## DracolordDescID
-Stoflam's pride and joy elite fliers. [FlyingIcon][N]
-Proficient: [LanceIcon][AxeIcon][X]
+## DracolordDesc
+Stoflam's pride and joy wyvern lords.[N]
+Fortress level defense, paper resistance.[X]
 
-## BombardierDescID
-Drekkan specialized griffon fliers. [FlyingIcon][N]
-Proficient: [BowIcon][X]
+## BombardierDesc
+Drekkan specialized griffon riders.[N]
+Bows meant to shred fellow fliers.[X]
 
-## BarbarossaDescID
-Griffons who shred the wings of fellow fliers. [FlyingIcon][N]
-Proficient: [LanceIcon][BowIcon][X]
+## BarbarossaDesc
+Decorated griffon knights from Drek.[N]
+Dominates all other fliers in combat.[X]
 
-## BardDescID
+## VillagerDesc
+A child who knows nothing of real combat.[N]
+Has potential to do anything they desire.[X]
+
+## TrobairitzDesc
+The specifically female version of an[N]
+aspiring poet. Can also heal somehow?[X]
+
+## ThaumaturgeDesc
+Spectacular magic cavalry whose[N]
+spells can blow enemies away.[X]
+
+## RaiderDesc
+Wolf riding brigands who can access[N]
+target villages in half the time.[X]
+
+## RavagerDesc
+Varg riding berserkers with control[N]
+over their mount's monstrous fangs.[X]
+
+## BowArmorDesc
+Chivalrous knights nobly employed.[N]
+An exception to be trained in bows.[X]
+
+## JuggernautDesc
+A one-man army who can sponge hits[N]
+and take enemies out on counterattack.[X]
+
+## MalignantDesc
+Magic-wielding flier whose spells[N]
+are as sharp as the wyvern's fangs.[X]
+
+## MelusineDesc
+Extremely wicked flier whose spells[N]
+can black out the entire sky.[X]
+
+## DrifterDesc
+A carefree noble whose tranquility[N]
+improves their aim with bows.[X]
+
+## AdventurerDesc
+A carefree noble whose optimism and[N]
+spirit imbues their bows with might.[X]
+
+## StrategistDesc
+A clerk who will support their cause[N]
+with whatever spells at their disposal.[X]
+
+## SpellstriderDesc
+A faithful servant whose resume and[N]
+spell book are both miles long in pages.[X]
+
+## SkirmisherDesc
+A tricky bow rider who values their[N]
+life over honor among enemies.[X]
+
+## OliphantierDesc
+Flashy mounted archers who bedazzle[N]
+enemies before ending their lives.[X]
+
+## RenegadeDesc
+A former thief now living an honest[N]
+life coasting off prior successes.[X]
+
+## SaviorDesc
+A former priest trying to spread[N]
+their newfound prosperity to others.[X]
+
+## ChampionDesc
+Mercenary veterans whose names[N]
+already echo in the annals of history.[X]
+
+## BardDesc
 Cheery sonneteer whose melodies can[N]
 refresh an adjacent ally's action.[X]
 
-## CrownPrinceDescID
-Noble member of House Sarka. [ArmorIcon][N]
-Proficient: [AxeIcon][StaffIcon][X]
+## CrownPrinceDesc
+Noble member of House Sarka. This[N]
+heir was trained in axes and staves.[X]
 
-## PrinceDescID
-Noble member of House Sarka. [FlyingIcon][N]
-Proficient: [SwordIcon][StaffIcon][X]
+## PrinceDesc
+Noble member of House Sarka. This[N]
+heir was trained in swords and staves.[X]
 
-## OverlordDescID
-Iron-fisted ruler of House Sarka. ([DragonIcon])[N]
-Proficient: [AxeIcon][StaffIcon][X]
+## OverlordDesc
+Iron-fisted ruler of House Sarka. Holds[N]
+dominin over the life and death of foes.[X]
 
-## AgastyaDescID
-Drekkan master of light magic.[N]
-Proficient: [LightIcon][X]
+## AgastyaDesc
+Drekkan master of magic. They say[N]
+even the light is blinding at times.[X]
 
-## CivilianDescID
+## CivilianDesc
 Average citizen who knows nothing of[N]
 fighting, nor has any arms to do so.[X]
+
+## TherionDesc
+A wild beast on the battlefield[N]
+posing as a civilized man.[X]

@@ -60,7 +60,7 @@
 #define Necromancer 0xB0
 
 // Light/Staff class line
-#define Light Mage 0xB1
+#define LightMage 0xB1
 #define Cleric 0xB2
 #define Priest 0xB3
 #define Valkyrie 0xB4

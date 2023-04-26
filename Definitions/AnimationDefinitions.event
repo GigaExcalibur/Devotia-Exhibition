@@ -109,8 +109,8 @@
 #define RangerMBow 0x120
 #define RangerMUnarmed 0x121
 
-#define WindriderSword 0x122
-#define WindriderLance 0x123
+#define WindriderSwordSword 0x122
+#define WindriderLanceLance 0x123
 #define WindriderUnarmed 0x124
 #define HarrierMagic 0x125
 #define SeraphwingSword 0x126

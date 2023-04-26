@@ -159,10 +159,11 @@
 #define LanceWielding 0x10
 #define AxeWielding 0x20
 #define BowWielding 0x40
-#define AnimaWielding 0x80
-#define LightWielding 0x100
-#define DarkWielding 0x200
-#define HouseSarka 0x400
+#define StaffWielding 0x80
+#define AnimaWielding 0x100
+#define LightWielding 0x200
+#define DarkWielding 0x400
+#define HouseSarka 0x800
 
 //Status Effects
 #define NoStatusID 0
