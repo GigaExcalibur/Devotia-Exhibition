@@ -8,7 +8,7 @@
 #define EmatareMug 0x08
 #define CamMug 0x09
 #define GiselleMug 0x0A
-#define Levia 0x0B
+#define LeviaMug 0x0B
 #define LeviathanMug 0x0C
 #define LeviathanBloodyMug 0x0D
 #define StuartMug 0x0e

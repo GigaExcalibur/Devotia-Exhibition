@@ -54,6 +54,19 @@
 
 
 #define Fernyiges 0x69
-#define Cassandra 0x6A
-#define Peasant 0x6B
-#define Marauder 0x6C
+#define Leviathan 0x6A
+#define Cassandra 0x6B
+#define Peasant 0x6C
+#define Marauder 0x6D
+#define Graminean 0x6e
+#define Drekkan 0x6F
+#define Profiteer 0x70
+#define Circean 0x71
+#define Skogradan 0x72
+#define Knight 0x73
+#define Calicosi 0x74
+#define Stoflami 0x75
+#define Wolffian 0x76
+#define Wisterian 0x77
+#define Brigand 0x78
+#define RoyalGuard 0x79
