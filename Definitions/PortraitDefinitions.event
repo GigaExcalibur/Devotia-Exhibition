@@ -5,7 +5,7 @@
 #define OmenMug 0x05
 #define JosephineMug 0x06
 #define EmersonMug 0x07
-#define EmatareMug 0x08
+#define BethMug 0x08
 #define CamMug 0x09
 #define GiselleMug 0x0A
 #define LeviaMug 0x0B
@@ -33,7 +33,7 @@
 #define LuxMug 0x21
 #define EkaitzMug 0x22
 #define BriaMug 0x23
-#define TrobairitzUnitMug 0x24
+#define JaufreaMug 0x24
 #define KylieMug 0x25
 #define ElliotMug 0x26
 #define LuairMug 0x27
@@ -44,7 +44,7 @@
 #define OrionMug 0x2C
 #define AstraeaMug 0x2D
 #define AnselMug 0x2e
-#define WolfKnightUnitMug 0x2F
+#define AzarMug 0x2F
 #define EvelynMug 0x30
 #define AleynaMug 0x31
 #define BrynhildMug 0x32
