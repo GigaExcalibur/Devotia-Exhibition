@@ -68,7 +68,7 @@ ENDTRAP
 ALIGN 4
 StartingPlayerUnits:
 UNIT Klaudia MageLord Klaudia Level(1, Ally, False) [1, 0] 0x0 0x0 0x1 REDA1R2 [Fire] NoAI
-UNIT Omen RunelordF Klaudia Level(1, Ally, False) [2, 0] 0x0 0x0 0x1 REDA2R1 [SteelSword, Vulnerary] NoAI
+UNIT Omen RunelordF Klaudia Level(1, Ally, False) [2, 0] 0x0 0x0 0x1 REDA2R1 [SlimSword, 0xcc, 0xcd, 0xce] NoAI
 UNIT Josephine MageArmor Klaudia Level(5, Ally, False) [0, 0] 0x0 0x0 0x1 REDA0R1 [Lightning, Vulnerary] NoAI
 UNIT
 

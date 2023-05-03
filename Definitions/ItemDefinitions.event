@@ -1,0 +1,95 @@
+// Extra Swords
+#define QuickSword 0x02
+#define RubySword 0x08
+#define BronzeSword 0x09
+#define IronDagger 0x0A
+#define SteelDagger 0x0C
+#define SilverDagger 0x0F
+#define LevinSword 0x11
+#define FlameSword 0x5A
+#define WindEdge 0xA1
+#define LegendarySword 0x91
+
+// Extra Lances
+#define QuickLance 0x15
+#define SapphireLance 0x18
+#define BronzeLance 0x78
+#define IronGreatlance 0x81
+#define SteelGreatlance 0x82
+#define SilverGreatlance 0x83
+#define Battleflag 0x84
+#define LegendaryLance 0x8e
+
+// Extra Axes
+#define QuickAxe 0x22
+#define EmeraldAxe 0xAD
+#define BronzeAxe 0xAe
+#define IronPoleaxe 0xAF
+#define SteelPoleaxe 0xB0
+#define SilverPoleaxe 0xB1
+#define BookShredder 0xB2
+#define LegendaryAxe 0x93
+
+// Extra Bows
+#define QuickBow 0x30
+#define BronzeBow 0x31
+#define Minibow 0x35
+#define RadiantBow 0x36
+#define Moonbow 0x37
+#define LegendaryBow 0x94
+
+// Extra Anima
+#define Wind 0x3A
+#undef Elfire; #define Elfire 0xBD
+#define Elthunder 0xBe
+#define Elwind 0xBF
+#define Arcfire 0xC0
+#define Arcthunder 0xC1
+#define Arcwind 0xC2
+#define DireThunder 0x3D
+#define GigaExcalibur 0x3e
+
+// Extra Light
+#define Glow 0x3f
+#define LightTome 0x40
+#undef Shine; #define Shine 0x41
+#undef Divine; #define Divine 0x42
+#undef Purge; #define Purge 0x44
+#define Sagittae 0xC3
+#define Inquisition 0xC4
+#define Kirkhammer 0xC5
+#define Righteous 0xC6
+#define Surge 0xC7
+#define Elsurge 0xC8
+#define LegendaryLight 0x87
+
+// Extra Dark
+#define Swarm 0xC9
+#define Encroach 0xCA
+#define Ruin 0xCB
+#define Shackle 0xCC
+#define Corrosive 0xCD
+#define Corruption 0xCe
+#define Regoliath 0x4A
+
+// PRFs
+#define Cataclysmaelstrom 0xCF
+#define OskhaBlade 0xD0
+#define Sirventes 0xD1
+#define DefendersShortbow 0xD2
+#define LateBloomer 0xD3
+#define Brion 0xD4
+#define PugiAxe 0xD5
+#define Spectacular 0xD6
+#define AttackersGreatbow 0xD7
+#define WindyRefrain 0xD8
+#undef Eclipse; #define Eclipse 0xD9
+#define Yamaha 0xDA
+#define BewilderingGrace 0xDB
+#define Ensorcel 0xDC
+#define Crusher 0xDD
+#define Infiltraitor 0xDe
+#define DeathTempest 0xDF
+#define Benediction 0xe0
+#define Karma 0xe1
+#define Amiti 0xe2

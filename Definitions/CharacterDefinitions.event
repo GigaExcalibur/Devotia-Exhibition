@@ -52,7 +52,8 @@
 #define Crocodile 0x47
 #define Terrance 0x48
 
-
+#define Blaire 0x67
+#define thefuckingguy 0x68
 #define Fernyiges 0x69
 #define Leviathan 0x6A
 #define Cassandra 0x6B
@@ -63,7 +64,7 @@
 #define Profiteer 0x70
 #define Circean 0x71
 #define Skogradan 0x72
-#undef Knight; #define Knight 0x73
+#define Student 0x73
 #define Calicosi 0x74
 #define Stoflami 0x75
 #define Wolffian 0x76
